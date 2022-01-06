@@ -1,38 +1,67 @@
 ## Welcome to CleanDino Page
 
-### 개인정보 취급 방침
-"CleanDino"는 (이하 "회사") 회사는 개인정보취급방침을 통하여 고객님께서 제공하시는 개인정보가 어떠한 용도와 방식으로 이용되고 있으며, 개인정보보호를 위해 어떠한 조치가 취해지고 있는지 알려 드립니다.   
-회사는 개인정보취급방침을 개정하는 경우 해당 페이지를 통하여 공지할 것입니다.   
-본 방침은 2020년 07월 01일 부터 시행됩니다.   
+### Privacy Policy
 
-1. 개인정보의 수집 및 이용목적   
-회사는 개인정보를 다음의 목적을 위해 처리합니다. 처리한 개인정보는 다음의 목적이외의 용도로는 사용되지 않습니다.   
-+ 구글 플레이 스토어 연동 및 앱 내의 인앱결제 서비스 
+"CleanDino" (hereinafter the "we") informs you of the purpose and method of using the personal information you provide through the company's privacy policy, and what measures are being taken to protect personal information.
 
-2. 개인정보 파일 현황   
-+ 개인정보 항목 : Google Play Game Service ID, 휴대기기 정보, 인앱 구매 정보
-+ 수집 방법 : Google Play Console, 게임 접속 시 구글 플레이 연결
-+ 수집 목적 : 회원 관리 및 게임 서비스
+This page is used to inform visitors regarding our policies with the collection, use, and disclosure of Personal Information if anyone decided to use our Service.
 
-3. 개인정보 처리 및 보유 기간   
-회사가 수집하는 모든 정보는 구글 플레이에서 사용 및 제공 받은 것으로, 해당 정보는 회사가 아닌 구글 플레이에서 보유하고 있습니다.
+If you choose to use our Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that we collect is used for providing and improving the Service. We will not use or share your information with anyone except as described in this Privacy Policy.
 
-4. 개인정보의 파기절차 및 방법   
-Google Play Game Service ID 는 해당 유저가 구글 계정 삭제 시 자동 파기되며 동시에 게임에 연결되어 있는 계정 또한 자동 삭제 됩니다.
+### Information Collection and Use
 
-5. 수집한 개인 정보의 위탁   
-회사는 고객의 동의 없이 고객의 정보를 외부 업체에 위탁하지 않습니다.
+For a better experience, while using our Service, we may require you to provide us with certain personally identifiable information. The information that we request will be retained by us and used as described in this privacy policy.
 
-6. 개인정보 자동 수집 장치의 설치, 운영 및 그 거부에 관한 사항   
-쿠키 등 인터넷 서비스 이용 시 자동 생성되는 개인정보를 수집하는 장치를 운영하지 않습니다.
+The app does use third party services that may collect information used to identify you.
 
-7. 개인 정보 보호 책임자   
-이메일 : cleandino@gmail.com
+Link to privacy policy of third party service providers used by the app
 
-정보주체 께서는 회사의 서비스를 이용하시면서 발생한 모든 개인정보 보호 관련 문의, 불만처리 등에 관한 사항을 개인정보 보호 책임자에 문의할 수 있습니다. 회사는 정보 주체의 문의에 대해 답변 및 처리해 드릴 것입니다.
-기타 개인정보침해에 대한 신고나 상담이 필요하신 경우에는 아래 기관에 문의하시기 바랍니다.   
+[Google Play Services](https://policies.google.com/privacy)
+[AdMob](https://support.google.com/admob/answer/6128543?hl=en)
+[Google Analytics for Firebase](https://firebase.google.com/policies/analytics)
+[Firebase Crashlytics](https://firebase.google.com/support/privacy/)
+[Unity](https://unity3d.com/legal/privacy-policy)
 
-- 개인 정보침해신고센터 (www.118.or.kr / 118)
-- 정보보호마크인증위원회 (www.eprivacy.or.kr / 02-580-0534)
-- 대검찰청 첨단범죄수사과 (http://www.spo.go.kr / 02-3480-2000)
-- 경찰청 사이버테러대응센터 (www.ctrc.go.kr / 02-392-0330)
+### Log Data
+
+We want to inform you that whenever you use our Service, in a case of an error in the app we collect data and information (through third party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol (“IP”) address, device name, operating system version, the configuration of the app when utilizing our Service, the time and date of your use of the Service, and other statistics.
+
+### Cookies
+
+Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device's internal memory.
+
+This Service does not use these “cookies” explicitly. However, the app may use third party code and libraries that use “cookies” to collect information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this Service.
+
+### Service Providers
+
+We may employ third-party companies and individuals due to the following reasons:
+
+To facilitate our Service;
+To provide the Service on our behalf;
+To perform Service-related services; or
+To assist us in analyzing how our Service is used.
+We want to inform users of this Service that these third parties have access to your Personal Information. The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information for any other purpose.
+
+### Security
+
+We value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and we cannot guarantee its absolute security.
+
+### Links to Other Sites
+
+This Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by us. Therefore, we strongly advise you to review the Privacy Policy of these websites. We have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.
+
+### Children’s Privacy
+
+CleanDino does not knowingly collect personal information from children under 16 years of age. If CleanDino learns that CleanDino has inadvertently gathered personal data from children under 16 years of age, CleanDino will take reasonable measures to promptly delete such personal data from CleanDino's records. ​ CleanDino understands the need to provide extra privacy protections to users who are children. To that end, features and services such as social networking plug-ins, behaviorally targeted advertising, and collection of data for the purpose of building user profiles are not available to users under 16. CleanDino also does not allow our third party partners who engage in such practices to access personally identifiable data from users under 16. ​ CleanDino and its partners do collect non-personally identifiable (anonymous) data from children. ​ CleanDino and its partners also collect data to assess general information about the use of products, such as the number of visitors to our sites and services and which sections of a site or service are popular. This data does not identify users. ​ Please note that CleanDino’s partners may have their own policies related to tracking technologies for analytics and ad-serving purposes. While CleanDino requires that, companies comply with CleanDino’ privacy policy before CleanDino allows those companies to access our sites and services. CleanDino encourages parents to review the list of operators below and to become familiar with those parties policies and practices. ​ We recommend that parents take the time to communicate and educate their children about Internet Safety.
+
+### Changes to This Privacy Policy
+
+We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page.
+
+This policy is effective as of 2022-01-06
+
+### Contact Us
+
+If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at CleanDino@gmail.com.
+
+This privacy policy page was created at [privacypolicytemplate.net](https://www.privacypolicytemplate.net/) and modified/generated by [App Privacy Policy Generator](https://app-privacy-policy-generator.nisrulz.com/)
