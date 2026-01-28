@@ -139,9 +139,6 @@ function setLanguage(lang) {
         }
     });
     
-    // Update screenshots based on language
-    updateScreenshots(lang);
-    
     // Update active language button
     document.querySelectorAll('.lang-btn').forEach(btn => {
         btn.classList.remove('active');
@@ -254,6 +251,9 @@ function trackDownloadClick(appName, platform) {
 
 // ===== Initialize =====
 document.addEventListener('DOMContentLoaded', () => {
+    // Initialize theme
+    initializeTheme();
+    
     // Set initial language
     const savedLang = localStorage.getItem('preferredLanguage');
     const initialLang = savedLang || detectBrowserLanguage();
@@ -265,6 +265,16 @@ document.addEventListener('DOMContentLoaded', () => {
     // Initialize scroll animations
     initScrollAnimations();
     
+    // Initialize smooth scroll for app navigation
+    initAppNavigation();
+    
+    // Check for hash in URL and scroll to it
+    if (window.location.hash) {
+        setTimeout(() => {
+            scrollToApp(window.location.hash.substring(1));
+        }, 100);
+    }
+    
     // Language button event listeners
     document.querySelectorAll('.lang-btn').forEach(btn => {
         btn.addEventListener('click', () => {
@@ -272,6 +282,12 @@ document.addEventListener('DOMContentLoaded', () => {
             setLanguage(lang);
         });
     });
+    
+    // Theme toggle event listener
+    const themeToggle = document.getElementById('themeToggle');
+    if (themeToggle) {
+        themeToggle.addEventListener('click', toggleTheme);
+    }
     
     // Track download button clicks
     document.querySelectorAll('.download-btn').forEach(btn => {
@@ -283,6 +299,75 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
+
+// ===== App Navigation & Smooth Scroll =====
+function initAppNavigation() {
+    const navItems = document.querySelectorAll('.app-nav-item');
+    
+    navItems.forEach(item => {
+        item.addEventListener('click', (e) => {
+            e.preventDefault();
+            const targetId = item.getAttribute('href').substring(1);
+            scrollToApp(targetId);
+            
+            // Update URL without page reload
+            history.pushState(null, null, `#${targetId}`);
+        });
+    });
+}
+
+function scrollToApp(appId) {
+    const targetElement = document.getElementById(appId);
+    if (targetElement) {
+        const offset = 100; // Offset for fixed header
+        const targetPosition = targetElement.offsetTop - offset;
+        
+        window.scrollTo({
+            top: targetPosition,
+            behavior: 'smooth'
+        });
+        
+        // Highlight animation
+        targetElement.style.transform = 'scale(1.02)';
+        setTimeout(() => {
+            targetElement.style.transform = 'scale(1)';
+        }, 300);
+    }
+}
+
+// ===== Theme Management =====
+function initializeTheme() {
+    const html = document.documentElement;
+    const savedTheme = localStorage.getItem('theme');
+    const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    
+    if (savedTheme) {
+        html.setAttribute('data-theme', savedTheme);
+        updateThemeIcon(savedTheme);
+    } else if (systemDark) {
+        html.setAttribute('data-theme', 'dark');
+        updateThemeIcon('dark');
+    } else {
+        updateThemeIcon('light');
+    }
+}
+
+function toggleTheme() {
+    const html = document.documentElement;
+    const currentTheme = html.getAttribute('data-theme');
+    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+    
+    html.setAttribute('data-theme', newTheme);
+    localStorage.setItem('theme', newTheme);
+    updateThemeIcon(newTheme);
+}
+
+function updateThemeIcon(theme) {
+    const themeIcon = document.getElementById('themeIcon');
+    if (themeIcon) {
+        themeIcon.textContent = theme === 'dark' ? '☀️' : '🌙';
+    }
+}
 
 // ===== Dark Mode Toggle (Optional Enhancement) =====
 function initDarkModeToggle() {

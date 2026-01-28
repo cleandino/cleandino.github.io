@@ -1,7 +1,7 @@
 /* ===== CSS Variables ===== */
 :root {
-    --primary-color: #4A90E2;
-    --secondary-color: #50C878;
+    --primary-color: #E74C3C;
+    --secondary-color: #3498DB;
     --text-primary: #1a1a1a;
     --text-secondary: #666;
     --bg-primary: #ffffff;
@@ -14,8 +14,20 @@
 }
 
 /* Dark Mode Variables */
+[data-theme="dark"] {
+    --text-primary: #ffffff;
+    --text-secondary: #b0b0b0;
+    --bg-primary: #1a1a1a;
+    --bg-secondary: #2a2a2a;
+    --border-color: #404040;
+    --shadow-sm: 0 2px 4px rgba(0,0,0,0.3);
+    --shadow-md: 0 4px 12px rgba(0,0,0,0.4);
+    --shadow-lg: 0 8px 24px rgba(0,0,0,0.5);
+}
+
+/* Auto Dark Mode (fallback) */
 @media (prefers-color-scheme: dark) {
-    :root {
+    :root:not([data-theme="light"]) {
         --text-primary: #ffffff;
         --text-secondary: #b0b0b0;
         --bg-primary: #1a1a1a;
@@ -49,18 +61,25 @@ body {
     padding: 0 20px;
 }
 
-/* ===== Language Selector ===== */
+/* ===== Language & Theme Controls ===== */
 .language-selector {
     position: fixed;
     top: 20px;
     right: 20px;
     display: flex;
-    gap: 8px;
+    gap: 12px;
     z-index: 1000;
     background: var(--bg-primary);
     padding: 8px;
     border-radius: 12px;
     box-shadow: var(--shadow-md);
+}
+
+.lang-buttons {
+    display: flex;
+    gap: 8px;
+    padding-right: 12px;
+    border-right: 2px solid var(--border-color);
 }
 
 .lang-btn {
@@ -86,9 +105,23 @@ body {
     border-color: var(--primary-color);
 }
 
+.theme-toggle {
+    padding: 8px 14px;
+    border: 2px solid var(--border-color);
+    background: transparent;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: var(--transition);
+}
+
+.theme-toggle:hover {
+    transform: scale(1.1);
+}
+
 /* ===== Hero Section ===== */
 .hero {
-    padding: 120px 20px 80px;
+    padding: 120px 20px 60px;
     text-align: center;
     background: linear-gradient(135deg, var(--bg-secondary) 0%, var(--bg-primary) 100%);
 }
@@ -109,6 +142,70 @@ body {
     font-weight: 300;
 }
 
+/* ===== App Navigation ===== */
+.app-navigation {
+    background: var(--bg-primary);
+    padding: 32px 20px;
+    border-bottom: 1px solid var(--border-color);
+    box-shadow: var(--shadow-sm);
+}
+
+.app-navigation .container {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.app-nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    padding: 20px 32px;
+    background: var(--bg-secondary);
+    border-radius: 16px;
+    text-decoration: none;
+    transition: var(--transition);
+    border: 2px solid transparent;
+    min-width: 140px;
+}
+
+.app-nav-item:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-md);
+    border-color: var(--primary-color);
+}
+
+.app-nav-item[data-app="raku-jlpt"]:hover {
+    border-color: var(--primary-color);
+}
+
+.app-nav-item[data-app="age-calculator"]:hover {
+    border-color: var(--secondary-color);
+}
+
+.app-nav-icon {
+    width: 64px;
+    height: 64px;
+    border-radius: 18%;
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+}
+
+.app-nav-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.app-nav-name {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    text-align: center;
+}
+
 /* ===== Apps Section ===== */
 .apps-section {
     padding: 60px 20px 100px;
@@ -122,6 +219,26 @@ body {
     box-shadow: var(--shadow-lg);
     border: 1px solid var(--border-color);
     transition: var(--transition);
+    position: relative;
+    overflow: hidden;
+}
+
+/* 왼쪽 색상 바 */
+.app-card::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 8px;
+}
+
+.app-card#raku-jlpt::before {
+    background: var(--primary-color);
+}
+
+.app-card#age-calculator::before {
+    background: var(--secondary-color);
 }
 
 .app-card:hover {
@@ -144,8 +261,8 @@ body {
 }
 
 .app-icon {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     border-radius: 22%;
     box-shadow: var(--shadow-md);
 }

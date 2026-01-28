@@ -18,11 +18,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Language Selector -->
+    <!-- Language & Theme Controls -->
     <div class="language-selector">
-        <button class="lang-btn" data-lang="en">EN</button>
-        <button class="lang-btn" data-lang="ja">日本語</button>
-        <button class="lang-btn" data-lang="ko">한국어</button>
+        <div class="lang-buttons">
+            <button class="lang-btn" data-lang="en">EN</button>
+            <button class="lang-btn" data-lang="ja">日本語</button>
+            <button class="lang-btn" data-lang="ko">한국어</button>
+        </div>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+            <span id="themeIcon">🌙</span>
+        </button>
     </div>
 
     <!-- Hero Section -->
@@ -32,6 +37,24 @@
             <p class="hero-subtitle" data-i18n="hero.subtitle">Quality Apps for Everyone</p>
         </div>
     </header>
+
+    <!-- App Navigation -->
+    <nav class="app-navigation">
+        <div class="container">
+            <a href="#raku-jlpt" class="app-nav-item" data-app="raku-jlpt">
+                <div class="app-nav-icon">
+                    <img src="images/raku-jlpt-icon.png" alt="Raku JLPT" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Crect fill=%22%23E74C3C%22 width=%22100%22 height=%22100%22 rx=%2220%22/%3E%3Ctext x=%2250%22 y=%2265%22 font-size=%2235%22 fill=%22white%22 text-anchor=%22middle%22 font-family=%22sans-serif%22 font-weight=%22bold%22%3EJLPT%3C/text%3E%3C/svg%3E'">
+                </div>
+                <span class="app-nav-name" data-i18n="raku.name">Raku JLPT</span>
+            </a>
+            <a href="#age-calculator" class="app-nav-item" data-app="age-calculator">
+                <div class="app-nav-icon">
+                    <img src="images/age-calc-icon.png" alt="Age Calculator" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Crect fill=%22%233498DB%22 width=%22100%22 height=%22100%22 rx=%2220%22/%3E%3Ctext x=%2250%22 y=%2265%22 font-size=%2250%22 fill=%22white%22 text-anchor=%22middle%22 font-family=%22sans-serif%22%3E🎂%3C/text%3E%3C/svg%3E'">
+                </div>
+                <span class="app-nav-name" data-i18n="age.name">Age Calculator</span>
+            </a>
+        </div>
+    </nav>
 
     <!-- Apps Section -->
     <main class="apps-section">
@@ -64,12 +87,6 @@
                             <li data-i18n="raku.feature5">⚡ Speed mode for rapid practice and exam preparation</li>
                             <li data-i18n="raku.feature6">📖 Example sentences for contextual learning</li>
                         </ul>
-                    </div>
-
-                    <div class="app-screenshots" data-app="raku-jlpt">
-                        <img data-lang-img="screenshot1" alt="Raku JLPT Screenshot" onerror="this.style.display='none'">
-                        <img data-lang-img="screenshot2" alt="Raku JLPT Screenshot" onerror="this.style.display='none'">
-                        <img data-lang-img="screenshot3" alt="Raku JLPT Screenshot" onerror="this.style.display='none'">
                     </div>
                     
                     <div class="download-buttons">
@@ -118,12 +135,6 @@
                         </ul>
                     </div>
 
-                    <div class="app-screenshots" data-app="age-calc">
-                        <img data-lang-img="screenshot1" alt="Age Calculator Screenshot" onerror="this.style.display='none'">
-                        <img data-lang-img="screenshot2" alt="Age Calculator Screenshot" onerror="this.style.display='none'">
-                        <img data-lang-img="screenshot3" alt="Age Calculator Screenshot" onerror="this.style.display='none'">
-                    </div>
-                    
                     <div class="download-buttons">
                         <a href="https://play.google.com/store/apps/details?id=com.cleandino.agecalc" class="download-btn google-play" target="_blank" rel="noopener">
                             <svg viewBox="0 0 24 24" class="btn-icon">
