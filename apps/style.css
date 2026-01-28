@@ -374,25 +374,38 @@ body {
 }
 
 .google-play {
-    background: #1a1a1a;
+    background: #34A853;
     color: white;
 }
 
 .google-play:hover {
-    background: #2a2a2a;
+    background: #2d9248;
     transform: translateY(-2px);
     box-shadow: var(--shadow-lg);
 }
 
 .app-store {
-    background: var(--primary-color);
+    background: #007AFF;
     color: white;
 }
 
 .app-store:hover {
-    background: #3d7cbd;
+    background: #0066e6;
     transform: translateY(-2px);
     box-shadow: var(--shadow-lg);
+}
+
+/* ===== App-specific Hover Colors ===== */
+#raku-jlpt .app-features li:hover {
+    background: rgba(231, 76, 60, 0.1);
+    border-left: 3px solid var(--primary-color);
+    padding-left: 15px;
+}
+
+#age-calculator .app-features li:hover {
+    background: rgba(52, 152, 219, 0.1);
+    border-left: 3px solid var(--secondary-color);
+    padding-left: 15px;
 }
 
 /* ===== Footer ===== */
@@ -476,11 +489,11 @@ body {
     }
 
     .hero {
-        padding: 100px 16px 50px;
+        padding: 100px 8px 50px;
     }
     
     .app-navigation {
-        padding: 24px 12px;
+        padding: 24px 8px;
     }
     
     .app-navigation .container {

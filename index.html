@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - CleanDino</title>
+    <meta name="description" content="CleanDino Privacy Policy">
+    
+    <style>
+        :root {
+            --primary-color: #E74C3C;
+            --secondary-color: #3498DB;
+            --text-primary: #1a1a1a;
+            --text-secondary: #666;
+            --bg-primary: #ffffff;
+            --bg-secondary: #f8f9fa;
+            --border-color: #e0e0e0;
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
+            --transition: all 0.3s ease;
+        }
+
+        [data-theme="dark"] {
+            --text-primary: #ffffff;
+            --text-secondary: #b0b0b0;
+            --bg-primary: #1a1a1a;
+            --bg-secondary: #2a2a2a;
+            --border-color: #404040;
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.4);
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root:not([data-theme="light"]) {
+                --text-primary: #ffffff;
+                --text-secondary: #b0b0b0;
+                --bg-primary: #1a1a1a;
+                --bg-secondary: #2a2a2a;
+                --border-color: #404040;
+                --shadow-md: 0 4px 12px rgba(0,0,0,0.4);
+            }
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            transition: var(--transition);
+        }
+
+        .theme-toggle {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 10px 16px;
+            background: var(--bg-secondary);
+            border: 2px solid var(--border-color);
+            border-radius: 12px;
+            cursor: pointer;
+            font-size: 20px;
+            z-index: 1000;
+            box-shadow: var(--shadow-md);
+            transition: var(--transition);
+        }
+
+        .theme-toggle:hover {
+            transform: scale(1.1);
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px 60px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 12px;
+            color: var(--text-primary);
+        }
+
+        .header .company {
+            font-size: 1.3rem;
+            color: var(--text-secondary);
+            margin-bottom: 16px;
+        }
+
+        .last-updated {
+            display: inline-block;
+            padding: 8px 16px;
+            background: var(--bg-secondary);
+            border-radius: 8px;
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            margin-top: 16px;
+        }
+
+        .content {
+            background: var(--bg-primary);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 48px;
+            box-shadow: var(--shadow-md);
+            margin-bottom: 40px;
+        }
+
+        .content h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-top: 40px;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+
+        .content h2:first-child {
+            margin-top: 0;
+        }
+
+        .content h3 {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-top: 24px;
+            margin-bottom: 12px;
+            color: var(--text-primary);
+        }
+
+        .content p {
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+            font-size: 1rem;
+            line-height: 1.8;
+        }
+
+        .content ul {
+            margin: 16px 0;
+            padding-left: 24px;
+        }
+
+        .content li {
+            margin-bottom: 8px;
+            color: var(--text-secondary);
+        }
+
+        .content a {
+            color: var(--primary-color);
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        .content a:hover {
+            color: var(--secondary-color);
+            text-decoration: underline;
+        }
+
+        .contact-email {
+            color: var(--primary-color);
+            font-weight: 600;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 40px 20px;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            border-top: 1px solid var(--border-color);
+            margin-top: 60px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 30px 16px 40px;
+            }
+
+            .header h1 {
+                font-size: 2rem;
+            }
+
+            .content {
+                padding: 32px 20px;
+            }
+
+            .content h2 {
+                font-size: 1.3rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <button class="theme-toggle" id="themeToggle">🌙</button>
+
+    <div class="container">
+        <div class="header">
+            <div class="company">CleanDino</div>
+            <h1>Privacy Policy</h1>
+            <div class="last-updated">Effective Date: January 6, 2022</div>
+        </div>
+
+        <div class="content">
+            <h2>Welcome</h2>
+            <p>"CleanDino" (hereinafter the "we") informs you of the purpose and method of using the personal information you provide through the company's privacy policy, and what measures are being taken to protect personal information.</p>
+            <p>This page is used to inform visitors regarding our policies with the collection, use, and disclosure of Personal Information if anyone decided to use our Service.</p>
+            <p>If you choose to use our Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that we collect is used for providing and improving the Service. We will not use or share your information with anyone except as described in this Privacy Policy.</p>
+
+            <h2>Information Collection and Use</h2>
+            <p>For a better experience, while using our Service, we may require you to provide us with certain personally identifiable information. The information that we request will be retained by us and used as described in this privacy policy.</p>
+            <p>The app does use third party services that may collect information used to identify you.</p>
+            <h3>Third Party Service Providers:</h3>
+            <ul>
+                <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Play Services</a></li>
+                <li><a href="https://support.google.com/admob/answer/6128543?hl=en" target="_blank" rel="noopener">AdMob</a></li>
+                <li><a href="https://firebase.google.com/policies/analytics" target="_blank" rel="noopener">Google Analytics for Firebase</a></li>
+                <li><a href="https://firebase.google.com/support/privacy/" target="_blank" rel="noopener">Firebase Crashlytics</a></li>
+                <li><a href="https://unity3d.com/legal/privacy-policy" target="_blank" rel="noopener">Unity</a></li>
+            </ul>
+
+            <h2>Log Data</h2>
+            <p>We want to inform you that whenever you use our Service, in a case of an error in the app we collect data and information (through third party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol ("IP") address, device name, operating system version, the configuration of the app when utilizing our Service, the time and date of your use of the Service, and other statistics.</p>
+
+            <h2>Cookies</h2>
+            <p>Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device's internal memory.</p>
+            <p>This Service does not use these "cookies" explicitly. However, the app may use third party code and libraries that use "cookies" to collect information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this Service.</p>
+
+            <h2>Service Providers</h2>
+            <p>We may employ third-party companies and individuals due to the following reasons:</p>
+            <ul>
+                <li>To facilitate our Service</li>
+                <li>To provide the Service on our behalf</li>
+                <li>To perform Service-related services</li>
+                <li>To assist us in analyzing how our Service is used</li>
+            </ul>
+            <p>We want to inform users of this Service that these third parties have access to your Personal Information. The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information for any other purpose.</p>
+
+            <h2>Security</h2>
+            <p>We value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and we cannot guarantee its absolute security.</p>
+
+            <h2>Links to Other Sites</h2>
+            <p>This Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by us. Therefore, we strongly advise you to review the Privacy Policy of these websites. We have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.</p>
+
+            <h2>Children's Privacy</h2>
+            <p>CleanDino does not knowingly collect personal information from children under 16 years of age. If CleanDino learns that CleanDino has inadvertently gathered personal data from children under 16 years of age, CleanDino will take reasonable measures to promptly delete such personal data from CleanDino's records.</p>
+            <p>CleanDino understands the need to provide extra privacy protections to users who are children. To that end, features and services such as social networking plug-ins, behaviorally targeted advertising, and collection of data for the purpose of building user profiles are not available to users under 16. CleanDino also does not allow our third party partners who engage in such practices to access personally identifiable data from users under 16.</p>
+            <p>CleanDino and its partners do collect non-personally identifiable (anonymous) data from children. CleanDino and its partners also collect data to assess general information about the use of products, such as the number of visitors to our sites and services and which sections of a site or service are popular. This data does not identify users.</p>
+            <p>We recommend that parents take the time to communicate and educate their children about Internet Safety.</p>
+
+            <h2>Changes to This Privacy Policy</h2>
+            <p>We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page.</p>
+
+            <h2>Contact Us</h2>
+            <p>If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at <a href="mailto:CleanDino@gmail.com" class="contact-email">CleanDino@gmail.com</a></p>
+        </div>
+
+        <div class="footer">
+            <p>© 2025 CleanDino. All rights reserved.</p>
+            <p style="margin-top: 8px;">This privacy policy page was created at <a href="https://www.privacypolicytemplate.net/" target="_blank" rel="noopener">privacypolicytemplate.net</a> and modified.</p>
+        </div>
+    </div>
+
+    <script>
+        // 다크모드 토글
+        const themeToggle = document.getElementById('themeToggle');
+        const html = document.documentElement;
+        
+        const savedTheme = localStorage.getItem('theme');
+        const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        
+        if (savedTheme) {
+            html.setAttribute('data-theme', savedTheme);
+            updateThemeIcon(savedTheme);
+        } else if (systemDark) {
+            html.setAttribute('data-theme', 'dark');
+            updateThemeIcon('dark');
+        }
+        
+        themeToggle.addEventListener('click', () => {
+            const currentTheme = html.getAttribute('data-theme');
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            
+            html.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+            updateThemeIcon(newTheme);
+        });
+        
+        function updateThemeIcon(theme) {
+            themeToggle.textContent = theme === 'dark' ? '☀️' : '🌙';
+        }
+    </script>
+</body>
+</html>
