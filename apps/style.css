@@ -95,14 +95,14 @@ body {
 }
 
 .lang-btn:hover {
-    border-color: var(--primary-color);
-    color: var(--primary-color);
+    border-color: #3498DB;
+    color: #3498DB;
 }
 
 .lang-btn.active {
-    background: var(--primary-color);
+    background: #3498DB;
     color: white;
-    border-color: var(--primary-color);
+    border-color: #3498DB;
 }
 
 .theme-toggle {
@@ -173,7 +173,7 @@ body {
 .app-nav-item:hover {
     transform: translateY(-4px);
     box-shadow: var(--shadow-md);
-    border-color: var(--primary-color);
+    border-color: #3498DB;
 }
 
 .app-nav-item[data-app="raku-jlpt"]:hover {
