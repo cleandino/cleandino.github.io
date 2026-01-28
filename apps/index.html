@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CD Labs - Quality Apps for Everyone</title>
+    <meta name="description" content="CD Labs creates beautiful, functional apps. Download Raku JLPT for Japanese learning and Age Calculator for accurate age calculation.">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="CD Labs - Quality Apps">
+    <meta property="og:description" content="JLPT study app and Age Calculator">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://cleandino.github.io/apps/">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Language Selector -->
+    <div class="language-selector">
+        <button class="lang-btn" data-lang="en">EN</button>
+        <button class="lang-btn" data-lang="ja">日本語</button>
+        <button class="lang-btn" data-lang="ko">한국어</button>
+    </div>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <h1 class="hero-title" data-i18n="hero.title">CD Labs</h1>
+            <p class="hero-subtitle" data-i18n="hero.subtitle">Quality Apps for Everyone</p>
+        </div>
+    </header>
+
+    <!-- Apps Section -->
+    <main class="apps-section">
+        <div class="container">
+            
+            <!-- Raku JLPT App -->
+            <section class="app-card" id="raku-jlpt">
+                <div class="app-header">
+                    <div class="app-icon-wrapper">
+                        <img src="images/raku-jlpt-icon.png" alt="Raku JLPT Icon" class="app-icon" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Crect fill=%22%234A90E2%22 width=%22100%22 height=%22100%22 rx=%2220%22/%3E%3Ctext x=%2250%22 y=%2260%22 font-size=%2240%22 fill=%22white%22 text-anchor=%22middle%22 font-family=%22sans-serif%22 font-weight=%22bold%22%3EJLPT%3C/text%3E%3C/svg%3E'">
+                    </div>
+                    <div class="app-title-section">
+                        <h2 class="app-name" data-i18n="raku.name">Raku JLPT Vocabulary</h2>
+                        <p class="app-tagline" data-i18n="raku.tagline">Master JLPT with Smart Learning</p>
+                    </div>
+                </div>
+                
+                <div class="app-content">
+                    <p class="app-description" data-i18n="raku.description">
+                        Complete JLPT N5-N1 vocabulary app with smart review system, 6-language support, and home screen widgets. Features auto-generated wrong answer notes, example sentences, and speed mode for efficient learning. Perfect for exam preparation with progress tracking and study reminders.
+                    </p>
+                    
+                    <div class="app-features">
+                        <h3 data-i18n="features.title">Key Features</h3>
+                        <ul>
+                            <li data-i18n="raku.feature1">📚 Complete N5-N1 vocabulary with systematic learning paths</li>
+                            <li data-i18n="raku.feature2">🎯 Smart review with auto-generated wrong answer notes</li>
+                            <li data-i18n="raku.feature3">🌍 6-language support (Korean, English, Thai, Indonesian, Japanese, Vietnamese)</li>
+                            <li data-i18n="raku.feature4">📱 Home screen widgets for learning without opening app</li>
+                            <li data-i18n="raku.feature5">⚡ Speed mode for rapid practice and exam preparation</li>
+                            <li data-i18n="raku.feature6">📖 Example sentences for contextual learning</li>
+                        </ul>
+                    </div>
+
+                    <div class="app-screenshots" data-app="raku-jlpt">
+                        <img data-lang-img="screenshot1" alt="Raku JLPT Screenshot" onerror="this.style.display='none'">
+                        <img data-lang-img="screenshot2" alt="Raku JLPT Screenshot" onerror="this.style.display='none'">
+                        <img data-lang-img="screenshot3" alt="Raku JLPT Screenshot" onerror="this.style.display='none'">
+                    </div>
+                    
+                    <div class="download-buttons">
+                        <a href="https://play.google.com/store/apps/details?id=com.cleandino.raku_jlpt_vocab" class="download-btn google-play" target="_blank" rel="noopener">
+                            <svg viewBox="0 0 24 24" class="btn-icon">
+                                <path fill="currentColor" d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.5,12.92 20.16,13.19L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z" />
+                            </svg>
+                            <span data-i18n="download.android">Google Play</span>
+                        </a>
+                        <a href="https://apps.apple.com/kr/app/라쿠-jlpt-단어장/id6754219736" class="download-btn app-store" target="_blank" rel="noopener">
+                            <svg viewBox="0 0 24 24" class="btn-icon">
+                                <path fill="currentColor" d="M18.71,19.5C17.88,20.74 17,21.95 15.66,21.97C14.32,22 13.89,21.18 12.37,21.18C10.84,21.18 10.37,21.95 9.1,22C7.79,22.05 6.8,20.68 5.96,19.47C4.25,17 2.94,12.45 4.7,9.39C5.57,7.87 7.13,6.91 8.82,6.88C10.1,6.86 11.32,7.75 12.11,7.75C12.89,7.75 14.37,6.68 15.92,6.84C16.57,6.87 18.39,7.1 19.56,8.82C19.47,8.88 17.39,10.1 17.41,12.63C17.44,15.65 20.06,16.66 20.09,16.67C20.06,16.74 19.67,18.11 18.71,19.5M13,3.5C13.73,2.67 14.94,2.04 15.94,2C16.07,3.17 15.6,4.35 14.9,5.19C14.21,6.04 13.07,6.7 11.95,6.61C11.8,5.46 12.36,4.26 13,3.5Z" />
+                            </svg>
+                            <span data-i18n="download.ios">App Store</span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Age Calculator App -->
+            <section class="app-card" id="age-calculator">
+                <div class="app-header">
+                    <div class="app-icon-wrapper">
+                        <img src="images/age-calc-icon.png" alt="Age Calculator Icon" class="app-icon" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Crect fill=%22%2350C878%22 width=%22100%22 height=%22100%22 rx=%2220%22/%3E%3Ctext x=%2250%22 y=%2265%22 font-size=%2250%22 fill=%22white%22 text-anchor=%22middle%22 font-family=%22sans-serif%22%3E🎂%3C/text%3E%3C/svg%3E'">
+                    </div>
+                    <div class="app-title-section">
+                        <h2 class="app-name" data-i18n="age.name">Age Calculator</h2>
+                        <p class="app-tagline" data-i18n="age.tagline">Precise Age Calculation at Your Fingertips</p>
+                    </div>
+                </div>
+                
+                <div class="app-content">
+                    <p class="app-description" data-i18n="age.description">
+                        Calculate your exact age in multiple formats - international age, Korean age, and year age. Track days lived, hours, and even seconds. Manage family and friends' birthdays with automatic D-Day countdown, zodiac sign detection, and daily horoscope updates.
+                    </p>
+                    
+                    <div class="app-features">
+                        <h3 data-i18n="features.title">Key Features</h3>
+                        <ul>
+                            <li data-i18n="age.feature1">🎯 Multiple age formats: International, Korean, and Year age</li>
+                            <li data-i18n="age.feature2">📊 Detailed life statistics: days, weeks, months, hours, seconds</li>
+                            <li data-i18n="age.feature3">⏰ Birthday D-Day countdown with automatic tracking</li>
+                            <li data-i18n="age.feature4">👨‍👩‍👧‍👦 Birthday manager for family and friends</li>
+                            <li data-i18n="age.feature5">⭐ Automatic zodiac sign detection with detailed info</li>
+                            <li data-i18n="age.feature6">🔮 Daily horoscope based on your zodiac sign</li>
+                        </ul>
+                    </div>
+
+                    <div class="app-screenshots" data-app="age-calc">
+                        <img data-lang-img="screenshot1" alt="Age Calculator Screenshot" onerror="this.style.display='none'">
+                        <img data-lang-img="screenshot2" alt="Age Calculator Screenshot" onerror="this.style.display='none'">
+                        <img data-lang-img="screenshot3" alt="Age Calculator Screenshot" onerror="this.style.display='none'">
+                    </div>
+                    
+                    <div class="download-buttons">
+                        <a href="https://play.google.com/store/apps/details?id=com.cleandino.agecalc" class="download-btn google-play" target="_blank" rel="noopener">
+                            <svg viewBox="0 0 24 24" class="btn-icon">
+                                <path fill="currentColor" d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.5,12.92 20.16,13.19L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z" />
+                            </svg>
+                            <span data-i18n="download.android">Google Play</span>
+                        </a>
+                        <a href="https://apps.apple.com/kr/app/만나이계산기-한국-나이-계산-만-나이/id6449746120" class="download-btn app-store" target="_blank" rel="noopener">
+                            <svg viewBox="0 0 24 24" class="btn-icon">
+                                <path fill="currentColor" d="M18.71,19.5C17.88,20.74 17,21.95 15.66,21.97C14.32,22 13.89,21.18 12.37,21.18C10.84,21.18 10.37,21.95 9.1,22C7.79,22.05 6.8,20.68 5.96,19.47C4.25,17 2.94,12.45 4.7,9.39C5.57,7.87 7.13,6.91 8.82,6.88C10.1,6.86 11.32,7.75 12.11,7.75C12.89,7.75 14.37,6.68 15.92,6.84C16.57,6.87 18.39,7.1 19.56,8.82C19.47,8.88 17.39,10.1 17.41,12.63C17.44,15.65 20.06,16.66 20.09,16.67C20.06,16.74 19.67,18.11 18.71,19.5M13,3.5C13.73,2.67 14.94,2.04 15.94,2C16.07,3.17 15.6,4.35 14.9,5.19C14.21,6.04 13.07,6.7 11.95,6.61C11.8,5.46 12.36,4.26 13,3.5Z" />
+                            </svg>
+                            <span data-i18n="download.ios">App Store</span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 CD Labs. All rights reserved.</p>
+            <p class="footer-links">
+                <a href="https://cleandino.github.io/" target="_blank">Privacy Policy</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
