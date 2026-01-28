@@ -119,11 +119,31 @@ body {
     transform: scale(1.1);
 }
 
+.share-btn {
+    padding: 8px 14px;
+    border: 2px solid var(--border-color);
+    background: transparent;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: var(--transition);
+}
+
+.share-btn:hover {
+    transform: scale(1.1);
+    background: var(--bg-secondary);
+}
+
 /* ===== Hero Section ===== */
 .hero {
     padding: 120px 20px 60px;
     text-align: center;
     background: linear-gradient(135deg, var(--bg-secondary) 0%, var(--bg-primary) 100%);
+}
+
+.hero-title-link {
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .hero-title {
@@ -134,6 +154,12 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    transition: var(--transition);
+}
+
+.hero-title-link:hover .hero-title {
+    opacity: 0.8;
+    transform: translateY(-2px);
 }
 
 .hero-subtitle {
@@ -269,11 +295,35 @@ body {
     flex: 1;
 }
 
+.app-title-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 8px;
+}
+
 .app-name {
     font-size: 2rem;
     font-weight: 700;
-    margin-bottom: 8px;
+    margin-bottom: 0;
     color: var(--text-primary);
+}
+
+.app-share-btn {
+    padding: 6px 10px;
+    border: 2px solid var(--border-color);
+    background: transparent;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: var(--transition);
+    flex-shrink: 0;
+}
+
+.app-share-btn:hover {
+    transform: scale(1.1);
+    background: var(--bg-secondary);
+    border-color: #3498DB;
 }
 
 .app-tagline {
@@ -470,6 +520,27 @@ body {
 .footer-separator {
     margin: 0 12px;
     color: var(--text-secondary);
+}
+
+/* ===== Toast Notification ===== */
+.toast {
+    position: fixed;
+    bottom: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--text-primary);
+    color: var(--bg-primary);
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    box-shadow: var(--shadow-lg);
+    transition: bottom 0.3s ease;
+    z-index: 10000;
+}
+
+.toast.show {
+    bottom: 32px;
 }
 
 /* ===== Responsive Design ===== */

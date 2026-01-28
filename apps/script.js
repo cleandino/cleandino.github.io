@@ -283,6 +283,20 @@ document.addEventListener('DOMContentLoaded', () => {
         themeToggle.addEventListener('click', toggleTheme);
     }
     
+    // Share page button
+    const sharePageBtn = document.getElementById('sharePageBtn');
+    if (sharePageBtn) {
+        sharePageBtn.addEventListener('click', () => sharePage());
+    }
+    
+    // App share buttons
+    document.querySelectorAll('.app-share-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const appId = btn.getAttribute('data-app');
+            shareApp(appId);
+        });
+    });
+    
     // Track download button clicks
     document.querySelectorAll('.download-btn').forEach(btn => {
         btn.addEventListener('click', (e) => {
@@ -361,6 +375,74 @@ function updateThemeIcon(theme) {
     if (themeIcon) {
         themeIcon.textContent = theme === 'dark' ? '☀️' : '🌙';
     }
+}
+
+// ===== Share Functions =====
+async function sharePage() {
+    const shareData = {
+        title: 'CD Labs - Quality Apps',
+        text: 'Check out CD Labs apps - JLPT study and Age Calculator',
+        url: window.location.href.split('#')[0]
+    };
+    
+    await shareContent(shareData);
+}
+
+async function shareApp(appId) {
+    const appData = {
+        'raku-jlpt': {
+            title: 'Raku JLPT Vocabulary',
+            text: 'Master JLPT with smart review and proven results',
+            url: `${window.location.href.split('#')[0]}#raku-jlpt`
+        },
+        'age-calculator': {
+            title: 'Age Calculator',
+            text: 'Calculate Korean age vs international age instantly',
+            url: `${window.location.href.split('#')[0]}#age-calculator`
+        }
+    };
+    
+    const shareData = appData[appId];
+    if (shareData) {
+        await shareContent(shareData);
+    }
+}
+
+async function shareContent(shareData) {
+    // Try native share API (mobile)
+    if (navigator.share) {
+        try {
+            await navigator.share(shareData);
+        } catch (err) {
+            if (err.name !== 'AbortError') {
+                copyToClipboard(shareData.url);
+            }
+        }
+    } else {
+        // Fallback: copy to clipboard (desktop)
+        copyToClipboard(shareData.url);
+    }
+}
+
+function copyToClipboard(text) {
+    navigator.clipboard.writeText(text).then(() => {
+        showToast('Link copied to clipboard!');
+    }).catch(() => {
+        showToast('Failed to copy link');
+    });
+}
+
+function showToast(message) {
+    const toast = document.createElement('div');
+    toast.className = 'toast';
+    toast.textContent = message;
+    document.body.appendChild(toast);
+    
+    setTimeout(() => toast.classList.add('show'), 10);
+    setTimeout(() => {
+        toast.classList.remove('show');
+        setTimeout(() => toast.remove(), 300);
+    }, 2000);
 }
 
 // ===== Dark Mode Toggle (Optional Enhancement) =====

@@ -28,12 +28,17 @@
         <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
             <span id="themeIcon">🌙</span>
         </button>
+        <button class="share-btn" id="sharePageBtn" aria-label="Share page">
+            🔗
+        </button>
     </div>
 
     <!-- Hero Section -->
     <header class="hero">
         <div class="container">
-            <h1 class="hero-title" data-i18n="hero.title">CD Labs</h1>
+            <a href="https://cleandino.github.io/apps/" class="hero-title-link">
+                <h1 class="hero-title" data-i18n="hero.title">CD Labs</h1>
+            </a>
             <p class="hero-subtitle" data-i18n="hero.subtitle">Quality Apps for Everyone</p>
         </div>
     </header>
@@ -67,7 +72,10 @@
                         <img src="images/raku-jlpt-icon.png" alt="Raku JLPT Icon" class="app-icon" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Crect fill=%22%234A90E2%22 width=%22100%22 height=%22100%22 rx=%2220%22/%3E%3Ctext x=%2250%22 y=%2260%22 font-size=%2240%22 fill=%22white%22 text-anchor=%22middle%22 font-family=%22sans-serif%22 font-weight=%22bold%22%3EJLPT%3C/text%3E%3C/svg%3E'">
                     </div>
                     <div class="app-title-section">
-                        <h2 class="app-name" data-i18n="raku.name">Raku JLPT Vocabulary</h2>
+                        <div class="app-title-wrapper">
+                            <h2 class="app-name" data-i18n="raku.name">Raku JLPT Vocabulary</h2>
+                            <button class="app-share-btn" data-app="raku-jlpt" aria-label="Share app">🔗</button>
+                        </div>
                         <p class="app-tagline" data-i18n="raku.tagline">Master JLPT with Smart Learning</p>
                     </div>
                 </div>
@@ -112,7 +120,10 @@
                         <img src="images/age-calc-icon.png" alt="Age Calculator Icon" class="app-icon" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Crect fill=%22%2350C878%22 width=%22100%22 height=%22100%22 rx=%2220%22/%3E%3Ctext x=%2250%22 y=%2265%22 font-size=%2250%22 fill=%22white%22 text-anchor=%22middle%22 font-family=%22sans-serif%22%3E🎂%3C/text%3E%3C/svg%3E'">
                     </div>
                     <div class="app-title-section">
-                        <h2 class="app-name" data-i18n="age.name">Age Calculator</h2>
+                        <div class="app-title-wrapper">
+                            <h2 class="app-name" data-i18n="age.name">Age Calculator</h2>
+                            <button class="app-share-btn" data-app="age-calculator" aria-label="Share app">🔗</button>
+                        </div>
                         <p class="app-tagline" data-i18n="age.tagline">Precise Age Calculation at Your Fingertips</p>
                     </div>
                 </div>
