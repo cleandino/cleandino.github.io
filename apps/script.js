@@ -8,24 +8,22 @@ const translations = {
         raku: {
             name: "Raku JLPT Vocabulary",
             tagline: "Master JLPT with Smart Learning",
-            description: "Complete JLPT N5-N1 vocabulary app with smart review system, 6-language support, and home screen widgets. Features auto-generated wrong answer notes, example sentences, and speed mode for efficient learning. Perfect for exam preparation with progress tracking and study reminders.",
+            description: "Struggling with JLPT vocabulary? Master N5-N1 with smart review and proven results. Your pocket JLPT tutor.",
             feature1: "📚 Complete N5-N1 vocabulary with systematic learning paths",
             feature2: "🎯 Smart review with auto-generated wrong answer notes",
-            feature3: "🌍 6-language support (Korean, English, Thai, Indonesian, Japanese, Vietnamese)",
-            feature4: "📱 Home screen widgets for learning without opening app",
-            feature5: "⚡ Speed mode for rapid practice and exam preparation",
-            feature6: "📖 Example sentences for contextual learning"
+            feature3: "📱 Home screen widgets for learning without opening app",
+            feature4: "⚡ Speed mode for rapid practice and exam preparation",
+            feature5: "📖 Example sentences for contextual learning"
         },
         age: {
             name: "Age Calculator",
             tagline: "Precise Age Calculation at Your Fingertips",
-            description: "Calculate your exact age in multiple formats - international age, Korean age, and year age. Track days lived, hours, and even seconds. Manage family and friends' birthdays with automatic D-Day countdown, zodiac sign detection, and daily horoscope updates.",
+            description: "Confused about Korean age vs international age? Calculate instantly with birthday tracking and zodiac insights.",
             feature1: "🎯 Multiple age formats: International, Korean, and Year age",
             feature2: "📊 Detailed life statistics: days, weeks, months, hours, seconds",
-            feature3: "⏰ Birthday D-Day countdown with automatic tracking",
-            feature4: "👨‍👩‍👧‍👦 Birthday manager for family and friends",
-            feature5: "⭐ Automatic zodiac sign detection with detailed info",
-            feature6: "🔮 Daily horoscope based on your zodiac sign"
+            feature3: "👨‍👩‍👧‍👦 Birthday manager for family and friends",
+            feature4: "⭐ Automatic zodiac sign detection with detailed info",
+            feature5: "🔮 Daily horoscope based on your zodiac sign"
         },
         features: {
             title: "Key Features"
@@ -43,24 +41,22 @@ const translations = {
         raku: {
             name: "Raku JLPT 単語帳",
             tagline: "スマート学習でJLPTをマスター",
-            description: "JLPT N5-N1の完全な単語学習アプリ。スマート復習システム、6か国語対応、ホーム画面ウィジェット搭載。自動生成される間違いノート、例文、スピードモードで効率的な学習が可能。進捗管理と学習リマインダーで試験対策に最適。",
+            description: "JLPT単語学習に悩んでいますか？スマート復習と確実な暗記でN5-N1をマスター。あなたのポケットJLPT講師。",
             feature1: "📚 N5-N1の全単語を体系的な学習パスで提供",
             feature2: "🎯 自動生成される間違いノートでスマート復習",
-            feature3: "🌍 6か国語対応（韓国語、英語、タイ語、インドネシア語、日本語、ベトナム語）",
-            feature4: "📱 アプリを開かずに学習できるホーム画面ウィジェット",
-            feature5: "⚡ 試験対策のための高速練習モード",
-            feature6: "📖 文脈で学べる例文機能"
+            feature3: "📱 アプリを開かずに学習できるホーム画面ウィジェット",
+            feature4: "⚡ 試験対策のための高速練習モード",
+            feature5: "📖 文脈で学べる例文機能"
         },
         age: {
             name: "年齢計算機",
             tagline: "指先で正確な年齢計算",
-            description: "満年齢、韓国年齢、数え年など、複数の形式で正確な年齢を計算。生きた日数、時間、秒まで追跡。家族や友人の誕生日を管理し、自動D-Dayカウントダウン、星座判定、毎日の占い更新機能付き。",
+            description: "韓国年齢と満年齢の違いに悩んでいますか？誕生日追跡と星座情報で即座に計算。",
             feature1: "🎯 複数の年齢形式：満年齢、韓国年齢、数え年",
             feature2: "📊 詳細な人生統計：日数、週、月、時間、秒",
-            feature3: "⏰ 自動追跡付き誕生日D-Dayカウントダウン",
-            feature4: "👨‍👩‍👧‍👦 家族や友人の誕生日管理",
-            feature5: "⭐ 詳細情報付き星座自動判定",
-            feature6: "🔮 星座に基づく毎日の占い"
+            feature3: "👨‍👩‍👧‍👦 家族や友人の誕生日管理",
+            feature4: "⭐ 詳細情報付き星座自動判定",
+            feature5: "🔮 星座に基づく毎日の占い"
         },
         features: {
             title: "主な機能"
@@ -78,24 +74,22 @@ const translations = {
         raku: {
             name: "Raku JLPT 단어장",
             tagline: "스마트 학습으로 JLPT 마스터",
-            description: "JLPT N5-N1 완벽 대비 단어 학습 앱. 스마트 복습 시스템, 6개 언어 지원, 홈 화면 위젯 제공. 자동 생성되는 오답노트, 예문, 스피드 모드로 효율적 학습. 진도 관리와 학습 리마인더로 시험 준비에 최적.",
+            description: "JLPT 단어 암기가 어려우신가요? 스마트 복습과 확실한 암기로 N5-N1 마스터. 주머니 속 JLPT 과외 선생님.",
             feature1: "📚 체계적인 학습 경로로 제공되는 N5-N1 전체 단어",
             feature2: "🎯 자동 생성 오답노트로 스마트 복습",
-            feature3: "🌍 6개 언어 지원 (한국어, 영어, 태국어, 인도네시아어, 일본어, 베트남어)",
-            feature4: "📱 앱을 열지 않고 학습하는 홈 화면 위젯",
-            feature5: "⚡ 시험 대비를 위한 스피드 모드",
-            feature6: "📖 문맥으로 학습하는 예문 기능"
+            feature3: "📱 앱을 열지 않고 학습하는 홈 화면 위젯",
+            feature4: "⚡ 시험 대비를 위한 스피드 모드",
+            feature5: "📖 문맥으로 학습하는 예문 기능"
         },
         age: {
             name: "만나이 계산기",
             tagline: "정확한 나이 계산을 손쉽게",
-            description: "만 나이, 한국 나이, 연 나이 등 다양한 형식으로 정확한 나이 계산. 살아온 일수, 시간, 초까지 추적. 가족과 친구들의 생일을 관리하고 자동 D-Day 카운트다운, 별자리 판정, 매일 업데이트되는 운세 제공.",
+            description: "한국 나이와 만 나이가 헷갈리시나요? 생일 추적과 별자리 정보로 즉시 계산.",
             feature1: "🎯 다양한 나이 형식: 만 나이, 한국 나이, 연 나이",
             feature2: "📊 상세한 인생 통계: 일수, 주, 개월, 시간, 초",
-            feature3: "⏰ 자동 추적되는 생일 D-Day 카운트다운",
-            feature4: "👨‍👩‍👧‍👦 가족과 친구의 생일 관리",
-            feature5: "⭐ 상세 정보가 포함된 별자리 자동 판정",
-            feature6: "🔮 별자리 기반 매일의 운세"
+            feature3: "👨‍👩‍👧‍👦 가족과 친구의 생일 관리",
+            feature4: "⭐ 상세 정보가 포함된 별자리 자동 판정",
+            feature5: "🔮 별자리 기반 매일의 운세"
         },
         features: {
             title: "주요 기능"
