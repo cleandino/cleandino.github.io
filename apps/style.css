@@ -2,6 +2,7 @@
 :root {
     --primary-color: #E74C3C;
     --secondary-color: #3498DB;
+    --accent-color: #7ED321;
     --text-primary: #1a1a1a;
     --text-secondary: #666;
     --bg-primary: #ffffff;
@@ -95,14 +96,14 @@ body {
 }
 
 .lang-btn:hover {
-    border-color: #3498DB;
-    color: #3498DB;
+    border-color: var(--accent-color);
+    color: var(--accent-color);
 }
 
 .lang-btn.active {
-    background: #3498DB;
+    background: var(--accent-color);
     color: white;
-    border-color: #3498DB;
+    border-color: var(--accent-color);
 }
 
 .theme-toggle {
@@ -117,6 +118,7 @@ body {
 
 .theme-toggle:hover {
     transform: scale(1.1);
+    border-color: var(--accent-color);
 }
 
 .share-btn {
@@ -135,6 +137,7 @@ body {
 .share-btn:hover {
     transform: scale(1.1);
     background: var(--bg-secondary);
+    border-color: var(--accent-color);
 }
 
 /* ===== Hero Section ===== */
@@ -154,7 +157,7 @@ body {
     font-size: clamp(2.5rem, 5vw, 4rem);
     font-weight: 700;
     margin-bottom: 16px;
-    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    background: linear-gradient(135deg, #7ED321, #1ABC9C);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -203,7 +206,7 @@ body {
 .app-nav-item:hover {
     transform: translateY(-4px);
     box-shadow: var(--shadow-md);
-    border-color: #3498DB;
+    border-color: var(--accent-color);
 }
 
 .app-nav-item[data-app="raku-jlpt"]:hover {
@@ -328,7 +331,7 @@ body {
 .app-share-btn:hover {
     transform: scale(1.1);
     background: var(--bg-secondary);
-    border-color: #3498DB;
+    border-color: var(--accent-color);
 }
 
 .app-tagline {
@@ -511,14 +514,14 @@ body {
 }
 
 .footer-links a {
-    color: #3498DB;
+    color: var(--accent-color);
     text-decoration: none;
     font-size: 0.95rem;
     transition: var(--transition);
 }
 
 .footer-links a:hover {
-    color: #2980B9;
+    color: #6BB91A;
     text-decoration: underline;
 }
 

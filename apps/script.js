@@ -146,9 +146,9 @@ function setLanguage(lang) {
     
     // Update page title
     const titles = {
-        en: 'CD Labs - Quality Apps for Everyone',
-        ja: 'CD Labs - みんなのための高品質アプリ',
-        ko: 'CD Labs - 모두를 위한 고품질 앱'
+        en: 'CleanDino - Quality Apps for Everyone',
+        ja: 'CleanDino - みんなのための高品質アプリ',
+        ko: 'CleanDino - 모두를 위한 고품질 앱'
     };
     document.title = titles[lang];
 }
@@ -415,20 +415,21 @@ async function shareContent(shareData) {
             await navigator.share(shareData);
         } catch (err) {
             if (err.name !== 'AbortError') {
+                // User cancelled, just copy URL
                 copyToClipboard(shareData.url);
             }
         }
     } else {
-        // Fallback: copy to clipboard (desktop)
+        // Fallback: copy URL only (desktop)
         copyToClipboard(shareData.url);
     }
 }
 
 function copyToClipboard(text) {
     navigator.clipboard.writeText(text).then(() => {
-        showToast('Link copied to clipboard!');
+        showToast('✅ Link copied to clipboard!');
     }).catch(() => {
-        showToast('Failed to copy link');
+        showToast('❌ Failed to copy link');
     });
 }
 
