@@ -162,13 +162,12 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 12px;
-    padding: 20px 32px;
+    padding: 16px;
     background: var(--bg-secondary);
     border-radius: 16px;
     text-decoration: none;
     transition: var(--transition);
     border: 2px solid transparent;
-    min-width: 140px;
 }
 
 .app-nav-item:hover {
@@ -202,10 +201,7 @@ body {
 }
 
 .app-nav-name {
-    font-size: 1rem;
-    font-weight: 600;
-    color: var(--text-primary);
-    text-align: center;
+    display: none;
 }
 
 /* ===== Apps Section ===== */
@@ -473,13 +469,26 @@ body {
         padding: 6px 12px;
         font-size: 12px;
     }
+    
+    .theme-toggle {
+        padding: 6px 10px;
+        font-size: 16px;
+    }
 
     .hero {
-        padding: 100px 20px 60px;
+        padding: 100px 16px 50px;
+    }
+    
+    .app-navigation {
+        padding: 24px 12px;
+    }
+    
+    .app-navigation .container {
+        gap: 16px;
     }
 
     .app-card {
-        padding: 32px 24px;
+        padding: 32px 16px;
         margin-bottom: 32px;
     }
 
