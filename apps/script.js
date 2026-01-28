@@ -2,7 +2,7 @@
 const translations = {
     en: {
         hero: {
-            title: "CD Labs",
+            title: "CleanDino",
             subtitle: "Quality Apps for Everyone"
         },
         raku: {
@@ -35,7 +35,7 @@ const translations = {
     },
     ja: {
         hero: {
-            title: "CD Labs",
+            title: "CleanDino",
             subtitle: "みんなのための高品質アプリ"
         },
         raku: {
@@ -68,7 +68,7 @@ const translations = {
     },
     ko: {
         hero: {
-            title: "CD Labs",
+            title: "CleanDino",
             subtitle: "모두를 위한 고품질 앱"
         },
         raku: {
@@ -380,8 +380,8 @@ function updateThemeIcon(theme) {
 // ===== Share Functions =====
 async function sharePage() {
     const shareData = {
-        title: 'CD Labs - Quality Apps',
-        text: 'Check out CD Labs apps - JLPT study and Age Calculator',
+        title: 'CleanDino - Quality Apps',
+        text: 'Check out CleanDino apps - JLPT study and Age Calculator',
         url: window.location.href.split('#')[0]
     };
     
