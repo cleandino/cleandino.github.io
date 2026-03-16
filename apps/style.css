@@ -256,7 +256,7 @@ body {
 }
 
 .app-nav-item[data-app="sae-topik"]:hover {
-    border-color: #9B59B6;
+    border-color: #2E8B57;
 }
 
 .app-nav-item[data-app="age-calculator"]:hover {
@@ -315,7 +315,7 @@ body {
 }
 
 .app-card#sae-topik::before {
-    background: #9B59B6;
+    background: #2E8B57;
 }
 
 .app-card#age-calculator::before {
@@ -512,8 +512,8 @@ body {
 }
 
 #sae-topik .app-features li:hover {
-    background: rgba(155, 89, 182, 0.1);
-    border-left: 3px solid #9B59B6;
+    background: rgba(46, 139, 87, 0.1);
+    border-left: 3px solid #2E8B57;
     padding-left: 15px;
     color: var(--text-secondary);
 }
