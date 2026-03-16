@@ -15,6 +15,16 @@ const translations = {
             feature4: "⚡ Speed mode for rapid practice and exam preparation",
             feature5: "📖 Example sentences for contextual learning"
         },
+        topik: {
+            name: "Sae TOPIK Vocabulary",
+            tagline: "Master TOPIK with Smart Learning",
+            description: "Preparing for TOPIK? Master Level 1-6 vocabulary with SRS-based smart learning and exam-focused study plans.",
+            feature1: "📚 Complete TOPIK Level 1-6 vocabulary (2,900+ words)",
+            feature2: "🧠 SRS smart study with goal-based exam preparation",
+            feature3: "📱 Home screen widgets for daily word learning",
+            feature4: "⚡ Speed mode for rapid vocabulary practice",
+            feature5: "🌏 10 language support including Vietnamese, Thai, and Chinese"
+        },
         age: {
             name: "Age Calculator",
             tagline: "Precise Age Calculation at Your Fingertips",
@@ -48,6 +58,16 @@ const translations = {
             feature4: "⚡ 試験対策のための高速練習モード",
             feature5: "📖 文脈で学べる例文機能"
         },
+        topik: {
+            name: "Sae TOPIK 単語帳",
+            tagline: "スマート学習でTOPIKをマスター",
+            description: "TOPIK受験準備中ですか？SRS基盤のスマート学習と試験対策プランで1-6級の語彙をマスターしましょう。",
+            feature1: "📚 TOPIK 1-6級の全語彙（2,900語以上）",
+            feature2: "🧠 目標ベースの試験対策SRSスマート学習",
+            feature3: "📱 毎日の単語学習用ホーム画面ウィジェット",
+            feature4: "⚡ 高速語彙練習のためのスピードモード",
+            feature5: "🌏 ベトナム語、タイ語、中国語など10言語対応"
+        },
         age: {
             name: "年齢計算機",
             tagline: "指先で正確な年齢計算",
@@ -80,6 +100,16 @@ const translations = {
             feature3: "📱 앱을 열지 않고 학습하는 홈 화면 위젯",
             feature4: "⚡ 시험 대비를 위한 스피드 모드",
             feature5: "📖 문맥으로 학습하는 예문 기능"
+        },
+        topik: {
+            name: "새 TOPIK 단어장",
+            tagline: "스마트 학습으로 TOPIK 마스터",
+            description: "TOPIK 준비 중이신가요? SRS 기반 스마트 학습과 시험 맞춤 학습 플랜으로 1-6급 어휘를 마스터하세요.",
+            feature1: "📚 TOPIK 1-6급 전체 어휘 (2,900단어 이상)",
+            feature2: "🧠 목표 기반 시험 대비 SRS 스마트 학습",
+            feature3: "📱 매일 단어 학습을 위한 홈 화면 위젯",
+            feature4: "⚡ 빠른 어휘 연습을 위한 스피드 모드",
+            feature5: "🌏 베트남어, 태국어, 중국어 등 10개 언어 지원"
         },
         age: {
             name: "만나이 계산기",
@@ -394,6 +424,11 @@ async function shareApp(appId) {
             title: 'Raku JLPT Vocabulary',
             text: 'Master JLPT with smart review and proven results',
             url: `${window.location.href.split('#')[0]}#raku-jlpt`
+        },
+        'sae-topik': {
+            title: 'Sae TOPIK Vocabulary',
+            text: 'Master TOPIK Level 1-6 vocabulary with smart learning',
+            url: `${window.location.href.split('#')[0]}#sae-topik`
         },
         'age-calculator': {
             title: 'Age Calculator',

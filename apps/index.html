@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CleanDino - Quality Apps for Everyone</title>
-    <meta name="description" content="CleanDino creates beautiful, functional apps. Download Raku JLPT for Japanese learning and Age Calculator for accurate age calculation.">
+    <meta name="description" content="CleanDino creates beautiful, functional apps. Download Raku JLPT for Japanese learning, Sae TOPIK for Korean vocabulary, and Age Calculator for accurate age calculation.">
     
     <!-- Favicons -->
     <link rel="icon" type="image/x-icon" href="favicon-32x32.ico">
@@ -14,7 +14,7 @@
     
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="CleanDino - Quality Apps">
-    <meta property="og:description" content="Quality apps for everyone. JLPT study and Age Calculator.">
+    <meta property="og:description" content="Quality apps for everyone. JLPT study, TOPIK vocabulary, and Age Calculator.">
     <meta property="og:image" content="https://cleandino.github.io/apps/og-image.png">
     <meta property="og:url" content="https://cleandino.github.io/apps/">
     <meta property="og:type" content="website">
@@ -61,6 +61,12 @@
                     <img src="images/raku-jlpt-icon.png" alt="Raku JLPT" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Crect fill=%22%23E74C3C%22 width=%22100%22 height=%22100%22 rx=%2220%22/%3E%3Ctext x=%2250%22 y=%2265%22 font-size=%2235%22 fill=%22white%22 text-anchor=%22middle%22 font-family=%22sans-serif%22 font-weight=%22bold%22%3EJLPT%3C/text%3E%3C/svg%3E'">
                 </div>
                 <span class="app-nav-name" data-i18n="raku.name">Raku JLPT</span>
+            </a>
+            <a href="#sae-topik" class="app-nav-item" data-app="sae-topik">
+                <div class="app-nav-icon">
+                    <img src="images/sae-topik-icon.png" alt="Sae TOPIK" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Crect fill=%22%239B59B6%22 width=%22100%22 height=%22100%22 rx=%2220%22/%3E%3Ctext x=%2250%22 y=%2265%22 font-size=%2230%22 fill=%22white%22 text-anchor=%22middle%22 font-family=%22sans-serif%22 font-weight=%22bold%22%3ETOPIK%3C/text%3E%3C/svg%3E'">
+                </div>
+                <span class="app-nav-name" data-i18n="topik.name">Sae TOPIK</span>
             </a>
             <a href="#age-calculator" class="app-nav-item" data-app="age-calculator">
                 <div class="app-nav-icon">
@@ -118,6 +124,54 @@
                             <li data-i18n="raku.feature3">📱 Home screen widgets for learning without opening app</li>
                             <li data-i18n="raku.feature4">⚡ Speed mode for rapid practice and exam preparation</li>
                             <li data-i18n="raku.feature5">📖 Example sentences for contextual learning</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sae TOPIK App -->
+            <section class="app-card" id="sae-topik">
+                <div class="app-header">
+                    <div class="app-icon-wrapper">
+                        <img src="images/sae-topik-icon.png" alt="Sae TOPIK Icon" class="app-icon" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Crect fill=%22%239B59B6%22 width=%22100%22 height=%22100%22 rx=%2220%22/%3E%3Ctext x=%2250%22 y=%2260%22 font-size=%2230%22 fill=%22white%22 text-anchor=%22middle%22 font-family=%22sans-serif%22 font-weight=%22bold%22%3ETOPIK%3C/text%3E%3C/svg%3E'">
+                    </div>
+                    <div class="app-title-section">
+                        <div class="app-title-wrapper">
+                            <h2 class="app-name" data-i18n="topik.name">Sae TOPIK Vocabulary</h2>
+                            <button class="app-share-btn" data-app="sae-topik" aria-label="Share app">🔗</button>
+                        </div>
+                        <p class="app-tagline" data-i18n="topik.tagline">Master TOPIK with Smart Learning</p>
+                    </div>
+                </div>
+
+                <div class="app-content">
+                    <div class="download-buttons">
+                        <a href="https://play.google.com/store/apps/details?id=com.cleandino.sae_topik_vocab" class="download-btn google-play" target="_blank" rel="noopener">
+                            <svg viewBox="0 0 24 24" class="btn-icon">
+                                <path fill="currentColor" d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.5,12.92 20.16,13.19L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z" />
+                            </svg>
+                            <span data-i18n="download.android">Google Play</span>
+                        </a>
+                        <a href="https://apps.apple.com/app/id6758995535" class="download-btn app-store" target="_blank" rel="noopener">
+                            <svg viewBox="0 0 24 24" class="btn-icon">
+                                <path fill="currentColor" d="M18.71,19.5C17.88,20.74 17,21.95 15.66,21.97C14.32,22 13.89,21.18 12.37,21.18C10.84,21.18 10.37,21.95 9.1,22C7.79,22.05 6.8,20.68 5.96,19.47C4.25,17 2.94,12.45 4.7,9.39C5.57,7.87 7.13,6.91 8.82,6.88C10.1,6.86 11.32,7.75 12.11,7.75C12.89,7.75 14.37,6.68 15.92,6.84C16.57,6.87 18.39,7.1 19.56,8.82C19.47,8.88 17.39,10.1 17.41,12.63C17.44,15.65 20.06,16.66 20.09,16.67C20.06,16.74 19.67,18.11 18.71,19.5M13,3.5C13.73,2.67 14.94,2.04 15.94,2C16.07,3.17 15.6,4.35 14.9,5.19C14.21,6.04 13.07,6.7 11.95,6.61C11.8,5.46 12.36,4.26 13,3.5Z" />
+                            </svg>
+                            <span data-i18n="download.ios">App Store</span>
+                        </a>
+                    </div>
+
+                    <p class="app-description" data-i18n="topik.description">
+                        Preparing for TOPIK? Master Level 1-6 vocabulary with SRS-based smart learning and exam-focused study plans.
+                    </p>
+
+                    <div class="app-features">
+                        <h3 data-i18n="features.title">Key Features</h3>
+                        <ul>
+                            <li data-i18n="topik.feature1">📚 Complete TOPIK Level 1-6 vocabulary (2,900+ words)</li>
+                            <li data-i18n="topik.feature2">🧠 SRS smart study with goal-based exam preparation</li>
+                            <li data-i18n="topik.feature3">📱 Home screen widgets for daily word learning</li>
+                            <li data-i18n="topik.feature4">⚡ Speed mode for rapid vocabulary practice</li>
+                            <li data-i18n="topik.feature5">🌏 10 language support including Vietnamese, Thai, and Chinese</li>
                         </ul>
                     </div>
                 </div>
