@@ -30,10 +30,17 @@
 <body>
     <!-- Language & Theme Controls -->
     <div class="language-selector">
-        <div class="lang-buttons">
-            <button class="lang-btn" data-lang="en">EN</button>
-            <button class="lang-btn" data-lang="ja">日本語</button>
-            <button class="lang-btn" data-lang="ko">한국어</button>
+        <div class="lang-dropdown">
+            <button class="lang-selected" aria-label="Select language">EN</button>
+            <div class="lang-options">
+                <button class="lang-option" data-lang="en">EN</button>
+                <button class="lang-option" data-lang="ja">日本語</button>
+                <button class="lang-option" data-lang="ko">한국어</button>
+                <button class="lang-option" data-lang="vi">Tiếng Việt</button>
+                <button class="lang-option" data-lang="zh">中文</button>
+                <button class="lang-option" data-lang="id">Indonesia</button>
+                <button class="lang-option" data-lang="th">ไทย</button>
+            </div>
         </div>
         <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
             <span id="themeIcon">🌙</span>
@@ -123,7 +130,7 @@
                             <li data-i18n="raku.feature2">🎯 Smart review with auto-generated wrong answer notes</li>
                             <li data-i18n="raku.feature3">📱 Home screen widgets for learning without opening app</li>
                             <li data-i18n="raku.feature4">⚡ Speed mode for rapid practice and exam preparation</li>
-                            <li data-i18n="raku.feature5">📖 Example sentences for contextual learning</li>
+                            <li data-i18n="raku.feature5">🧠 SRS smart study with goal-based exam preparation</li>
                         </ul>
                     </div>
                 </div>
@@ -171,7 +178,6 @@
                             <li data-i18n="topik.feature2">🧠 SRS smart study with goal-based exam preparation</li>
                             <li data-i18n="topik.feature3">📱 Home screen widgets for daily word learning</li>
                             <li data-i18n="topik.feature4">⚡ Speed mode for rapid vocabulary practice</li>
-                            <li data-i18n="topik.feature5">🌏 10 language support including Vietnamese, Thai, and Chinese</li>
                         </ul>
                     </div>
                 </div>

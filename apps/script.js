@@ -13,7 +13,7 @@ const translations = {
             feature2: "🎯 Smart review with auto-generated wrong answer notes",
             feature3: "📱 Home screen widgets for learning without opening app",
             feature4: "⚡ Speed mode for rapid practice and exam preparation",
-            feature5: "📖 Example sentences for contextual learning"
+            feature5: "🧠 SRS smart study with goal-based exam preparation"
         },
         topik: {
             name: "Sae TOPIK Vocabulary",
@@ -22,8 +22,7 @@ const translations = {
             feature1: "📚 Complete TOPIK Level 1-6 vocabulary (2,900+ words)",
             feature2: "🧠 SRS smart study with goal-based exam preparation",
             feature3: "📱 Home screen widgets for daily word learning",
-            feature4: "⚡ Speed mode for rapid vocabulary practice",
-            feature5: "🌏 10 language support including Vietnamese, Thai, and Chinese"
+            feature4: "⚡ Speed mode for rapid vocabulary practice"
         },
         age: {
             name: "Age Calculator",
@@ -56,7 +55,7 @@ const translations = {
             feature2: "🎯 自動生成される間違いノートでスマート復習",
             feature3: "📱 アプリを開かずに学習できるホーム画面ウィジェット",
             feature4: "⚡ 試験対策のための高速練習モード",
-            feature5: "📖 文脈で学べる例文機能"
+            feature5: "🧠 目標ベースの試験対策SRSスマート学習"
         },
         topik: {
             name: "Sae TOPIK 単語帳",
@@ -65,8 +64,7 @@ const translations = {
             feature1: "📚 TOPIK 1-6級の全語彙（2,900語以上）",
             feature2: "🧠 目標ベースの試験対策SRSスマート学習",
             feature3: "📱 毎日の単語学習用ホーム画面ウィジェット",
-            feature4: "⚡ 高速語彙練習のためのスピードモード",
-            feature5: "🌏 ベトナム語、タイ語、中国語など10言語対応"
+            feature4: "⚡ 高速語彙練習のためのスピードモード"
         },
         age: {
             name: "年齢計算機",
@@ -99,7 +97,7 @@ const translations = {
             feature2: "🎯 자동 생성 오답노트로 스마트 복습",
             feature3: "📱 앱을 열지 않고 학습하는 홈 화면 위젯",
             feature4: "⚡ 시험 대비를 위한 스피드 모드",
-            feature5: "📖 문맥으로 학습하는 예문 기능"
+            feature5: "🧠 목표 기반 시험 대비 SRS 스마트 학습"
         },
         topik: {
             name: "새 TOPIK 단어장",
@@ -108,8 +106,7 @@ const translations = {
             feature1: "📚 TOPIK 1-6급 전체 어휘 (2,900단어 이상)",
             feature2: "🧠 목표 기반 시험 대비 SRS 스마트 학습",
             feature3: "📱 매일 단어 학습을 위한 홈 화면 위젯",
-            feature4: "⚡ 빠른 어휘 연습을 위한 스피드 모드",
-            feature5: "🌏 베트남어, 태국어, 중국어 등 10개 언어 지원"
+            feature4: "⚡ 빠른 어휘 연습을 위한 스피드 모드"
         },
         age: {
             name: "만나이 계산기",
@@ -128,6 +125,174 @@ const translations = {
             android: "Google Play",
             ios: "App Store"
         }
+    },
+    vi: {
+        hero: {
+            title: "CleanDino",
+            subtitle: "Ứng dụng chất lượng cho mọi người"
+        },
+        raku: {
+            name: "Raku JLPT Từ vựng",
+            tagline: "Chinh phục JLPT với học thông minh",
+            description: "Đang gặp khó khăn với từ vựng JLPT? Chinh phục N5-N1 với ôn tập thông minh và kết quả đã được chứng minh.",
+            feature1: "📚 Từ vựng N5-N1 đầy đủ với lộ trình học có hệ thống",
+            feature2: "🎯 Ôn tập thông minh với ghi chú đáp án sai tự động",
+            feature3: "📱 Widget màn hình chính để học mà không cần mở ứng dụng",
+            feature4: "⚡ Chế độ tốc độ để luyện tập nhanh và ôn thi",
+            feature5: "🧠 Học thông minh SRS với ôn thi theo mục tiêu"
+        },
+        topik: {
+            name: "Sae TOPIK Từ vựng",
+            tagline: "Chinh phục TOPIK với học thông minh",
+            description: "Đang chuẩn bị cho TOPIK? Chinh phục từ vựng cấp 1-6 với học thông minh dựa trên SRS và kế hoạch ôn thi.",
+            feature1: "📚 Từ vựng TOPIK cấp 1-6 đầy đủ (hơn 2.900 từ)",
+            feature2: "🧠 Học thông minh SRS với ôn thi theo mục tiêu",
+            feature3: "📱 Widget màn hình chính để học từ hàng ngày",
+            feature4: "⚡ Chế độ tốc độ để luyện từ vựng nhanh"
+        },
+        age: {
+            name: "Máy tính tuổi",
+            tagline: "Tính tuổi chính xác trong tầm tay",
+            description: "Nhầm lẫn giữa tuổi Hàn Quốc và tuổi quốc tế? Tính ngay với theo dõi sinh nhật và thông tin cung hoàng đạo.",
+            feature1: "🎯 Nhiều định dạng tuổi: Quốc tế, Hàn Quốc và tuổi theo năm",
+            feature2: "📊 Thống kê cuộc sống chi tiết: ngày, tuần, tháng, giờ, giây",
+            feature3: "👨‍👩‍👧‍👦 Quản lý sinh nhật cho gia đình và bạn bè",
+            feature4: "⭐ Tự động nhận diện cung hoàng đạo với thông tin chi tiết",
+            feature5: "🔮 Tử vi hàng ngày dựa trên cung hoàng đạo"
+        },
+        features: {
+            title: "Tính năng chính"
+        },
+        download: {
+            android: "Google Play",
+            ios: "App Store"
+        }
+    },
+    zh: {
+        hero: {
+            title: "CleanDino",
+            subtitle: "为每个人打造的优质应用"
+        },
+        raku: {
+            name: "Raku JLPT 词汇本",
+            tagline: "智能学习掌握JLPT",
+            description: "JLPT词汇学习遇到困难？通过智能复习和有效记忆掌握N5-N1。您的口袋JLPT老师。",
+            feature1: "📚 系统化学习路径提供N5-N1全部词汇",
+            feature2: "🎯 自动生成错题笔记的智能复习",
+            feature3: "📱 无需打开应用即可学习的主屏幕小组件",
+            feature4: "⚡ 快速练习和备考的速度模式",
+            feature5: "🧠 基于目标的考试备考SRS智能学习"
+        },
+        topik: {
+            name: "新TOPIK词汇本",
+            tagline: "智能学习掌握TOPIK",
+            description: "正在准备TOPIK？通过基于SRS的智能学习和考试备考计划掌握1-6级词汇。",
+            feature1: "📚 TOPIK 1-6级全部词汇（2,900+词）",
+            feature2: "🧠 基于目标的考试备考SRS智能学习",
+            feature3: "📱 每日单词学习主屏幕小组件",
+            feature4: "⚡ 快速词汇练习的速度模式"
+        },
+        age: {
+            name: "年龄计算器",
+            tagline: "精确年龄计算触手可及",
+            description: "分不清韩国年龄和国际年龄？通过生日追踪和星座信息即时计算。",
+            feature1: "🎯 多种年龄格式：国际年龄、韩国年龄和周岁",
+            feature2: "📊 详细的生命统计：天数、周、月、小时、秒",
+            feature3: "👨‍👩‍👧‍👦 家人和朋友的生日管理",
+            feature4: "⭐ 自动星座检测及详细信息",
+            feature5: "🔮 基于星座的每日运势"
+        },
+        features: {
+            title: "主要功能"
+        },
+        download: {
+            android: "Google Play",
+            ios: "App Store"
+        }
+    },
+    id: {
+        hero: {
+            title: "CleanDino",
+            subtitle: "Aplikasi berkualitas untuk semua orang"
+        },
+        raku: {
+            name: "Raku JLPT Kosakata",
+            tagline: "Kuasai JLPT dengan pembelajaran cerdas",
+            description: "Kesulitan menghafal kosakata JLPT? Kuasai N5-N1 dengan review cerdas dan hasil yang terbukti.",
+            feature1: "📚 Kosakata N5-N1 lengkap dengan jalur pembelajaran sistematis",
+            feature2: "🎯 Review cerdas dengan catatan jawaban salah otomatis",
+            feature3: "📱 Widget layar utama untuk belajar tanpa membuka aplikasi",
+            feature4: "⚡ Mode kecepatan untuk latihan cepat dan persiapan ujian",
+            feature5: "🧠 Belajar cerdas SRS dengan persiapan ujian berbasis tujuan"
+        },
+        topik: {
+            name: "Sae TOPIK Kosakata",
+            tagline: "Kuasai TOPIK dengan pembelajaran cerdas",
+            description: "Sedang mempersiapkan TOPIK? Kuasai kosakata level 1-6 dengan pembelajaran cerdas berbasis SRS dan rencana belajar ujian.",
+            feature1: "📚 Kosakata TOPIK level 1-6 lengkap (2.900+ kata)",
+            feature2: "🧠 Belajar cerdas SRS dengan persiapan ujian berbasis tujuan",
+            feature3: "📱 Widget layar utama untuk belajar kata harian",
+            feature4: "⚡ Mode kecepatan untuk latihan kosakata cepat"
+        },
+        age: {
+            name: "Kalkulator Usia",
+            tagline: "Perhitungan usia yang tepat di ujung jari",
+            description: "Bingung antara usia Korea dan usia internasional? Hitung langsung dengan pelacakan ulang tahun dan info zodiak.",
+            feature1: "🎯 Berbagai format usia: Internasional, Korea, dan usia tahun",
+            feature2: "📊 Statistik kehidupan detail: hari, minggu, bulan, jam, detik",
+            feature3: "👨‍👩‍👧‍👦 Pengelola ulang tahun untuk keluarga dan teman",
+            feature4: "⭐ Deteksi zodiak otomatis dengan info lengkap",
+            feature5: "🔮 Horoskop harian berdasarkan zodiak Anda"
+        },
+        features: {
+            title: "Fitur Utama"
+        },
+        download: {
+            android: "Google Play",
+            ios: "App Store"
+        }
+    },
+    th: {
+        hero: {
+            title: "CleanDino",
+            subtitle: "แอปคุณภาพสำหรับทุกคน"
+        },
+        raku: {
+            name: "Raku JLPT คำศัพท์",
+            tagline: "พิชิต JLPT ด้วยการเรียนรู้อัจฉริยะ",
+            description: "มีปัญหากับคำศัพท์ JLPT? พิชิต N5-N1 ด้วยการทบทวนอัจฉริยะและผลลัพธ์ที่พิสูจน์แล้ว",
+            feature1: "📚 คำศัพท์ N5-N1 ครบถ้วนพร้อมเส้นทางการเรียนอย่างเป็นระบบ",
+            feature2: "🎯 ทบทวนอัจฉริยะพร้อมบันทึกคำตอบผิดอัตโนมัติ",
+            feature3: "📱 วิดเจ็ตหน้าจอหลักเพื่อเรียนรู้โดยไม่ต้องเปิดแอป",
+            feature4: "⚡ โหมดความเร็วสำหรับฝึกเร็วและเตรียมสอบ",
+            feature5: "🧠 เรียนอัจฉริยะ SRS พร้อมเตรียมสอบตามเป้าหมาย"
+        },
+        topik: {
+            name: "Sae TOPIK คำศัพท์",
+            tagline: "พิชิต TOPIK ด้วยการเรียนรู้อัจฉริยะ",
+            description: "กำลังเตรียมตัวสอบ TOPIK? พิชิตคำศัพท์ระดับ 1-6 ด้วยการเรียนรู้อัจฉริยะ SRS และแผนเตรียมสอบ",
+            feature1: "📚 คำศัพท์ TOPIK ระดับ 1-6 ครบถ้วน (2,900+ คำ)",
+            feature2: "🧠 เรียนอัจฉริยะ SRS พร้อมเตรียมสอบตามเป้าหมาย",
+            feature3: "📱 วิดเจ็ตหน้าจอหลักสำหรับเรียนคำศัพท์รายวัน",
+            feature4: "⚡ โหมดความเร็วสำหรับฝึกคำศัพท์เร็ว"
+        },
+        age: {
+            name: "เครื่องคำนวณอายุ",
+            tagline: "คำนวณอายุที่แม่นยำในมือคุณ",
+            description: "สับสนระหว่างอายุเกาหลีกับอายุสากล? คำนวณทันทีพร้อมติดตามวันเกิดและข้อมูลราศี",
+            feature1: "🎯 หลายรูปแบบอายุ: สากล เกาหลี และอายุปี",
+            feature2: "📊 สถิติชีวิตละเอียด: วัน สัปดาห์ เดือน ชั่วโมง วินาที",
+            feature3: "👨‍👩‍👧‍👦 จัดการวันเกิดสำหรับครอบครัวและเพื่อน",
+            feature4: "⭐ ตรวจจับราศีอัตโนมัติพร้อมข้อมูลละเอียด",
+            feature5: "🔮 ดูดวงรายวันตามราศีของคุณ"
+        },
+        features: {
+            title: "คุณสมบัติหลัก"
+        },
+        download: {
+            android: "Google Play",
+            ios: "App Store"
+        }
     }
 };
 
@@ -136,14 +301,14 @@ let currentLang = 'en';
 
 function detectBrowserLanguage() {
     const browserLang = navigator.language || navigator.userLanguage;
-    
-    if (browserLang.startsWith('ja')) {
-        return 'ja';
-    } else if (browserLang.startsWith('ko')) {
-        return 'ko';
-    } else {
-        return 'en';
-    }
+
+    if (browserLang.startsWith('ja')) return 'ja';
+    if (browserLang.startsWith('ko')) return 'ko';
+    if (browserLang.startsWith('vi')) return 'vi';
+    if (browserLang.startsWith('zh')) return 'zh';
+    if (browserLang.startsWith('id') || browserLang.startsWith('ms')) return 'id';
+    if (browserLang.startsWith('th')) return 'th';
+    return 'en';
 }
 
 function setLanguage(lang) {
@@ -163,24 +328,39 @@ function setLanguage(lang) {
         }
     });
     
-    // Update active language button
-    document.querySelectorAll('.lang-btn').forEach(btn => {
-        btn.classList.remove('active');
-        if (btn.getAttribute('data-lang') === lang) {
-            btn.classList.add('active');
-        }
+    // Update dropdown display
+    const langNames = {
+        en: 'EN', ja: '日本語', ko: '한국어',
+        vi: 'Tiếng Việt', zh: '中文', id: 'Indonesia', th: 'ไทย'
+    };
+    const langSelected = document.querySelector('.lang-selected');
+    if (langSelected) {
+        langSelected.textContent = langNames[lang] || 'EN';
+    }
+
+    // Update active state in dropdown
+    document.querySelectorAll('.lang-option').forEach(opt => {
+        opt.classList.toggle('active', opt.getAttribute('data-lang') === lang);
     });
-    
+
+    // Close dropdown
+    const dropdown = document.querySelector('.lang-dropdown');
+    if (dropdown) dropdown.classList.remove('open');
+
     // Save language preference
     localStorage.setItem('preferredLanguage', lang);
-    
+
     // Update page title
     const titles = {
         en: 'CleanDino - Quality Apps for Everyone',
         ja: 'CleanDino - みんなのための高品質アプリ',
-        ko: 'CleanDino - 모두를 위한 고품질 앱'
+        ko: 'CleanDino - 모두를 위한 고품질 앱',
+        vi: 'CleanDino - Ứng dụng chất lượng cho mọi người',
+        zh: 'CleanDino - 为每个人打造的优质应用',
+        id: 'CleanDino - Aplikasi berkualitas untuk semua orang',
+        th: 'CleanDino - แอปคุณภาพสำหรับทุกคน'
     };
-    document.title = titles[lang];
+    document.title = titles[lang] || titles.en;
 }
 
 // Update screenshots based on selected language
@@ -299,13 +479,25 @@ document.addEventListener('DOMContentLoaded', () => {
         }, 100);
     }
     
-    // Language button event listeners
-    document.querySelectorAll('.lang-btn').forEach(btn => {
-        btn.addEventListener('click', () => {
-            const lang = btn.getAttribute('data-lang');
-            setLanguage(lang);
+    // Language dropdown event listeners
+    const langSelected = document.querySelector('.lang-selected');
+    const langDropdown = document.querySelector('.lang-dropdown');
+    if (langSelected && langDropdown) {
+        langSelected.addEventListener('click', (e) => {
+            e.stopPropagation();
+            langDropdown.classList.toggle('open');
         });
-    });
+        document.querySelectorAll('.lang-option').forEach(opt => {
+            opt.addEventListener('click', () => {
+                const lang = opt.getAttribute('data-lang');
+                setLanguage(lang);
+            });
+        });
+        document.addEventListener('click', () => {
+            langDropdown.classList.remove('open');
+        });
+        langDropdown.addEventListener('click', (e) => e.stopPropagation());
+    }
     
     // Theme toggle event listener
     const themeToggle = document.getElementById('themeToggle');
