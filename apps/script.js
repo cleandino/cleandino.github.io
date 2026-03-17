@@ -40,7 +40,9 @@ const translations = {
         download: {
             android: "Google Play",
             ios: "App Store"
-        }
+        },
+        back: "CleanDino",
+        share: "Share"
     },
     ja: {
         hero: {
@@ -54,7 +56,7 @@ const translations = {
             feature1: "📚 N5-N1の全単語を体系的な学習パスで提供",
             feature2: "🎯 自動生成される間違いノートでスマート復習",
             feature3: "📱 アプリを開かずに学習できるホーム画面ウィジェット",
-            feature4: "⚡ 試験対策のための高速練習モード",
+            feature4: "⚡試験対策のための高速練習モード",
             feature5: "🧠 目標ベースの試験対策SRSスマート学習"
         },
         topik: {
@@ -82,7 +84,9 @@ const translations = {
         download: {
             android: "Google Play",
             ios: "App Store"
-        }
+        },
+        back: "CleanDino",
+        share: "共有"
     },
     ko: {
         hero: {
@@ -124,7 +128,9 @@ const translations = {
         download: {
             android: "Google Play",
             ios: "App Store"
-        }
+        },
+        back: "CleanDino",
+        share: "공유"
     },
     vi: {
         hero: {
@@ -166,7 +172,9 @@ const translations = {
         download: {
             android: "Google Play",
             ios: "App Store"
-        }
+        },
+        back: "CleanDino",
+        share: "Chia sẻ"
     },
     zh: {
         hero: {
@@ -208,7 +216,9 @@ const translations = {
         download: {
             android: "Google Play",
             ios: "App Store"
-        }
+        },
+        back: "CleanDino",
+        share: "分享"
     },
     id: {
         hero: {
@@ -250,7 +260,9 @@ const translations = {
         download: {
             android: "Google Play",
             ios: "App Store"
-        }
+        },
+        back: "CleanDino",
+        share: "Bagikan"
     },
     th: {
         hero: {
@@ -292,7 +304,9 @@ const translations = {
         download: {
             android: "Google Play",
             ios: "App Store"
-        }
+        },
+        back: "CleanDino",
+        share: "แชร์"
     }
 };
 
@@ -301,7 +315,6 @@ let currentLang = 'en';
 
 function detectBrowserLanguage() {
     const browserLang = navigator.language || navigator.userLanguage;
-
     if (browserLang.startsWith('ja')) return 'ja';
     if (browserLang.startsWith('ko')) return 'ko';
     if (browserLang.startsWith('vi')) return 'vi';
@@ -313,22 +326,19 @@ function detectBrowserLanguage() {
 
 function setLanguage(lang) {
     currentLang = lang;
-    
-    // Update all text elements
+
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const keys = element.getAttribute('data-i18n').split('.');
         let translation = translations[lang];
-        
         for (const key of keys) {
+            if (!translation) break;
             translation = translation[key];
         }
-        
         if (translation) {
             element.textContent = translation;
         }
     });
-    
-    // Update dropdown display
+
     const langNames = {
         en: 'EN', ja: '日本語', ko: '한국어',
         vi: 'Tiếng Việt', zh: '中文', id: 'Indonesia', th: 'ไทย'
@@ -338,19 +348,15 @@ function setLanguage(lang) {
         langSelected.textContent = langNames[lang] || 'EN';
     }
 
-    // Update active state in dropdown
     document.querySelectorAll('.lang-option').forEach(opt => {
         opt.classList.toggle('active', opt.getAttribute('data-lang') === lang);
     });
 
-    // Close dropdown
     const dropdown = document.querySelector('.lang-dropdown');
     if (dropdown) dropdown.classList.remove('open');
 
-    // Save language preference
     localStorage.setItem('preferredLanguage', lang);
 
-    // Update page title
     const titles = {
         en: 'CleanDino - Quality Apps for Everyone',
         ja: 'CleanDino - みんなのための高品質アプリ',
@@ -360,41 +366,21 @@ function setLanguage(lang) {
         id: 'CleanDino - Aplikasi berkualitas untuk semua orang',
         th: 'CleanDino - แอปคุณภาพสำหรับทุกคน'
     };
-    document.title = titles[lang] || titles.en;
-}
 
-// Update screenshots based on selected language
-function updateScreenshots(lang) {
-    document.querySelectorAll('.app-screenshots').forEach(screenshotContainer => {
-        const appName = screenshotContainer.getAttribute('data-app');
-        const images = screenshotContainer.querySelectorAll('img[data-lang-img]');
-        
-        images.forEach(img => {
-            const screenshotType = img.getAttribute('data-lang-img');
-            // Language-specific path: images/[lang]/[app]-[screenshot].png
-            // Example: images/ja/raku-jlpt-screenshot1.png
-            const langPath = `images/${lang}/${appName}-${screenshotType}.png`;
-            
-            img.src = langPath;
-            img.style.display = 'block'; // Show image (will be hidden by onerror if not found)
-        });
-    });
+    // For detail pages, use app-specific title
+    const pageApp = document.body.getAttribute('data-app');
+    if (pageApp && translations[lang][pageApp]) {
+        document.title = translations[lang][pageApp].name + ' - CleanDino';
+    } else {
+        document.title = titles[lang] || titles.en;
+    }
 }
 
 // ===== Platform Detection =====
 function detectPlatform() {
     const userAgent = navigator.userAgent || navigator.vendor || window.opera;
-    
-    // iOS detection
-    if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
-        return 'ios';
-    }
-    
-    // Android detection
-    if (/android/i.test(userAgent)) {
-        return 'android';
-    }
-    
+    if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) return 'ios';
+    if (/android/i.test(userAgent)) return 'android';
     return 'other';
 }
 
@@ -402,166 +388,13 @@ function updateDownloadButtons() {
     const platform = detectPlatform();
     const googlePlayButtons = document.querySelectorAll('.google-play');
     const appStoreButtons = document.querySelectorAll('.app-store');
-    
-    // On mobile, prioritize the appropriate store
+
     if (platform === 'ios') {
-        // Move App Store buttons to the left (first position)
-        googlePlayButtons.forEach(btn => {
-            btn.style.order = '2';
-        });
-        appStoreButtons.forEach(btn => {
-            btn.style.order = '1';
-        });
+        googlePlayButtons.forEach(btn => btn.style.order = '2');
+        appStoreButtons.forEach(btn => btn.style.order = '1');
     } else if (platform === 'android') {
-        // Keep Google Play buttons on the left (default)
-        googlePlayButtons.forEach(btn => {
-            btn.style.order = '1';
-        });
-        appStoreButtons.forEach(btn => {
-            btn.style.order = '2';
-        });
-    }
-}
-
-// ===== Smooth Scroll Animation =====
-function initScrollAnimations() {
-    const observerOptions = {
-        threshold: 0.1,
-        rootMargin: '0px 0px -50px 0px'
-    };
-    
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.style.opacity = '1';
-                entry.target.style.transform = 'translateY(0)';
-            }
-        });
-    }, observerOptions);
-    
-    document.querySelectorAll('.app-card').forEach(card => {
-        card.style.opacity = '0';
-        card.style.transform = 'translateY(30px)';
-        card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
-        observer.observe(card);
-    });
-}
-
-// ===== Analytics (Optional) =====
-function trackDownloadClick(appName, platform) {
-    // Add your analytics tracking here
-    console.log(`Download clicked: ${appName} on ${platform}`);
-}
-
-// ===== Initialize =====
-document.addEventListener('DOMContentLoaded', () => {
-    // Initialize theme
-    initializeTheme();
-    
-    // Set initial language
-    const savedLang = localStorage.getItem('preferredLanguage');
-    const initialLang = savedLang || detectBrowserLanguage();
-    setLanguage(initialLang);
-    
-    // Update download buttons based on platform
-    updateDownloadButtons();
-    
-    // Initialize scroll animations
-    initScrollAnimations();
-    
-    // Initialize smooth scroll for app navigation
-    initAppNavigation();
-    
-    // Check for hash in URL and scroll to it
-    if (window.location.hash) {
-        setTimeout(() => {
-            scrollToApp(window.location.hash.substring(1));
-        }, 100);
-    }
-    
-    // Language dropdown event listeners
-    const langSelected = document.querySelector('.lang-selected');
-    const langDropdown = document.querySelector('.lang-dropdown');
-    if (langSelected && langDropdown) {
-        langSelected.addEventListener('click', (e) => {
-            e.stopPropagation();
-            langDropdown.classList.toggle('open');
-        });
-        document.querySelectorAll('.lang-option').forEach(opt => {
-            opt.addEventListener('click', () => {
-                const lang = opt.getAttribute('data-lang');
-                setLanguage(lang);
-            });
-        });
-        document.addEventListener('click', () => {
-            langDropdown.classList.remove('open');
-        });
-        langDropdown.addEventListener('click', (e) => e.stopPropagation());
-    }
-    
-    // Theme toggle event listener
-    const themeToggle = document.getElementById('themeToggle');
-    if (themeToggle) {
-        themeToggle.addEventListener('click', toggleTheme);
-    }
-    
-    // Share page button
-    const sharePageBtn = document.getElementById('sharePageBtn');
-    if (sharePageBtn) {
-        sharePageBtn.addEventListener('click', () => sharePage());
-    }
-    
-    // App share buttons
-    document.querySelectorAll('.app-share-btn').forEach(btn => {
-        btn.addEventListener('click', () => {
-            const appId = btn.getAttribute('data-app');
-            shareApp(appId);
-        });
-    });
-    
-    // Track download button clicks
-    document.querySelectorAll('.download-btn').forEach(btn => {
-        btn.addEventListener('click', (e) => {
-            const appCard = btn.closest('.app-card');
-            const appName = appCard.id;
-            const platform = btn.classList.contains('google-play') ? 'Android' : 'iOS';
-            trackDownloadClick(appName, platform);
-        });
-    });
-});
-
-// ===== App Navigation & Smooth Scroll =====
-function initAppNavigation() {
-    const navItems = document.querySelectorAll('.app-nav-item');
-    
-    navItems.forEach(item => {
-        item.addEventListener('click', (e) => {
-            e.preventDefault();
-            const targetId = item.getAttribute('href').substring(1);
-            scrollToApp(targetId);
-            
-            // Update URL without page reload
-            history.pushState(null, null, `#${targetId}`);
-        });
-    });
-}
-
-function scrollToApp(appId) {
-    const targetElement = document.getElementById(appId);
-    if (targetElement) {
-        const offset = 100; // Offset for fixed header
-        const targetPosition = targetElement.offsetTop - offset;
-        
-        window.scrollTo({
-            top: targetPosition,
-            behavior: 'smooth'
-        });
-        
-        // Highlight animation
-        targetElement.style.transform = 'scale(1.02)';
-        setTimeout(() => {
-            targetElement.style.transform = 'scale(1)';
-        }, 300);
+        googlePlayButtons.forEach(btn => btn.style.order = '1');
+        appStoreButtons.forEach(btn => btn.style.order = '2');
     }
 }
 
@@ -570,7 +403,7 @@ function initializeTheme() {
     const html = document.documentElement;
     const savedTheme = localStorage.getItem('theme');
     const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    
+
     if (savedTheme) {
         html.setAttribute('data-theme', savedTheme);
         updateThemeIcon(savedTheme);
@@ -586,7 +419,6 @@ function toggleTheme() {
     const html = document.documentElement;
     const currentTheme = html.getAttribute('data-theme');
     const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-    
     html.setAttribute('data-theme', newTheme);
     localStorage.setItem('theme', newTheme);
     updateThemeIcon(newTheme);
@@ -600,72 +432,37 @@ function updateThemeIcon(theme) {
 }
 
 // ===== Share Functions =====
-async function sharePage() {
-    const shareData = {
-        title: 'CleanDino - Quality Apps',
-        text: 'Check out CleanDino apps - JLPT study and Age Calculator',
-        url: window.location.href.split('#')[0]
-    };
-    
-    await shareContent(shareData);
-}
-
-async function shareApp(appId) {
-    const appData = {
-        'raku-jlpt': {
-            title: 'Raku JLPT Vocabulary',
-            text: 'Master JLPT with smart review and proven results',
-            url: `${window.location.href.split('#')[0]}#raku-jlpt`
-        },
-        'sae-topik': {
-            title: 'Sae TOPIK Vocabulary',
-            text: 'Master TOPIK Level 1-6 vocabulary with smart learning',
-            url: `${window.location.href.split('#')[0]}#sae-topik`
-        },
-        'age-calculator': {
-            title: 'Age Calculator',
-            text: 'Calculate Korean age vs international age instantly',
-            url: `${window.location.href.split('#')[0]}#age-calculator`
-        }
-    };
-    
-    const shareData = appData[appId];
-    if (shareData) {
-        await shareContent(shareData);
-    }
-}
-
 async function shareContent(shareData) {
-    // Try native share API (mobile)
     if (navigator.share) {
         try {
             await navigator.share(shareData);
         } catch (err) {
             if (err.name !== 'AbortError') {
-                // User cancelled, just copy URL
                 copyToClipboard(shareData.url);
             }
         }
     } else {
-        // Fallback: copy URL only (desktop)
         copyToClipboard(shareData.url);
     }
 }
 
 function copyToClipboard(text) {
     navigator.clipboard.writeText(text).then(() => {
-        showToast('✅ Link copied to clipboard!');
+        showToast('Link copied!');
     }).catch(() => {
-        showToast('❌ Failed to copy link');
+        showToast('Failed to copy link');
     });
 }
 
 function showToast(message) {
+    const existing = document.querySelector('.toast');
+    if (existing) existing.remove();
+
     const toast = document.createElement('div');
     toast.className = 'toast';
     toast.textContent = message;
     document.body.appendChild(toast);
-    
+
     setTimeout(() => toast.classList.add('show'), 10);
     setTimeout(() => {
         toast.classList.remove('show');
@@ -673,21 +470,77 @@ function showToast(message) {
     }, 2000);
 }
 
-// ===== Dark Mode Toggle (Optional Enhancement) =====
-function initDarkModeToggle() {
-    const darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
-    
-    darkModeMediaQuery.addEventListener('change', (e) => {
-        // Automatically apply dark mode when system preference changes
-        document.body.classList.toggle('dark-mode', e.matches);
+// ===== Initialize =====
+document.addEventListener('DOMContentLoaded', () => {
+    initializeTheme();
+
+    const savedLang = localStorage.getItem('preferredLanguage');
+    const initialLang = savedLang || detectBrowserLanguage();
+    setLanguage(initialLang);
+
+    updateDownloadButtons();
+
+    // Language dropdown
+    const langSelected = document.querySelector('.lang-selected');
+    const langDropdown = document.querySelector('.lang-dropdown');
+    if (langSelected && langDropdown) {
+        langSelected.addEventListener('click', (e) => {
+            e.stopPropagation();
+            langDropdown.classList.toggle('open');
+        });
+        document.querySelectorAll('.lang-option').forEach(opt => {
+            opt.addEventListener('click', () => {
+                setLanguage(opt.getAttribute('data-lang'));
+            });
+        });
+        document.addEventListener('click', () => {
+            langDropdown.classList.remove('open');
+        });
+        langDropdown.addEventListener('click', (e) => e.stopPropagation());
+    }
+
+    // Theme toggle
+    const themeToggle = document.getElementById('themeToggle');
+    if (themeToggle) {
+        themeToggle.addEventListener('click', toggleTheme);
+    }
+
+    // Detail page share button
+    const detailShareBtn = document.querySelector('.detail-share-btn');
+    if (detailShareBtn) {
+        detailShareBtn.addEventListener('click', () => {
+            const appName = document.querySelector('.detail-app-name');
+            shareContent({
+                title: appName ? appName.textContent : 'CleanDino',
+                text: appName ? appName.textContent + ' - CleanDino' : 'CleanDino',
+                url: window.location.href
+            });
+        });
+    }
+
+    // Track download clicks
+    document.querySelectorAll('.download-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const platform = btn.classList.contains('google-play') ? 'Android' : 'iOS';
+            const appName = document.body.getAttribute('data-app') || 'unknown';
+            console.log(`Download: ${appName} on ${platform}`);
+        });
     });
-}
 
-// Uncomment to enable dark mode toggle
-// initDarkModeToggle();
+    // Scroll animations for detail page features
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.style.opacity = '1';
+                entry.target.style.transform = 'translateY(0)';
+            }
+        });
+    }, { threshold: 0.1, rootMargin: '0px 0px -30px 0px' });
 
-// ===== Service Worker (for PWA - Optional) =====
-if ('serviceWorker' in navigator) {
-    // Uncomment to enable PWA features
-    // navigator.serviceWorker.register('/sw.js');
-}
+    document.querySelectorAll('.detail-features li').forEach((li, i) => {
+        li.style.opacity = '0';
+        li.style.transform = 'translateY(16px)';
+        li.style.transition = `opacity 0.4s ease ${i * 0.08}s, transform 0.4s ease ${i * 0.08}s`;
+        observer.observe(li);
+    });
+});
