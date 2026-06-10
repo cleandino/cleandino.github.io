@@ -42,7 +42,8 @@ const translations = {
             ios: "App Store"
         },
         back: "CleanDino",
-        share: "Share"
+        share: "Share",
+        dataDeletion: "Data Deletion"
     },
     ja: {
         hero: {
@@ -86,7 +87,8 @@ const translations = {
             ios: "App Store"
         },
         back: "CleanDino",
-        share: "共有"
+        share: "共有",
+        dataDeletion: "データ削除"
     },
     ko: {
         hero: {
@@ -130,7 +132,8 @@ const translations = {
             ios: "App Store"
         },
         back: "CleanDino",
-        share: "공유"
+        share: "공유",
+        dataDeletion: "데이터 삭제"
     },
     vi: {
         hero: {
@@ -174,7 +177,8 @@ const translations = {
             ios: "App Store"
         },
         back: "CleanDino",
-        share: "Chia sẻ"
+        share: "Chia sẻ",
+        dataDeletion: "Xóa dữ liệu"
     },
     zh: {
         hero: {
@@ -218,7 +222,8 @@ const translations = {
             ios: "App Store"
         },
         back: "CleanDino",
-        share: "分享"
+        share: "分享",
+        dataDeletion: "数据删除"
     },
     id: {
         hero: {
@@ -262,7 +267,8 @@ const translations = {
             ios: "App Store"
         },
         back: "CleanDino",
-        share: "Bagikan"
+        share: "Bagikan",
+        dataDeletion: "Penghapusan Data"
     },
     th: {
         hero: {
@@ -306,7 +312,8 @@ const translations = {
             ios: "App Store"
         },
         back: "CleanDino",
-        share: "แชร์"
+        share: "แชร์",
+        dataDeletion: "การลบข้อมูล"
     }
 };
 
