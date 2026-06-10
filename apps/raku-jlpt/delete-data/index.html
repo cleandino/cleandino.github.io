@@ -283,6 +283,9 @@
             });
             const sel = document.querySelector('.lang-selected');
             if (sel) sel.textContent = lang.toUpperCase();
+            document.querySelectorAll('.lang-option').forEach(function (opt) {
+                opt.classList.toggle('active', opt.getAttribute('data-lang') === lang);
+            });
             localStorage.setItem('cd_lang', lang);
         }
 
@@ -298,9 +301,24 @@
             applyTheme(localStorage.getItem('cd_theme') || 'light');
             applyLang(detectLang());
 
+            // 언어 드롭다운 열고닫기 (.open 클래스 — style.css 와 동일 동작)
+            const langSelected = document.querySelector('.lang-selected');
+            const langDropdown = document.querySelector('.lang-dropdown');
+            if (langSelected && langDropdown) {
+                langSelected.addEventListener('click', function (e) {
+                    e.stopPropagation();
+                    langDropdown.classList.toggle('open');
+                });
+                langDropdown.addEventListener('click', function (e) { e.stopPropagation(); });
+                document.addEventListener('click', function () {
+                    langDropdown.classList.remove('open');
+                });
+            }
+
             document.querySelectorAll('.lang-option').forEach(function (btn) {
                 btn.addEventListener('click', function () {
                     applyLang(btn.getAttribute('data-lang'));
+                    if (langDropdown) langDropdown.classList.remove('open');
                 });
             });
             const tt = document.getElementById('themeToggle');
