@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Deletion - Raku JLPT Vocabulary - CleanDino</title>
+    <meta name="description" content="How to delete your data in Raku JLPT Vocabulary by CleanDino.">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="../../favicon-32x32.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png">
+
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root { --detail-accent: #E74C3C; }
+        .detail-hero { background: linear-gradient(180deg, rgba(231,76,60,0.06) 0%, var(--bg-primary) 100%); }
+        .detail-app-name { color: #E74C3C; }
+        [data-theme="dark"] .detail-hero { background: linear-gradient(180deg, rgba(231,76,60,0.08) 0%, var(--bg-primary) 100%); }
+        .dd-section { margin-bottom: 2rem; }
+        .dd-section h2 { font-size: 1.15rem; font-weight: 700; margin-bottom: 0.6rem; color: var(--text-primary); }
+        .dd-steps { padding-left: 1.2rem; line-height: 1.9; }
+        .dd-steps li { margin-bottom: 0.3rem; }
+        .dd-note { font-size: 0.92rem; color: var(--text-secondary); line-height: 1.7; }
+        .dd-path { font-weight: 600; color: #E74C3C; }
+    </style>
+</head>
+<body data-page="detail" data-app="raku">
+    <!-- Language & Theme Controls -->
+    <div class="language-selector">
+        <div class="lang-dropdown">
+            <button class="lang-selected" aria-label="Select language">EN</button>
+            <div class="lang-options">
+                <button class="lang-option" data-lang="en">EN</button>
+                <button class="lang-option" data-lang="ja">日本語</button>
+                <button class="lang-option" data-lang="ko">한국어</button>
+                <button class="lang-option" data-lang="vi">Tiếng Việt</button>
+                <button class="lang-option" data-lang="zh">中文</button>
+                <button class="lang-option" data-lang="id">Indonesia</button>
+                <button class="lang-option" data-lang="th">ไทย</button>
+            </div>
+        </div>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+            <span id="themeIcon">🌙</span>
+        </button>
+    </div>
+
+    <!-- Back Link -->
+    <div class="container">
+        <a href="../" class="back-link">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+            <span data-i18n="back">Raku JLPT</span>
+        </a>
+    </div>
+
+    <!-- Hero -->
+    <section class="detail-hero">
+        <div class="detail-hero-inner">
+            <h1 class="detail-app-name" data-i18n="title">Data Deletion</h1>
+            <p class="detail-tagline" data-i18n="app">Raku JLPT Vocabulary by CleanDino</p>
+        </div>
+    </section>
+
+    <!-- Content -->
+    <main class="detail-content">
+        <div class="container">
+
+            <div class="dd-section">
+                <p class="detail-description" data-i18n="intro">
+                    This page explains how to request deletion of your data in Raku JLPT Vocabulary.
+                </p>
+            </div>
+
+            <div class="dd-section">
+                <h2 data-i18n="inApp.title">Delete your data in the app</h2>
+                <p class="dd-note" data-i18n="inApp.desc">
+                    If you have the app installed, you can delete all of your community data instantly:
+                </p>
+                <ol class="dd-steps">
+                    <li data-i18n="inApp.step1">Open the app and go to the <span class="dd-path">Community</span> tab.</li>
+                    <li data-i18n="inApp.step2">Tap the <span class="dd-path">Settings (gear)</span> icon at the top right.</li>
+                    <li data-i18n="inApp.step3">Choose <span class="dd-path">Leave / Delete community data</span>.</li>
+                    <li data-i18n="inApp.step4">Confirm. Your data is permanently deleted immediately.</li>
+                </ol>
+            </div>
+
+            <div class="dd-section">
+                <h2 data-i18n="data.title">What gets deleted</h2>
+                <p class="dd-note" data-i18n="data.desc">
+                    The following data is permanently deleted and is not retained:
+                </p>
+                <ul class="dd-steps">
+                    <li data-i18n="data.item1">Your randomly generated nickname and profile emoji</li>
+                    <li data-i18n="data.item2">Your learning statistics used for rankings (daily/weekly/streak)</li>
+                    <li data-i18n="data.item3">Your follow relationships</li>
+                    <li data-i18n="data.item4">Your push notification token</li>
+                    <li data-i18n="data.item5">Your anonymous account</li>
+                </ul>
+            </div>
+
+            <div class="dd-section">
+                <h2 data-i18n="anon.title">Note on anonymous accounts</h2>
+                <p class="dd-note" data-i18n="anon.desc">
+                    This app uses anonymous accounts only — we never collect your name, email, phone number, or password. Because accounts are anonymous, the only way to identify and delete your specific data is from within the app while you are signed in. If you have already uninstalled the app, no personally identifiable information remains linked to you on our servers.
+                </p>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-copyright">&copy; 2025 CleanDino. All rights reserved.</p>
+            <p class="footer-links">
+                <a href="https://cleandino.github.io/" target="_blank" rel="noopener">Privacy Policy</a>
+                <span class="footer-separator">&middot;</span>
+                <a href="../" target="_blank" rel="noopener" data-i18n="app">Raku JLPT Vocabulary</a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Theme + Language (self-contained; does not depend on apps/script.js) -->
+    <script>
+    (function () {
+        const T = {
+            en: {
+                back: "Raku JLPT", title: "Data Deletion", app: "Raku JLPT Vocabulary by CleanDino",
+                intro: "This page explains how to request deletion of your data in Raku JLPT Vocabulary.",
+                "inApp.title": "Delete your data in the app",
+                "inApp.desc": "If you have the app installed, you can delete all of your community data instantly:",
+                "inApp.step1": "Open the app and go to the <span class='dd-path'>Community</span> tab.",
+                "inApp.step2": "Tap the <span class='dd-path'>Settings (gear)</span> icon at the top right.",
+                "inApp.step3": "Choose <span class='dd-path'>Leave / Delete community data</span>.",
+                "inApp.step4": "Confirm. Your data is permanently deleted immediately.",
+                "data.title": "What gets deleted",
+                "data.desc": "The following data is permanently deleted and is not retained:",
+                "data.item1": "Your randomly generated nickname and profile emoji",
+                "data.item2": "Your learning statistics used for rankings (daily/weekly/streak)",
+                "data.item3": "Your follow relationships",
+                "data.item4": "Your push notification token",
+                "data.item5": "Your anonymous account",
+                "anon.title": "Note on anonymous accounts",
+                "anon.desc": "This app uses anonymous accounts only — we never collect your name, email, phone number, or password. Because accounts are anonymous, the only way to identify and delete your specific data is from within the app while you are signed in. If you have already uninstalled the app, no personally identifiable information remains linked to you on our servers."
+            },
+            ja: {
+                back: "Raku JLPT", title: "データ削除", app: "CleanDino の Raku JLPT 単語帳",
+                intro: "このページでは、Raku JLPT 単語帳のデータ削除方法をご案内します。",
+                "inApp.title": "アプリ内でデータを削除する",
+                "inApp.desc": "アプリをインストールしている場合、コミュニティのデータをすぐに削除できます：",
+                "inApp.step1": "アプリを開き、<span class='dd-path'>コミュニティ</span>タブに移動します。",
+                "inApp.step2": "右上の<span class='dd-path'>設定（歯車）</span>アイコンをタップします。",
+                "inApp.step3": "<span class='dd-path'>退会／コミュニティデータの削除</span>を選びます。",
+                "inApp.step4": "確認すると、データは即座に完全に削除されます。",
+                "data.title": "削除される内容",
+                "data.desc": "以下のデータは完全に削除され、保持されません：",
+                "data.item1": "ランダム生成されたニックネームとプロフィール絵文字",
+                "data.item2": "ランキング用の学習統計（今日／週間／連続）",
+                "data.item3": "フォロー関係",
+                "data.item4": "プッシュ通知トークン",
+                "data.item5": "匿名アカウント",
+                "anon.title": "匿名アカウントについて",
+                "anon.desc": "本アプリは匿名アカウントのみを使用し、氏名・メール・電話番号・パスワードを一切収集しません。アカウントが匿名であるため、特定のデータを識別して削除できるのは、サインイン中のアプリ内からのみです。すでにアンインストールされている場合、あなたに紐づく個人を特定できる情報はサーバーに残りません。"
+            },
+            ko: {
+                back: "Raku JLPT", title: "데이터 삭제", app: "CleanDino의 Raku JLPT 단어장",
+                intro: "이 페이지는 Raku JLPT 단어장의 데이터 삭제 방법을 안내합니다.",
+                "inApp.title": "앱에서 데이터 삭제하기",
+                "inApp.desc": "앱이 설치되어 있다면 커뮤니티 데이터를 즉시 삭제할 수 있습니다:",
+                "inApp.step1": "앱을 열고 <span class='dd-path'>커뮤니티</span> 탭으로 이동합니다.",
+                "inApp.step2": "오른쪽 상단의 <span class='dd-path'>설정(톱니바퀴)</span> 아이콘을 누릅니다.",
+                "inApp.step3": "<span class='dd-path'>탈퇴 / 커뮤니티 데이터 삭제</span>를 선택합니다.",
+                "inApp.step4": "확인하면 데이터가 즉시 영구 삭제됩니다.",
+                "data.title": "삭제되는 데이터",
+                "data.desc": "다음 데이터가 영구 삭제되며 따로 보관되지 않습니다:",
+                "data.item1": "랜덤 생성된 닉네임과 프로필 이모지",
+                "data.item2": "랭킹에 사용되는 학습 통계(오늘/주간/연속)",
+                "data.item3": "팔로우 관계",
+                "data.item4": "푸시 알림 토큰",
+                "data.item5": "익명 계정",
+                "anon.title": "익명 계정 안내",
+                "anon.desc": "이 앱은 익명 계정만 사용하며 이름·이메일·전화번호·비밀번호를 일절 수집하지 않습니다. 계정이 익명이기 때문에 특정 데이터를 식별해 삭제할 수 있는 방법은 로그인된 상태의 앱 내에서뿐입니다. 이미 앱을 삭제하셨다면 회원님과 연결되는 개인 식별 정보는 서버에 남아있지 않습니다."
+            },
+            vi: {
+                back: "Raku JLPT", title: "Xóa dữ liệu", app: "Raku JLPT Vocabulary của CleanDino",
+                intro: "Trang này hướng dẫn cách yêu cầu xóa dữ liệu của bạn trong Raku JLPT Vocabulary.",
+                "inApp.title": "Xóa dữ liệu ngay trong ứng dụng",
+                "inApp.desc": "Nếu đã cài ứng dụng, bạn có thể xóa toàn bộ dữ liệu cộng đồng ngay lập tức:",
+                "inApp.step1": "Mở ứng dụng và vào tab <span class='dd-path'>Cộng đồng</span>.",
+                "inApp.step2": "Chạm biểu tượng <span class='dd-path'>Cài đặt (bánh răng)</span> ở góc trên bên phải.",
+                "inApp.step3": "Chọn <span class='dd-path'>Rời đi / Xóa dữ liệu cộng đồng</span>.",
+                "inApp.step4": "Xác nhận. Dữ liệu của bạn bị xóa vĩnh viễn ngay lập tức.",
+                "data.title": "Những gì sẽ bị xóa",
+                "data.desc": "Dữ liệu sau đây bị xóa vĩnh viễn và không được lưu giữ:",
+                "data.item1": "Biệt danh ngẫu nhiên và emoji hồ sơ",
+                "data.item2": "Thống kê học tập dùng cho xếp hạng (ngày/tuần/chuỗi)",
+                "data.item3": "Quan hệ theo dõi",
+                "data.item4": "Token thông báo đẩy",
+                "data.item5": "Tài khoản ẩn danh",
+                "anon.title": "Lưu ý về tài khoản ẩn danh",
+                "anon.desc": "Ứng dụng chỉ dùng tài khoản ẩn danh — chúng tôi không thu thập tên, email, số điện thoại hay mật khẩu. Vì tài khoản ẩn danh, cách duy nhất để nhận diện và xóa dữ liệu cụ thể của bạn là từ trong ứng dụng khi đã đăng nhập. Nếu đã gỡ cài đặt, không còn thông tin nhận dạng cá nhân nào liên kết với bạn trên máy chủ của chúng tôi."
+            },
+            zh: {
+                back: "Raku JLPT", title: "数据删除", app: "CleanDino 的 Raku JLPT 单词本",
+                intro: "本页面说明如何请求删除您在 Raku JLPT 单词本中的数据。",
+                "inApp.title": "在应用内删除数据",
+                "inApp.desc": "如果已安装应用，您可以立即删除全部社区数据：",
+                "inApp.step1": "打开应用并进入<span class='dd-path'>社区</span>标签。",
+                "inApp.step2": "点击右上角的<span class='dd-path'>设置（齿轮）</span>图标。",
+                "inApp.step3": "选择<span class='dd-path'>退出 / 删除社区数据</span>。",
+                "inApp.step4": "确认后，您的数据将立即永久删除。",
+                "data.title": "将被删除的内容",
+                "data.desc": "以下数据将被永久删除，不会保留：",
+                "data.item1": "随机生成的昵称和头像表情",
+                "data.item2": "用于排行榜的学习统计（今日/每周/连续）",
+                "data.item3": "关注关系",
+                "data.item4": "推送通知令牌",
+                "data.item5": "匿名账户",
+                "anon.title": "关于匿名账户",
+                "anon.desc": "本应用仅使用匿名账户——我们绝不收集您的姓名、邮箱、电话或密码。由于账户为匿名，识别并删除您特定数据的唯一方式是在登录状态下从应用内操作。如果您已卸载应用，我们的服务器上不会留有与您关联的个人身份信息。"
+            },
+            id: {
+                back: "Raku JLPT", title: "Penghapusan Data", app: "Raku JLPT Vocabulary oleh CleanDino",
+                intro: "Halaman ini menjelaskan cara meminta penghapusan data Anda di Raku JLPT Vocabulary.",
+                "inApp.title": "Hapus data di dalam aplikasi",
+                "inApp.desc": "Jika aplikasi terpasang, Anda dapat menghapus semua data komunitas seketika:",
+                "inApp.step1": "Buka aplikasi dan masuk ke tab <span class='dd-path'>Komunitas</span>.",
+                "inApp.step2": "Ketuk ikon <span class='dd-path'>Pengaturan (roda gigi)</span> di kanan atas.",
+                "inApp.step3": "Pilih <span class='dd-path'>Keluar / Hapus data komunitas</span>.",
+                "inApp.step4": "Konfirmasi. Data Anda dihapus permanen seketika.",
+                "data.title": "Yang dihapus",
+                "data.desc": "Data berikut dihapus permanen dan tidak disimpan:",
+                "data.item1": "Nama panggilan acak dan emoji profil",
+                "data.item2": "Statistik belajar untuk peringkat (harian/mingguan/streak)",
+                "data.item3": "Relasi mengikuti",
+                "data.item4": "Token notifikasi push",
+                "data.item5": "Akun anonim",
+                "anon.title": "Catatan tentang akun anonim",
+                "anon.desc": "Aplikasi ini hanya memakai akun anonim — kami tidak pernah mengumpulkan nama, email, nomor telepon, atau kata sandi. Karena akun bersifat anonim, satu-satunya cara mengidentifikasi dan menghapus data spesifik Anda adalah dari dalam aplikasi saat masuk. Jika Anda sudah menghapus aplikasi, tidak ada informasi identitas pribadi yang tersisa terkait Anda di server kami."
+            },
+            th: {
+                back: "Raku JLPT", title: "การลบข้อมูล", app: "Raku JLPT Vocabulary โดย CleanDino",
+                intro: "หน้านี้อธิบายวิธีขอลบข้อมูลของคุณใน Raku JLPT Vocabulary",
+                "inApp.title": "ลบข้อมูลภายในแอป",
+                "inApp.desc": "หากติดตั้งแอปไว้ คุณสามารถลบข้อมูลคอมมิวนิตี้ทั้งหมดได้ทันที:",
+                "inApp.step1": "เปิดแอปและไปที่แท็บ <span class='dd-path'>คอมมิวนิตี้</span>",
+                "inApp.step2": "แตะไอคอน <span class='dd-path'>ตั้งค่า (เฟือง)</span> ที่มุมขวาบน",
+                "inApp.step3": "เลือก <span class='dd-path'>ออก / ลบข้อมูลคอมมิวนิตี้</span>",
+                "inApp.step4": "ยืนยัน ข้อมูลของคุณจะถูกลบถาวรทันที",
+                "data.title": "สิ่งที่จะถูกลบ",
+                "data.desc": "ข้อมูลต่อไปนี้จะถูกลบถาวรและไม่ถูกเก็บไว้:",
+                "data.item1": "ชื่อเล่นแบบสุ่มและอีโมจิโปรไฟล์",
+                "data.item2": "สถิติการเรียนที่ใช้จัดอันดับ (วันนี้/รายสัปดาห์/ต่อเนื่อง)",
+                "data.item3": "ความสัมพันธ์การติดตาม",
+                "data.item4": "โทเค็นการแจ้งเตือนแบบพุช",
+                "data.item5": "บัญชีนิรนาม",
+                "anon.title": "หมายเหตุเกี่ยวกับบัญชีนิรนาม",
+                "anon.desc": "แอปนี้ใช้บัญชีนิรนามเท่านั้น — เราไม่เก็บชื่อ อีเมล เบอร์โทร หรือรหัสผ่านของคุณ เนื่องจากบัญชีเป็นนิรนาม วิธีเดียวที่จะระบุและลบข้อมูลเฉพาะของคุณได้คือจากภายในแอปขณะที่ลงชื่อเข้าใช้ หากคุณถอนการติดตั้งแอปแล้ว จะไม่มีข้อมูลระบุตัวตนส่วนบุคคลที่เชื่อมโยงกับคุณเหลืออยู่บนเซิร์ฟเวอร์ของเรา"
+            }
+        };
+
+        function detectLang() {
+            const saved = localStorage.getItem('cd_lang');
+            if (saved && T[saved]) return saved;
+            const b = (navigator.language || 'en').toLowerCase();
+            if (b.startsWith('ko')) return 'ko';
+            if (b.startsWith('ja')) return 'ja';
+            if (b.startsWith('vi')) return 'vi';
+            if (b.startsWith('zh')) return 'zh';
+            if (b.startsWith('id')) return 'id';
+            if (b.startsWith('th')) return 'th';
+            return 'en';
+        }
+
+        function applyLang(lang) {
+            const dict = T[lang] || T.en;
+            document.documentElement.lang = lang;
+            document.querySelectorAll('[data-i18n]').forEach(function (el) {
+                const key = el.getAttribute('data-i18n');
+                if (dict[key] != null) el.innerHTML = dict[key];
+            });
+            const sel = document.querySelector('.lang-selected');
+            if (sel) sel.textContent = lang.toUpperCase();
+            localStorage.setItem('cd_lang', lang);
+        }
+
+        // Theme
+        function applyTheme(theme) {
+            document.documentElement.setAttribute('data-theme', theme);
+            const icon = document.getElementById('themeIcon');
+            if (icon) icon.textContent = theme === 'dark' ? '☀️' : '🌙';
+            localStorage.setItem('cd_theme', theme);
+        }
+
+        document.addEventListener('DOMContentLoaded', function () {
+            applyTheme(localStorage.getItem('cd_theme') || 'light');
+            applyLang(detectLang());
+
+            document.querySelectorAll('.lang-option').forEach(function (btn) {
+                btn.addEventListener('click', function () {
+                    applyLang(btn.getAttribute('data-lang'));
+                });
+            });
+            const tt = document.getElementById('themeToggle');
+            if (tt) tt.addEventListener('click', function () {
+                const cur = document.documentElement.getAttribute('data-theme') || 'light';
+                applyTheme(cur === 'dark' ? 'light' : 'dark');
+            });
+        });
+    })();
+    </script>
+</body>
+</html>
