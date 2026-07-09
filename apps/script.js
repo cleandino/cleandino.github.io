@@ -34,6 +34,16 @@ const translations = {
             feature4: "⭐ Automatic zodiac sign detection with detailed info",
             feature5: "🔮 Daily horoscope based on your zodiac sign"
         },
+        filmstamp: {
+            name: "Filmstamp: Timestamp Camera",
+            tagline: "Real-time film date stamp, verified",
+            description: "Every timestamp you can fake is worthless. Filmstamp stamps your photos with REAL server time — not your phone clock. Wrapped in beautiful film aesthetics.",
+            feature1: "⏱ Real server time, not your phone clock — a green ✓ proves every shot is genuine",
+            feature2: "🎞 40+ timestamp styles and 25+ film filters",
+            feature3: "🔥 Unfakeable streak stamps for your routine (workout, diet, study)",
+            feature4: "📍 Real GPS location & city name on your stamp",
+            feature5: "✨ Free to use. Go Pro once (no subscription) to unlock all styles & remove ads"
+        },
         features: {
             title: "Key Features"
         },
@@ -78,6 +88,16 @@ const translations = {
             feature3: "👨‍👩‍👧‍👦 家族や友人の誕生日管理",
             feature4: "⭐ 詳細情報付き星座自動判定",
             feature5: "🔮 星座に基づく毎日の占い"
+        },
+        filmstamp: {
+            name: "Filmstamp: タイムスタンプカメラ",
+            tagline: "サーバー時刻認証のフィルム刻印",
+            description: "改ざんできる時刻に意味はありません。Filmstampは端末の時計ではなく、本物のサーバー時刻を写真に刻みます。しかもフィルムの質感で。",
+            feature1: "⏱ 端末ではなく本物のサーバー時刻 — 緑の✓がすべての写真の本物である証明",
+            feature2: "🎞 40種以上のタイムスタンプと25種以上のフィルムフィルター",
+            feature3: "🔥 改ざん不能な連続記録スタンプ（運動・ダイエット・勉強）",
+            feature4: "📍 スタンプに実際のGPS位置と都市名",
+            feature5: "✨ 無料で使用可。一度きりの購入（サブスクなし）で全スタイル解放・広告なし"
         },
         features: {
             title: "主な機能"
@@ -124,6 +144,16 @@ const translations = {
             feature4: "⭐ 상세 정보가 포함된 별자리 자동 판정",
             feature5: "🔮 별자리 기반 매일의 운세"
         },
+        filmstamp: {
+            name: "Filmstamp: 타임스탬프 카메라",
+            tagline: "서버시간 검증 필름 타임스탬프",
+            description: "조작할 수 있는 시간은 아무 의미가 없습니다. Filmstamp는 폰 시계가 아니라 진짜 서버 시간을 사진에 새깁니다. 거기에 필름 감성까지.",
+            feature1: "⏱ 폰 시계가 아닌 진짜 서버 시간 — 초록 ✓ 배지가 모든 사진이 진짜임을 증명",
+            feature2: "🎞 40종 이상의 타임스탬프 + 25종 필름 필터",
+            feature3: "🔥 조작 불가능한 연속 기록 스탬프 (운동·다이어트·공부)",
+            feature4: "📍 스탬프에 실제 GPS 위치 & 도시 이름",
+            feature5: "✨ 무료로 시작. Pro는 단 한 번 결제(구독 아님)로 전 스타일 잠금해제 + 광고 제거"
+        },
         features: {
             title: "주요 기능"
         },
@@ -168,6 +198,16 @@ const translations = {
             feature3: "👨‍👩‍👧‍👦 Quản lý sinh nhật cho gia đình và bạn bè",
             feature4: "⭐ Tự động nhận diện cung hoàng đạo với thông tin chi tiết",
             feature5: "🔮 Tử vi hàng ngày dựa trên cung hoàng đạo"
+        },
+        filmstamp: {
+            name: "Filmstamp: Camera đóng dấu",
+            tagline: "Dấu thời gian phim đã xác minh",
+            description: "Dấu thời gian có thể làm giả thì vô nghĩa. Filmstamp đóng dấu ảnh của bạn bằng thời gian THẬT từ máy chủ — không phải đồng hồ điện thoại. Cùng thẩm mỹ phim tuyệt đẹp.",
+            feature1: "⏱ Thời gian máy chủ thật, không phải đồng hồ điện thoại — dấu ✓ xanh chứng minh mỗi ảnh là thật",
+            feature2: "🎞 Hơn 40 kiểu dấu thời gian và hơn 25 bộ lọc phim",
+            feature3: "🔥 Dấu chuỗi ngày không thể gian lận cho thói quen (tập luyện, ăn kiêng, học tập)",
+            feature4: "📍 Vị trí GPS thật và tên thành phố trên dấu",
+            feature5: "✨ Miễn phí. Mua Pro một lần (không đăng ký) để mở khóa mọi kiểu và bỏ quảng cáo"
         },
         features: {
             title: "Tính năng chính"
@@ -214,6 +254,16 @@ const translations = {
             feature4: "⭐ 自动星座检测及详细信息",
             feature5: "🔮 基于星座的每日运势"
         },
+        filmstamp: {
+            name: "Filmstamp: 时间戳相机",
+            tagline: "服务器时间认证的胶片刻印",
+            description: "可以伪造的时间毫无价值。Filmstamp 把真正的服务器时间刻在你的照片上——不是手机时钟。还带着精致的胶片质感。",
+            feature1: "⏱ 真正的服务器时间，而非手机时钟——绿色 ✓ 徽章证明每张照片都真实",
+            feature2: "🎞 40+ 种时间戳样式和 25+ 种胶片滤镜",
+            feature3: "🔥 无法作弊的连续打卡刻印（健身、减脂、学习）",
+            feature4: "📍 刻印中的真实 GPS 定位与城市名",
+            feature5: "✨ 免费使用。一次买断 Pro（非订阅）即可解锁全部样式、免广告"
+        },
         features: {
             title: "主要功能"
         },
@@ -259,6 +309,16 @@ const translations = {
             feature4: "⭐ Deteksi zodiak otomatis dengan info lengkap",
             feature5: "🔮 Horoskop harian berdasarkan zodiak Anda"
         },
+        filmstamp: {
+            name: "Filmstamp: Kamera Stempel Waktu",
+            tagline: "Stempel waktu film terverifikasi",
+            description: "Stempel waktu yang bisa dipalsukan tidak ada gunanya. Filmstamp menstempel foto Anda dengan waktu server ASLI — bukan jam ponsel. Dibalut estetika film yang indah.",
+            feature1: "⏱ Waktu server asli, bukan jam ponsel — lencana ✓ hijau membuktikan setiap foto asli",
+            feature2: "🎞 40+ gaya stempel waktu dan 25+ filter film",
+            feature3: "🔥 Stempel streak yang tak bisa dicurangi untuk rutinitas (olahraga, diet, belajar)",
+            feature4: "📍 Lokasi GPS asli & nama kota pada stempel",
+            feature5: "✨ Gratis. Beli Pro sekali (tanpa langganan) untuk buka semua gaya & tanpa iklan"
+        },
         features: {
             title: "Fitur Utama"
         },
@@ -303,6 +363,16 @@ const translations = {
             feature3: "👨‍👩‍👧‍👦 จัดการวันเกิดสำหรับครอบครัวและเพื่อน",
             feature4: "⭐ ตรวจจับราศีอัตโนมัติพร้อมข้อมูลละเอียด",
             feature5: "🔮 ดูดวงรายวันตามราศีของคุณ"
+        },
+        filmstamp: {
+            name: "Filmstamp: กล้องประทับเวลา",
+            tagline: "ประทับเวลาฟิล์มที่ยืนยันแล้ว",
+            description: "เวลาที่ปลอมได้ไร้ค่า Filmstamp ประทับเวลาเซิร์ฟเวอร์จริงลงบนภาพของคุณ — ไม่ใช่นาฬิกาในเครื่อง ห่อหุ้มด้วยความงามแบบฟิล์ม",
+            feature1: "⏱ เวลาเซิร์ฟเวอร์จริง ไม่ใช่นาฬิกาในเครื่อง — เครื่องหมาย ✓ สีเขียวพิสูจน์ว่าทุกภาพเป็นของจริง",
+            feature2: "🎞 สไตล์ประทับเวลากว่า 40 แบบ และฟิลเตอร์ฟิล์มกว่า 25 แบบ",
+            feature3: "🔥 ประทับสตรีคที่โกงไม่ได้สำหรับกิจวัตร (ออกกำลังกาย ไดเอต เรียน)",
+            feature4: "📍 ตำแหน่ง GPS จริงและชื่อเมืองบนตราประทับ",
+            feature5: "✨ ใช้ฟรี ซื้อ Pro ครั้งเดียว (ไม่ใช่สมัครสมาชิก) เพื่อปลดล็อกทุกสไตล์และไม่มีโฆษณา"
         },
         features: {
             title: "คุณสมบัติหลัก"
