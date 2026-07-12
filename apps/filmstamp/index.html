@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Filmstamp: Timestamp Camera - CleanDino</title>
-    <meta name="description" content="Stamp your photos with REAL server-verified time, not your phone clock. Film-grade filters, unfakeable streaks, GPS location. A green ✓ proves every shot is genuine.">
+    <title>Filmstampr: Timestamp Camera - CleanDino</title>
+    <meta name="description" content="Stamp your photos with real network server time, not your phone clock. Film-grade filters, network-time streaks, GPS location. A green ✓ shows the time was checked against a server.">
 
     <!-- Favicons -->
     <link rel="icon" type="image/x-icon" href="../favicon-32x32.ico">
@@ -13,8 +13,8 @@
     <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
 
     <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="Filmstamp: Timestamp Camera - CleanDino">
-    <meta property="og:description" content="Real server-verified time on every photo, wrapped in film aesthetics. The timestamp you can't fake.">
+    <meta property="og:title" content="Filmstampr: Timestamp Camera - CleanDino">
+    <meta property="og:description" content="Real network server time on every photo, wrapped in film aesthetics. A timestamp that's hard to fake.">
     <meta property="og:image" content="https://cleandino.github.io/apps/og-image.png">
     <meta property="og:url" content="https://cleandino.github.io/apps/filmstamp/">
     <meta property="og:type" content="website">
@@ -24,10 +24,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
-        :root { --detail-accent: #C07D44; }
-        .detail-hero { background: linear-gradient(180deg, rgba(192,125,68,0.07) 0%, var(--bg-primary) 100%); }
-        .detail-app-name { color: #C07D44; }
-        [data-theme="dark"] .detail-hero { background: linear-gradient(180deg, rgba(192,125,68,0.10) 0%, var(--bg-primary) 100%); }
+        :root { --detail-accent: #E0873C; }
+        .detail-hero { background: linear-gradient(180deg, rgba(224,135,60,0.10) 0%, var(--bg-primary) 100%); }
+        .detail-app-name { color: #E0873C; }
+        [data-theme="dark"] .detail-hero { background: linear-gradient(180deg, rgba(224,135,60,0.14) 0%, var(--bg-primary) 100%); }
+        /* 텍스트 드래그 선택 하이라이트도 앱 주황으로(기본은 사이트 초록) */
+        ::selection { background: rgba(224,135,60,0.32); }
+        ::-moz-selection { background: rgba(224,135,60,0.32); }
     </style>
 </head>
 <body data-page="detail" data-app="filmstamp">
@@ -61,9 +64,9 @@
     <!-- Detail Hero -->
     <section class="detail-hero">
         <div class="detail-hero-inner">
-            <img src="../images/filmstamp-icon.png" alt="Filmstamp" class="detail-icon" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Crect fill=%22%23C07D44%22 width=%22100%22 height=%22100%22 rx=%2220%22/%3E%3Ctext x=%2250%22 y=%2262%22 font-size=%2244%22 text-anchor=%22middle%22%3E🎞️%3C/text%3E%3C/svg%3E'">
-            <h1 class="detail-app-name" data-i18n="filmstamp.name">Filmstamp: Timestamp Camera</h1>
-            <p class="detail-tagline" data-i18n="filmstamp.tagline">Real-time film date stamp, verified</p>
+            <img src="../images/filmstamp-icon.png" alt="Filmstampr" class="detail-icon" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Crect fill=%22%23E0873C%22 width=%22100%22 height=%22100%22 rx=%2220%22/%3E%3Ctext x=%2250%22 y=%2262%22 font-size=%2244%22 text-anchor=%22middle%22%3E🎞️%3C/text%3E%3C/svg%3E'">
+            <h1 class="detail-app-name" data-i18n="filmstamp.name">Filmstampr: Timestamp Camera</h1>
+            <p class="detail-tagline" data-i18n="filmstamp.tagline">Real-time film date stamp</p>
 
             <div class="detail-downloads">
                 <a href="https://play.google.com/store/apps/details?id=com.cleandino.filmstamp" class="download-btn google-play" target="_blank" rel="noopener">
@@ -82,17 +85,17 @@
     <main class="detail-content">
         <div class="container">
             <p class="detail-description" data-i18n="filmstamp.description">
-                Every timestamp you can fake is worthless. Filmstamp stamps your photos with REAL server time — not your phone clock. Wrapped in beautiful film aesthetics.
+                Filmstampr stamps your photos with real network server time — not your phone clock. Change your device time all you want; the stamp uses server time instead. Wrapped in beautiful film aesthetics.
             </p>
 
             <div class="detail-features">
                 <h3 data-i18n="features.title">Key Features</h3>
                 <ul>
-                    <li data-i18n="filmstamp.feature1">⏱ Real server time, not your phone clock — a green ✓ proves every shot is genuine</li>
+                    <li data-i18n="filmstamp.feature1">⏱ Real network server time, not your phone clock — a green ✓ shows the time was checked against a server</li>
                     <li data-i18n="filmstamp.feature2">🎞 40+ timestamp styles and 25+ film filters</li>
-                    <li data-i18n="filmstamp.feature3">🔥 Unfakeable streak stamps for your routine (workout, diet, study)</li>
+                    <li data-i18n="filmstamp.feature3">🔥 Streak stamps counted from network time — much harder to fake than a device-clock streak</li>
                     <li data-i18n="filmstamp.feature4">📍 Real GPS location & city name on your stamp</li>
-                    <li data-i18n="filmstamp.feature5">✨ Free to use. Go Pro once (no subscription) to unlock all styles & remove ads</li>
+                    <li data-i18n="filmstamp.feature5">🏷️ Tag each shot (workout, diet, study) — photos auto-sort by habit, and your streak keeps counting</li>
                 </ul>
             </div>
 

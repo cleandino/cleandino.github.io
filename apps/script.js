@@ -35,14 +35,14 @@ const translations = {
             feature5: "🔮 Daily horoscope based on your zodiac sign"
         },
         filmstamp: {
-            name: "Filmstamp: Timestamp Camera",
-            tagline: "Real-time film date stamp, verified",
-            description: "Every timestamp you can fake is worthless. Filmstamp stamps your photos with REAL server time — not your phone clock. Wrapped in beautiful film aesthetics.",
-            feature1: "⏱ Real server time, not your phone clock — a green ✓ proves every shot is genuine",
+            name: "Filmstampr: Timestamp Camera",
+            tagline: "Real-time film date stamp",
+            description: "Filmstampr stamps your photos with real network server time — not your phone clock. Change your device time all you want; the stamp uses server time instead. Wrapped in beautiful film aesthetics.",
+            feature1: "⏱ Real network server time, not your phone clock — a green ✓ shows the time was checked against a server",
             feature2: "🎞 40+ timestamp styles and 25+ film filters",
-            feature3: "🔥 Unfakeable streak stamps for your routine (workout, diet, study)",
+            feature3: "🔥 Streak stamps counted from network time — much harder to fake than a device-clock streak",
             feature4: "📍 Real GPS location & city name on your stamp",
-            feature5: "✨ Free to use. Go Pro once (no subscription) to unlock all styles & remove ads"
+            feature5: "🏷️ Tag each shot (workout, diet, study) — photos auto-sort by habit, and your streak keeps counting"
         },
         features: {
             title: "Key Features"
@@ -90,14 +90,14 @@ const translations = {
             feature5: "🔮 星座に基づく毎日の占い"
         },
         filmstamp: {
-            name: "Filmstamp: タイムスタンプカメラ",
-            tagline: "サーバー時刻認証のフィルム刻印",
-            description: "改ざんできる時刻に意味はありません。Filmstampは端末の時計ではなく、本物のサーバー時刻を写真に刻みます。しかもフィルムの質感で。",
-            feature1: "⏱ 端末ではなく本物のサーバー時刻 — 緑の✓がすべての写真の本物である証明",
+            name: "Filmstampr: 日付フィルムカメラ",
+            tagline: "サーバー時刻のフィルム刻印",
+            description: "Filmstamprは端末の時計ではなく、ネットワークのサーバー時刻を写真に刻みます。端末の時間をいくら変えても、スタンプはサーバー時刻を使います。しかもフィルムの質感で。",
+            feature1: "⏱ 端末ではなくネットワークのサーバー時刻 — 緑の✓がサーバーで確認された時刻であることを表示",
             feature2: "🎞 40種以上のタイムスタンプと25種以上のフィルムフィルター",
-            feature3: "🔥 改ざん不能な連続記録スタンプ（運動・ダイエット・勉強）",
+            feature3: "🔥 ネットワーク時刻で数える連続記録スタンプ（運動・ダイエット・勉強）— 端末時計よりずっと改ざんしにくい",
             feature4: "📍 スタンプに実際のGPS位置と都市名",
-            feature5: "✨ 無料で使用可。一度きりの購入（サブスクなし）で全スタイル解放・広告なし"
+            feature5: "🏷️ 撮るたびにタグ付け（運動・食事・勉強）— 写真が習慣別に自動整理され、連続記録もカウント"
         },
         features: {
             title: "主な機能"
@@ -145,14 +145,14 @@ const translations = {
             feature5: "🔮 별자리 기반 매일의 운세"
         },
         filmstamp: {
-            name: "Filmstamp: 타임스탬프 카메라",
-            tagline: "서버시간 검증 필름 타임스탬프",
-            description: "조작할 수 있는 시간은 아무 의미가 없습니다. Filmstamp는 폰 시계가 아니라 진짜 서버 시간을 사진에 새깁니다. 거기에 필름 감성까지.",
-            feature1: "⏱ 폰 시계가 아닌 진짜 서버 시간 — 초록 ✓ 배지가 모든 사진이 진짜임을 증명",
+            name: "Filmstampr: 타임스탬프 카메라",
+            tagline: "서버 시간 필름 타임스탬프",
+            description: "Filmstampr는 폰 시계가 아니라 네트워크 서버 시간을 사진에 새깁니다. 기기 시간을 아무리 바꿔도 스탬프는 서버 시간을 씁니다. 거기에 필름 감성까지.",
+            feature1: "⏱ 폰 시계가 아닌 네트워크 서버 시간 — 초록 ✓ 배지가 서버로 확인된 시간임을 표시",
             feature2: "🎞 40종 이상의 타임스탬프 + 25종 필름 필터",
-            feature3: "🔥 조작 불가능한 연속 기록 스탬프 (운동·다이어트·공부)",
+            feature3: "🔥 네트워크 시간으로 세는 연속 기록 스탬프 (운동·다이어트·공부) — 기기 시계 기반보다 훨씬 조작하기 어려움",
             feature4: "📍 스탬프에 실제 GPS 위치 & 도시 이름",
-            feature5: "✨ 무료로 시작. Pro는 단 한 번 결제(구독 아님)로 전 스타일 잠금해제 + 광고 제거"
+            feature5: "🏷️ 찍을 때마다 태그(운동·다이어트·공부) — 사진이 습관별로 자동 정리되고 연속 기록도 카운트"
         },
         features: {
             title: "주요 기능"
@@ -200,14 +200,14 @@ const translations = {
             feature5: "🔮 Tử vi hàng ngày dựa trên cung hoàng đạo"
         },
         filmstamp: {
-            name: "Filmstamp: Camera đóng dấu",
-            tagline: "Dấu thời gian phim đã xác minh",
-            description: "Dấu thời gian có thể làm giả thì vô nghĩa. Filmstamp đóng dấu ảnh của bạn bằng thời gian THẬT từ máy chủ — không phải đồng hồ điện thoại. Cùng thẩm mỹ phim tuyệt đẹp.",
-            feature1: "⏱ Thời gian máy chủ thật, không phải đồng hồ điện thoại — dấu ✓ xanh chứng minh mỗi ảnh là thật",
+            name: "Filmstampr: Camera đóng dấu",
+            tagline: "Dấu thời gian phim từ máy chủ",
+            description: "Filmstampr đóng dấu ảnh của bạn bằng thời gian máy chủ mạng — không phải đồng hồ điện thoại. Đổi giờ thiết bị bao nhiêu tùy thích; dấu vẫn dùng giờ máy chủ. Cùng thẩm mỹ phim tuyệt đẹp.",
+            feature1: "⏱ Thời gian máy chủ mạng, không phải đồng hồ điện thoại — dấu ✓ xanh cho thấy giờ đã được đối chiếu với máy chủ",
             feature2: "🎞 Hơn 40 kiểu dấu thời gian và hơn 25 bộ lọc phim",
-            feature3: "🔥 Dấu chuỗi ngày không thể gian lận cho thói quen (tập luyện, ăn kiêng, học tập)",
+            feature3: "🔥 Dấu chuỗi ngày tính theo giờ mạng cho thói quen (tập luyện, ăn kiêng, học) — khó làm giả hơn nhiều so với đồng hồ thiết bị",
             feature4: "📍 Vị trí GPS thật và tên thành phố trên dấu",
-            feature5: "✨ Miễn phí. Mua Pro một lần (không đăng ký) để mở khóa mọi kiểu và bỏ quảng cáo"
+            feature5: "🏷️ Gắn thẻ mỗi ảnh (tập luyện, ăn kiêng, học) — ảnh tự sắp xếp theo thói quen, chuỗi ngày vẫn được đếm"
         },
         features: {
             title: "Tính năng chính"
@@ -255,14 +255,14 @@ const translations = {
             feature5: "🔮 基于星座的每日运势"
         },
         filmstamp: {
-            name: "Filmstamp: 时间戳相机",
-            tagline: "服务器时间认证的胶片刻印",
-            description: "可以伪造的时间毫无价值。Filmstamp 把真正的服务器时间刻在你的照片上——不是手机时钟。还带着精致的胶片质感。",
-            feature1: "⏱ 真正的服务器时间，而非手机时钟——绿色 ✓ 徽章证明每张照片都真实",
+            name: "Filmstampr: 胶片时间水印",
+            tagline: "网络服务器时间的胶片刻印",
+            description: "Filmstampr 把网络服务器时间刻在你的照片上——不是手机时钟。随便你怎么改设备时间，刻印都使用服务器时间。还带着精致的胶片质感。",
+            feature1: "⏱ 网络服务器时间，而非手机时钟——绿色 ✓ 徽章显示时间已通过服务器核对",
             feature2: "🎞 40+ 种时间戳样式和 25+ 种胶片滤镜",
-            feature3: "🔥 无法作弊的连续打卡刻印（健身、减脂、学习）",
+            feature3: "🔥 按网络时间统计的连续打卡刻印（健身、减脂、学习）— 比基于设备时钟的记录更难作弊",
             feature4: "📍 刻印中的真实 GPS 定位与城市名",
-            feature5: "✨ 免费使用。一次买断 Pro（非订阅）即可解锁全部样式、免广告"
+            feature5: "🏷️ 每张照片打标签（健身、减脂、学习）— 照片按习惯自动分类，连续打卡持续累计"
         },
         features: {
             title: "主要功能"
@@ -310,14 +310,14 @@ const translations = {
             feature5: "🔮 Horoskop harian berdasarkan zodiak Anda"
         },
         filmstamp: {
-            name: "Filmstamp: Kamera Stempel Waktu",
-            tagline: "Stempel waktu film terverifikasi",
-            description: "Stempel waktu yang bisa dipalsukan tidak ada gunanya. Filmstamp menstempel foto Anda dengan waktu server ASLI — bukan jam ponsel. Dibalut estetika film yang indah.",
-            feature1: "⏱ Waktu server asli, bukan jam ponsel — lencana ✓ hijau membuktikan setiap foto asli",
+            name: "Filmstampr: Kamera Stempel Waktu",
+            tagline: "Stempel waktu film dari server",
+            description: "Filmstampr menstempel foto Anda dengan waktu server jaringan — bukan jam ponsel. Ubah waktu perangkat sesuka Anda; stempel tetap memakai waktu server. Dibalut estetika film yang indah.",
+            feature1: "⏱ Waktu server jaringan, bukan jam ponsel — lencana ✓ hijau menunjukkan waktu telah dicek ke server",
             feature2: "🎞 40+ gaya stempel waktu dan 25+ filter film",
-            feature3: "🔥 Stempel streak yang tak bisa dicurangi untuk rutinitas (olahraga, diet, belajar)",
+            feature3: "🔥 Stempel streak dihitung dari waktu jaringan untuk rutinitas (olahraga, diet, belajar) — jauh lebih sulit dipalsukan daripada jam perangkat",
             feature4: "📍 Lokasi GPS asli & nama kota pada stempel",
-            feature5: "✨ Gratis. Beli Pro sekali (tanpa langganan) untuk buka semua gaya & tanpa iklan"
+            feature5: "🏷️ Beri tag tiap foto (olahraga, diet, belajar) — foto tersortir otomatis per kebiasaan, streak terus dihitung"
         },
         features: {
             title: "Fitur Utama"
@@ -365,14 +365,14 @@ const translations = {
             feature5: "🔮 ดูดวงรายวันตามราศีของคุณ"
         },
         filmstamp: {
-            name: "Filmstamp: กล้องประทับเวลา",
-            tagline: "ประทับเวลาฟิล์มที่ยืนยันแล้ว",
-            description: "เวลาที่ปลอมได้ไร้ค่า Filmstamp ประทับเวลาเซิร์ฟเวอร์จริงลงบนภาพของคุณ — ไม่ใช่นาฬิกาในเครื่อง ห่อหุ้มด้วยความงามแบบฟิล์ม",
-            feature1: "⏱ เวลาเซิร์ฟเวอร์จริง ไม่ใช่นาฬิกาในเครื่อง — เครื่องหมาย ✓ สีเขียวพิสูจน์ว่าทุกภาพเป็นของจริง",
+            name: "Filmstampr: กล้องประทับเวลา",
+            tagline: "ประทับเวลาฟิล์มจากเซิร์ฟเวอร์",
+            description: "Filmstampr ประทับเวลาเซิร์ฟเวอร์เครือข่ายลงบนภาพของคุณ — ไม่ใช่นาฬิกาในเครื่อง เปลี่ยนเวลาเครื่องยังไงก็ได้ ตราประทับก็ยังใช้เวลาเซิร์ฟเวอร์ ห่อหุ้มด้วยความงามแบบฟิล์ม",
+            feature1: "⏱ เวลาเซิร์ฟเวอร์เครือข่าย ไม่ใช่นาฬิกาในเครื่อง — เครื่องหมาย ✓ สีเขียวแสดงว่าเวลาถูกตรวจกับเซิร์ฟเวอร์",
             feature2: "🎞 สไตล์ประทับเวลากว่า 40 แบบ และฟิลเตอร์ฟิล์มกว่า 25 แบบ",
-            feature3: "🔥 ประทับสตรีคที่โกงไม่ได้สำหรับกิจวัตร (ออกกำลังกาย ไดเอต เรียน)",
+            feature3: "🔥 ประทับสตรีคนับตามเวลาเครือข่ายสำหรับกิจวัตร (ออกกำลังกาย ไดเอต เรียน) — ปลอมยากกว่านาฬิกาในเครื่องมาก",
             feature4: "📍 ตำแหน่ง GPS จริงและชื่อเมืองบนตราประทับ",
-            feature5: "✨ ใช้ฟรี ซื้อ Pro ครั้งเดียว (ไม่ใช่สมัครสมาชิก) เพื่อปลดล็อกทุกสไตล์และไม่มีโฆษณา"
+            feature5: "🏷️ แท็กทุกภาพ (ออกกำลังกาย ไดเอต เรียน) — ภาพจัดเรียงตามนิสัยอัตโนมัติ และสตรีคนับต่อเนื่อง"
         },
         features: {
             title: "คุณสมบัติหลัก"
