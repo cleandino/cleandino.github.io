@@ -44,6 +44,15 @@ const translations = {
             feature4: "📍 Real GPS location & city name on your stamp",
             feature5: "🏷️ Tag each shot (workout, diet, study) — photos auto-sort by habit, and your streak keeps counting"
         },
+        rushkitchen: {
+            name: "Rush Hour Kitchen: Roguelike",
+            tagline: "A cooking roguelike deckbuilder",
+            description: "Rush Hour Kitchen is a cozy roguelike deckbuilder about a plucky cat chef chasing one dream: a diner with their own name on the sign. Pay back Mr. Shark, a menacing loan shark, one payment day at a time — every run is a fresh puzzle of ingredients, combos and tough choices.",
+            feature1: "🍚 Place ingredients side by side to cook dishes — Rice + Seaweed = Gimbap, Meat + Onion = Bulgogi. Cook several at once to trigger a RUSH HOUR bonus that multiplies your coins.",
+            feature2: "🃏 A deckbuilder at heart — assemble a deck of 57 ingredients, customers and kitchen tools, each with its own synergy. No two runs are the same.",
+            feature3: "🏆 Level up your diner with 14 passive perks, learn 21 recipes, and reach a real ending — pay off every coin, then unlock Endless mode.",
+            feature4: "🐱 A premium game that respects you — pay once, no ads, no in-app purchases, fully offline. No gambling, no tracking. Just cooking."
+        },
         features: {
             title: "Key Features"
         },
@@ -98,6 +107,15 @@ const translations = {
             feature3: "🔥 ネットワーク時刻で数える連続記録スタンプ（運動・ダイエット・勉強）— 端末時計よりずっと改ざんしにくい",
             feature4: "📍 スタンプに実際のGPS位置と都市名",
             feature5: "🏷️ 撮るたびにタグ付け（運動・食事・勉強）— 写真が習慣別に自動整理され、連続記録もカウント"
+        },
+        rushkitchen: {
+            name: "ラッシュアワーキッチン：ローグライク",
+            tagline: "料理×ローグライクのデッキ構築ゲーム",
+            description: "「ラッシュアワーキッチン」は、たった一つの夢を追う元気なネコシェフの、ほっこり癒し系ローグライク・デッキ構築ゲーム。自分の名前を掲げた食堂を持つため、恐ろしい高利貸し「シャーク社長」への借金を支払い日ごとに返していきます。毎回のプレイが、食材・組み合わせ・きわどい選択でできた新しいパズルです。",
+            feature1: "🍚 食材を隣り合わせに置いて料理を完成 — ごはん＋のり＝のり巻き、肉＋玉ねぎ＝プルコギ。一度に複数作れば収入を倍増させるラッシュアワーボーナスが発動！",
+            feature2: "🃏 本格デッキ構築 — 57種の食材・お客・調理器具で自分だけのデッキを組む。それぞれにシナジーがあり、同じプレイは二度とありません。",
+            feature3: "🏆 14種のパッシブ特典で食堂をレベルアップ、21種のレシピを習得、本物のエンディングへ — 全額返済すればエンドレスモード解放。",
+            feature4: "🐱 あなたを尊重するプレミアムゲーム — 一度きりの購入、広告なし、アプリ内課金なし、完全オフライン。ギャンブルなし、追跡なし。ただ料理を。"
         },
         features: {
             title: "主な機能"
@@ -154,6 +172,15 @@ const translations = {
             feature4: "📍 스탬프에 실제 GPS 위치 & 도시 이름",
             feature5: "🏷️ 찍을 때마다 태그(운동·다이어트·공부) — 사진이 습관별로 자동 정리되고 연속 기록도 카운트"
         },
+        rushkitchen: {
+            name: "러시아워 키친: 요리 로그라이크",
+            tagline: "요리 로그라이크 덱빌딩 게임",
+            description: "러시아워 키친은 꿈 많은 고양이 셰프의 아늑한 로그라이크 덱빌딩 게임이에요. 자기 이름을 내건 식당을 위해, 끈질기고 무서운 사채업자 '샤크 사장'에게 빌린 돈을 상납일마다 하나씩 갚아 나가야 해요. 매 판이 재료·조합·선택으로 짜인 새로운 퍼즐입니다.",
+            feature1: "🍚 재료를 서로 옆에 놓아 요리 완성 — 밥＋김＝김밥, 고기＋양파＝불고기. 한 번에 여러 요리를 완성하면 수입을 곱해 주는 러시아워 보너스가 터져요!",
+            feature2: "🃏 본격 덱빌딩 — 57종의 재료·손님·주방 기구로 나만의 덱을 완성해요. 각자 시너지가 있어 매 판이 다릅니다.",
+            feature3: "🏆 14종 패시브 특전으로 식당 레벨업, 21가지 레시피 습득, 진짜 엔딩까지 — 마지막 한 닢까지 갚으면 엔드리스 모드 해금.",
+            feature4: "🐱 당신을 존중하는 프리미엄 게임 — 한 번 결제, 광고 없음, 인앱결제 없음, 완전 오프라인. 도박 없음, 추적 없음. 오직 요리."
+        },
         features: {
             title: "주요 기능"
         },
@@ -208,6 +235,15 @@ const translations = {
             feature3: "🔥 Dấu chuỗi ngày tính theo giờ mạng cho thói quen (tập luyện, ăn kiêng, học) — khó làm giả hơn nhiều so với đồng hồ thiết bị",
             feature4: "📍 Vị trí GPS thật và tên thành phố trên dấu",
             feature5: "🏷️ Gắn thẻ mỗi ảnh (tập luyện, ăn kiêng, học) — ảnh tự sắp xếp theo thói quen, chuỗi ngày vẫn được đếm"
+        },
+        rushkitchen: {
+            name: "Rush Hour Kitchen: Roguelike",
+            tagline: "Game roguelike nấu ăn xây bộ bài",
+            description: "Rush Hour Kitchen là một game roguelike xây bộ bài ấm cúng kể về chú mèo đầu bếp gan dạ theo đuổi một giấc mơ: một quán ăn có tên mình trên bảng hiệu. Bạn phải trả nợ cho ông Shark — tay cho vay nặng lãi đầy đe dọa — dần từng ngày đến hạn. Mỗi lượt chơi là một câu đố mới về nguyên liệu, combo và lựa chọn khó khăn.",
+            feature1: "🍚 Đặt nguyên liệu cạnh nhau để nấu món — Cơm + Rong biển = Gimbap, Thịt + Hành = Bulgogi. Nấu nhiều món cùng lúc để kích hoạt thưởng RUSH HOUR nhân đôi số xu!",
+            feature2: "🃏 Cốt lõi là xây bộ bài — ghép bộ bài gồm 57 nguyên liệu, khách hàng và dụng cụ bếp, mỗi thứ có synergy riêng. Không lượt nào giống lượt nào.",
+            feature3: "🏆 Nâng cấp quán với 14 đặc quyền bị động, học 21 công thức và đạt kết thúc thật sự — trả hết nợ rồi mở khóa chế độ Endless.",
+            feature4: "🐱 Game premium tôn trọng bạn — trả một lần, không quảng cáo, không mua trong ứng dụng, hoàn toàn offline. Không cờ bạc, không theo dõi. Chỉ nấu ăn."
         },
         features: {
             title: "Tính năng chính"
@@ -264,6 +300,15 @@ const translations = {
             feature4: "📍 刻印中的真实 GPS 定位与城市名",
             feature5: "🏷️ 每张照片打标签（健身、减脂、学习）— 照片按习惯自动分类，连续打卡持续累计"
         },
+        rushkitchen: {
+            name: "繁忙厨房：料理肉鸽卡牌",
+            tagline: "料理肉鸽卡牌构筑游戏",
+            description: "《繁忙厨房》是一款温馨的料理肉鸽卡牌构筑游戏，讲述一只勇敢的猫咪厨师追逐唯一梦想的故事：开一家挂着自己名字招牌的小餐馆。为了实现梦想，你得在每个还款日一笔一笔地还清欠鲨鱼老板的债。每一局都是由食材、组合与艰难抉择拼成的全新谜题。",
+            feature1: "🍚 把食材相邻摆放即可做菜 —— 米饭＋海苔＝紫菜包饭，肉＋洋葱＝烤肉。一次做出多道菜即可触发让收入翻倍的繁忙时段奖励！",
+            feature2: "🃏 核心是卡牌构筑 —— 用 57 种食材、顾客与厨具组建专属牌组，各有联动效果，每一局都不一样。",
+            feature3: "🏆 用 14 种被动特权升级餐馆，学会 21 道菜谱，抵达真正的结局 —— 还清每一枚硬币后解锁无尽模式。",
+            feature4: "🐱 尊重你的付费游戏 —— 一次买断、无广告、无内购、完全离线。无赌博、无追踪，只有料理。"
+        },
         features: {
             title: "主要功能"
         },
@@ -319,6 +364,15 @@ const translations = {
             feature4: "📍 Lokasi GPS asli & nama kota pada stempel",
             feature5: "🏷️ Beri tag tiap foto (olahraga, diet, belajar) — foto tersortir otomatis per kebiasaan, streak terus dihitung"
         },
+        rushkitchen: {
+            name: "Rush Hour Kitchen: Roguelike",
+            tagline: "Roguelike deckbuilder memasak",
+            description: "Rush Hour Kitchen adalah roguelike deckbuilder yang hangat tentang seekor kucing koki gigih yang mengejar satu impian: sebuah kedai dengan namanya sendiri di papan nama. Kamu harus melunasi utang kepada Bos Shark — rentenir yang menyeramkan — satu hari bayar demi satu hari bayar. Setiap ronde adalah teka-teki baru berisi bahan, kombo, dan pilihan sulit.",
+            feature1: "🍚 Letakkan bahan berdampingan untuk memasak — Nasi + Rumput Laut = Gimbap, Daging + Bawang = Bulgogi. Masak beberapa sekaligus untuk memicu bonus RUSH HOUR yang menggandakan koinmu!",
+            feature2: "🃏 Inti permainan adalah deckbuilder — susun dek berisi 57 bahan, pelanggan, dan alat dapur, masing-masing punya sinergi sendiri. Tak ada ronde yang sama.",
+            feature3: "🏆 Tingkatkan kedaimu dengan 14 perk pasif, pelajari 21 resep, dan capai ending sungguhan — lunasi setiap koin, lalu buka mode Endless.",
+            feature4: "🐱 Game premium yang menghargaimu — bayar sekali, tanpa iklan, tanpa pembelian dalam aplikasi, sepenuhnya offline. Tanpa judi, tanpa pelacakan. Hanya memasak."
+        },
         features: {
             title: "Fitur Utama"
         },
@@ -373,6 +427,15 @@ const translations = {
             feature3: "🔥 ประทับสตรีคนับตามเวลาเครือข่ายสำหรับกิจวัตร (ออกกำลังกาย ไดเอต เรียน) — ปลอมยากกว่านาฬิกาในเครื่องมาก",
             feature4: "📍 ตำแหน่ง GPS จริงและชื่อเมืองบนตราประทับ",
             feature5: "🏷️ แท็กทุกภาพ (ออกกำลังกาย ไดเอต เรียน) — ภาพจัดเรียงตามนิสัยอัตโนมัติ และสตรีคนับต่อเนื่อง"
+        },
+        rushkitchen: {
+            name: "Rush Hour Kitchen: โร้กไลค์",
+            tagline: "เกมทำอาหารโร้กไลค์เด็คบิลด์",
+            description: "Rush Hour Kitchen คือเกมทำอาหารแนวโร้กไลค์เด็คบิลด์แสนอบอุ่น ว่าด้วยเชฟแมวจอมมุ่งมั่นที่มีความฝันเดียว — เปิดร้านอาหารที่มีชื่อของตัวเองอยู่บนป้าย แต่คุณต้องผ่อนหนี้คืนให้ \"เจ้าสัวฉลาม\" เจ้าหนี้เงินกู้สุดน่าขนลุก ทีละงวดในวันชำระ ทุกเกมคือปริศนาใหม่ของวัตถุดิบ คอมโบ และการตัดสินใจที่ยากลำบาก",
+            feature1: "🍚 วางวัตถุดิบติดกันเพื่อปรุงเมนู — ข้าว + สาหร่าย = คิมบับ, เนื้อ + หัวหอม = พุลโกกิ ปรุงหลายจานพร้อมกันเพื่อกระตุ้นโบนัส RUSH HOUR ที่คูณเหรียญของคุณ!",
+            feature2: "🃏 หัวใจคือเด็คบิลด์ — สร้างเด็คจากวัตถุดิบ ลูกค้า และอุปกรณ์ครัว 57 อย่าง แต่ละอย่างมีซินเนอร์ยีของตัวเอง ไม่มีเกมไหนซ้ำกัน",
+            feature3: "🏆 อัปเกรดร้านด้วยสกิลพาสซีฟ 14 แบบ เรียนรู้ 21 สูตร และไปถึงตอนจบจริง — ผ่อนหนี้ครบทุกเหรียญแล้วปลดล็อกโหมด Endless",
+            feature4: "🐱 เกมพรีเมียมที่เคารพคุณ — จ่ายครั้งเดียว ไม่มีโฆษณา ไม่มีการซื้อในแอป เล่นออฟไลน์เต็มรูปแบบ ไม่มีการพนัน ไม่มีการติดตาม มีแค่การทำอาหาร"
         },
         features: {
             title: "คุณสมบัติหลัก"
