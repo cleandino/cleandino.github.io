@@ -280,6 +280,7 @@ body {
 .app-grid-card[data-color="#2E8B57"] { --card-accent: #2E8B57; }
 .app-grid-card[data-color="#3498DB"] { --card-accent: #3498DB; }
 .app-grid-card[data-color="#E0873C"] { --card-accent: #E0873C; }
+.app-grid-card[data-color="#4A6D8C"] { --card-accent: #4A6D8C; }
 
 .grid-card-icon {
     width: 64px;
