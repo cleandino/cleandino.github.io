@@ -281,6 +281,8 @@ body {
 .app-grid-card[data-color="#3498DB"] { --card-accent: #3498DB; }
 .app-grid-card[data-color="#E0873C"] { --card-accent: #E0873C; }
 .app-grid-card[data-color="#4A6D8C"] { --card-accent: #4A6D8C; }
+.app-grid-card[data-color="#F5A623"] { --card-accent: #F5A623; }
+.app-grid-card[data-color="#4472C4"] { --card-accent: #4472C4; }
 
 .grid-card-icon {
     width: 64px;

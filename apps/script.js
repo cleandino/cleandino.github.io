@@ -53,6 +53,23 @@ const translations = {
             feature3: "🏆 Level up your diner with 14 passive perks, learn 21 recipes, and reach a real ending — pay off every coin, then unlock Endless mode.",
             feature4: "🐱 A premium game that respects you — pay once, no ads, no in-app purchases, fully offline. No gambling, no tracking. Just cooking."
         },
+        myurls: {
+            name: "MyURLs - Bookmark Manager",
+            tagline: "Save and organize your links",
+            description: "Drowning in bookmarks? My URLs keeps every link you care about in one tidy place, with folders, search, and optional cloud backup so you never lose them.",
+            feature1: "🔗 Save links from any app with the share sheet",
+            feature2: "📁 Organize with folders and tags, find anything by search",
+            feature3: "☁️ Optional cloud backup — sign in and restore on a new phone",
+            feature4: "📱 Home screen widgets for one-tap access to your favorites"
+        },
+        myhomesize: {
+            name: "Korean Area Calculator",
+            tagline: "Pyeong and m² at a glance",
+            description: "Apartment listings in pyeong, but your head thinks in m²? Convert instantly both ways and see what the space actually looks like.",
+            feature1: "📐 Instant two-way conversion between pyeong and m²",
+            feature2: "⚡ Simple, fast, no clutter — built for one job",
+            feature3: "🏠 Handy while browsing real estate listings"
+        },
         features: {
             title: "Key Features"
         },
@@ -116,6 +133,23 @@ const translations = {
             feature2: "🃏 本格デッキ構築 — 57種の食材・お客・調理器具で自分だけのデッキを組む。それぞれにシナジーがあり、同じプレイは二度とありません。",
             feature3: "🏆 14種のパッシブ特典で食堂をレベルアップ、21種のレシピを習得、本物のエンディングへ — 全額返済すればエンドレスモード解放。",
             feature4: "🐱 あなたを尊重するプレミアムゲーム — 一度きりの購入、広告なし、アプリ内課金なし、完全オフライン。ギャンブルなし、追跡なし。ただ料理を。"
+        },
+        myurls: {
+            name: "MyURLs - ブックマーク管理",
+            tagline: "リンクを保存して整理",
+            description: "ブックマークが溢れていませんか？My URLs は大切なリンクをひとつの場所にすっきり整理。フォルダ、検索、クラウドバックアップに対応し、もう見失いません。",
+            feature1: "🔗 共有シートからどのアプリでもリンクを保存",
+            feature2: "📁 フォルダとタグで整理、検索ですぐ見つかる",
+            feature3: "☁️ 任意のクラウドバックアップ — ログインで新しい端末にも復元",
+            feature4: "📱 ホーム画面ウィジェットでお気に入りにワンタップ"
+        },
+        myhomesize: {
+            name: "韓国面積計算機（坪・㎡）",
+            tagline: "坪と㎡をひと目で",
+            description: "物件情報は坪、頭の中は㎡。両方向に即座に換算して、実際の広さをイメージできます。",
+            feature1: "📐 坪と㎡の双方向を瞬時に換算",
+            feature2: "⚡ シンプルで速い、余計な機能なし",
+            feature3: "🏠 不動産情報を見ながらすぐ使える"
         },
         features: {
             title: "主な機能"
@@ -181,6 +215,23 @@ const translations = {
             feature3: "🏆 14종 패시브 특전으로 식당 레벨업, 21가지 레시피 습득, 진짜 엔딩까지 — 마지막 한 닢까지 갚으면 엔드리스 모드 해금.",
             feature4: "🐱 당신을 존중하는 프리미엄 게임 — 한 번 결제, 광고 없음, 인앱결제 없음, 완전 오프라인. 도박 없음, 추적 없음. 오직 요리."
         },
+        myurls: {
+            name: "MyURLs - 북마크 관리",
+            tagline: "링크를 저장하고 정리하세요",
+            description: "북마크가 감당이 안 되나요? My URLs는 중요한 링크를 한곳에 깔끔하게 모아줍니다. 폴더와 검색, 선택적 클라우드 백업까지 지원해 다시는 잃어버리지 않습니다.",
+            feature1: "🔗 공유 시트로 어떤 앱에서든 링크 저장",
+            feature2: "📁 폴더와 태그로 정리, 검색으로 바로 찾기",
+            feature3: "☁️ 선택형 클라우드 백업 — 로그인하면 새 폰에서 복원",
+            feature4: "📱 홈 화면 위젯으로 즐겨찾기에 한 번에 접근"
+        },
+        myhomesize: {
+            name: "평수 계산기",
+            tagline: "평과 제곱미터를 한눈에",
+            description: "매물은 평으로 나오는데 머릿속은 제곱미터인가요? 양방향으로 즉시 환산해 실제 넓이를 바로 가늠할 수 있습니다.",
+            feature1: "📐 평 ↔ 제곱미터 양방향 즉시 환산",
+            feature2: "⚡ 군더더기 없이 간단하고 빠르게",
+            feature3: "🏠 부동산 매물 볼 때 바로 쓰기 좋아요"
+        },
         features: {
             title: "주요 기능"
         },
@@ -244,6 +295,23 @@ const translations = {
             feature2: "🃏 Cốt lõi là xây bộ bài — ghép bộ bài gồm 57 nguyên liệu, khách hàng và dụng cụ bếp, mỗi thứ có synergy riêng. Không lượt nào giống lượt nào.",
             feature3: "🏆 Nâng cấp quán với 14 đặc quyền bị động, học 21 công thức và đạt kết thúc thật sự — trả hết nợ rồi mở khóa chế độ Endless.",
             feature4: "🐱 Game premium tôn trọng bạn — trả một lần, không quảng cáo, không mua trong ứng dụng, hoàn toàn offline. Không cờ bạc, không theo dõi. Chỉ nấu ăn."
+        },
+        myurls: {
+            name: "MyURLs - Quản lý dấu trang",
+            tagline: "Lưu và sắp xếp liên kết của bạn",
+            description: "Chìm trong dấu trang? My URLs giữ mọi liên kết quan trọng ở một nơi gọn gàng, với thư mục, tìm kiếm và sao lưu đám mây tùy chọn để bạn không bao giờ mất chúng.",
+            feature1: "🔗 Lưu liên kết từ mọi ứng dụng qua trình chia sẻ",
+            feature2: "📁 Sắp xếp bằng thư mục và thẻ, tìm mọi thứ bằng tìm kiếm",
+            feature3: "☁️ Sao lưu đám mây tùy chọn — đăng nhập và khôi phục trên máy mới",
+            feature4: "📱 Tiện ích màn hình chính để truy cập nhanh mục yêu thích"
+        },
+        myhomesize: {
+            name: "Máy tính diện tích Hàn Quốc",
+            tagline: "Pyeong và m² trong nháy mắt",
+            description: "Tin rao nhà tính bằng pyeong nhưng bạn quen với m²? Chuyển đổi tức thì cả hai chiều và hình dung diện tích thực tế.",
+            feature1: "📐 Chuyển đổi hai chiều tức thì giữa pyeong và m²",
+            feature2: "⚡ Đơn giản, nhanh, không rườm rà",
+            feature3: "🏠 Tiện lợi khi xem tin rao bất động sản"
         },
         features: {
             title: "Tính năng chính"
@@ -309,6 +377,23 @@ const translations = {
             feature3: "🏆 用 14 种被动特权升级餐馆，学会 21 道菜谱，抵达真正的结局 —— 还清每一枚硬币后解锁无尽模式。",
             feature4: "🐱 尊重你的付费游戏 —— 一次买断、无广告、无内购、完全离线。无赌博、无追踪，只有料理。"
         },
+        myurls: {
+            name: "MyURLs - 书签管理",
+            tagline: "保存并整理你的链接",
+            description: "书签多到找不着？My URLs 把重要链接整齐地收在一处，支持文件夹、搜索和可选的云备份，再也不会弄丢。",
+            feature1: "🔗 通过共享菜单从任意应用保存链接",
+            feature2: "📁 用文件夹和标签整理，搜索一下就能找到",
+            feature3: "☁️ 可选云备份 — 登录后在新手机上恢复",
+            feature4: "📱 主屏小组件，一键打开常用链接"
+        },
+        myhomesize: {
+            name: "韩国面积换算器（坪·平方米）",
+            tagline: "坪与平方米一目了然",
+            description: "房源按坪标注，脑子里却是平方米？双向即时换算，立刻知道实际有多大。",
+            feature1: "📐 坪与平方米双向即时换算",
+            feature2: "⚡ 简单快速，没有多余功能",
+            feature3: "🏠 看房源信息时随手就能用"
+        },
         features: {
             title: "主要功能"
         },
@@ -373,6 +458,23 @@ const translations = {
             feature3: "🏆 Tingkatkan kedaimu dengan 14 perk pasif, pelajari 21 resep, dan capai ending sungguhan — lunasi setiap koin, lalu buka mode Endless.",
             feature4: "🐱 Game premium yang menghargaimu — bayar sekali, tanpa iklan, tanpa pembelian dalam aplikasi, sepenuhnya offline. Tanpa judi, tanpa pelacakan. Hanya memasak."
         },
+        myurls: {
+            name: "MyURLs - Pengelola Markah",
+            tagline: "Simpan dan atur tautan Anda",
+            description: "Tenggelam dalam markah? My URLs menyimpan setiap tautan penting di satu tempat yang rapi, dengan folder, pencarian, dan cadangan awan opsional agar tidak pernah hilang.",
+            feature1: "🔗 Simpan tautan dari aplikasi apa pun lewat menu berbagi",
+            feature2: "📁 Atur dengan folder dan tag, temukan apa pun lewat pencarian",
+            feature3: "☁️ Cadangan awan opsional — masuk dan pulihkan di ponsel baru",
+            feature4: "📱 Widget layar utama untuk akses cepat ke favorit"
+        },
+        myhomesize: {
+            name: "Kalkulator Luas Korea",
+            tagline: "Pyeong dan m² sekilas",
+            description: "Iklan properti pakai pyeong tapi Anda terbiasa m²? Konversi instan dua arah dan langsung tahu luas sebenarnya.",
+            feature1: "📐 Konversi dua arah instan antara pyeong dan m²",
+            feature2: "⚡ Sederhana, cepat, tanpa embel-embel",
+            feature3: "🏠 Praktis saat menelusuri iklan properti"
+        },
         features: {
             title: "Fitur Utama"
         },
@@ -436,6 +538,23 @@ const translations = {
             feature2: "🃏 หัวใจคือเด็คบิลด์ — สร้างเด็คจากวัตถุดิบ ลูกค้า และอุปกรณ์ครัว 57 อย่าง แต่ละอย่างมีซินเนอร์ยีของตัวเอง ไม่มีเกมไหนซ้ำกัน",
             feature3: "🏆 อัปเกรดร้านด้วยสกิลพาสซีฟ 14 แบบ เรียนรู้ 21 สูตร และไปถึงตอนจบจริง — ผ่อนหนี้ครบทุกเหรียญแล้วปลดล็อกโหมด Endless",
             feature4: "🐱 เกมพรีเมียมที่เคารพคุณ — จ่ายครั้งเดียว ไม่มีโฆษณา ไม่มีการซื้อในแอป เล่นออฟไลน์เต็มรูปแบบ ไม่มีการพนัน ไม่มีการติดตาม มีแค่การทำอาหาร"
+        },
+        myurls: {
+            name: "MyURLs - ตัวจัดการบุ๊กมาร์ก",
+            tagline: "บันทึกและจัดระเบียบลิงก์ของคุณ",
+            description: "บุ๊กมาร์กเยอะจนหาไม่เจอ? My URLs เก็บทุกลิงก์สำคัญไว้ในที่เดียวอย่างเป็นระเบียบ พร้อมโฟลเดอร์ การค้นหา และการสำรองข้อมูลบนคลาวด์แบบเลือกได้ เพื่อไม่ให้คุณทำหาย",
+            feature1: "🔗 บันทึกลิงก์จากแอปใดก็ได้ผ่านเมนูแชร์",
+            feature2: "📁 จัดระเบียบด้วยโฟลเดอร์และแท็ก ค้นหาได้ทุกอย่าง",
+            feature3: "☁️ สำรองข้อมูลบนคลาวด์แบบเลือกได้ — ลงชื่อเข้าใช้แล้วกู้คืนบนเครื่องใหม่",
+            feature4: "📱 วิดเจ็ตหน้าจอหลักเข้าถึงรายการโปรดได้ในแตะเดียว"
+        },
+        myhomesize: {
+            name: "เครื่องคำนวณพื้นที่เกาหลี",
+            tagline: "พยองและตร.ม. ในพริบตา",
+            description: "ประกาศขายบ้านใช้พยอง แต่คุณคุ้นกับตารางเมตร? แปลงหน่วยสองทางได้ทันที และเห็นภาพขนาดจริง",
+            feature1: "📐 แปลงสองทางระหว่างพยองกับตารางเมตรได้ทันที",
+            feature2: "⚡ เรียบง่าย รวดเร็ว ไม่รกรุงรัง",
+            feature3: "🏠 ใช้สะดวกตอนดูประกาศอสังหาฯ"
         },
         features: {
             title: "คุณสมบัติหลัก"
