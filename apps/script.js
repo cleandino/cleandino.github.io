@@ -56,7 +56,7 @@ const translations = {
         myurls: {
             name: "MyURLs - Bookmark Manager",
             tagline: "Save and organize your links",
-            description: "Drowning in bookmarks? My URLs keeps every link you care about in one tidy place, with folders, search, and optional cloud backup so you never lose them.",
+            description: "Drowning in bookmarks? MyURLs keeps every link you care about in one tidy place, with folders, search, and optional cloud backup so you never lose them.",
             feature1: "🔗 Save links from any app with the share sheet",
             feature2: "📁 Organize with folders and tags, find anything by search",
             feature3: "☁️ Optional cloud backup — sign in and restore on a new phone",
@@ -137,7 +137,7 @@ const translations = {
         myurls: {
             name: "MyURLs - ブックマーク管理",
             tagline: "リンクを保存して整理",
-            description: "ブックマークが溢れていませんか？My URLs は大切なリンクをひとつの場所にすっきり整理。フォルダ、検索、クラウドバックアップに対応し、もう見失いません。",
+            description: "ブックマークが溢れていませんか？MyURLs は大切なリンクをひとつの場所にすっきり整理。フォルダ、検索、クラウドバックアップに対応し、もう見失いません。",
             feature1: "🔗 共有シートからどのアプリでもリンクを保存",
             feature2: "📁 フォルダとタグで整理、検索ですぐ見つかる",
             feature3: "☁️ 任意のクラウドバックアップ — ログインで新しい端末にも復元",
@@ -218,7 +218,7 @@ const translations = {
         myurls: {
             name: "MyURLs - 북마크 관리",
             tagline: "링크를 저장하고 정리하세요",
-            description: "북마크가 감당이 안 되나요? My URLs는 중요한 링크를 한곳에 깔끔하게 모아줍니다. 폴더와 검색, 선택적 클라우드 백업까지 지원해 다시는 잃어버리지 않습니다.",
+            description: "북마크가 감당이 안 되나요? MyURLs는 중요한 링크를 한곳에 깔끔하게 모아줍니다. 폴더와 검색, 선택적 클라우드 백업까지 지원해 다시는 잃어버리지 않습니다.",
             feature1: "🔗 공유 시트로 어떤 앱에서든 링크 저장",
             feature2: "📁 폴더와 태그로 정리, 검색으로 바로 찾기",
             feature3: "☁️ 선택형 클라우드 백업 — 로그인하면 새 폰에서 복원",
@@ -299,7 +299,7 @@ const translations = {
         myurls: {
             name: "MyURLs - Quản lý dấu trang",
             tagline: "Lưu và sắp xếp liên kết của bạn",
-            description: "Chìm trong dấu trang? My URLs giữ mọi liên kết quan trọng ở một nơi gọn gàng, với thư mục, tìm kiếm và sao lưu đám mây tùy chọn để bạn không bao giờ mất chúng.",
+            description: "Chìm trong dấu trang? MyURLs giữ mọi liên kết quan trọng ở một nơi gọn gàng, với thư mục, tìm kiếm và sao lưu đám mây tùy chọn để bạn không bao giờ mất chúng.",
             feature1: "🔗 Lưu liên kết từ mọi ứng dụng qua trình chia sẻ",
             feature2: "📁 Sắp xếp bằng thư mục và thẻ, tìm mọi thứ bằng tìm kiếm",
             feature3: "☁️ Sao lưu đám mây tùy chọn — đăng nhập và khôi phục trên máy mới",
@@ -380,7 +380,7 @@ const translations = {
         myurls: {
             name: "MyURLs - 书签管理",
             tagline: "保存并整理你的链接",
-            description: "书签多到找不着？My URLs 把重要链接整齐地收在一处，支持文件夹、搜索和可选的云备份，再也不会弄丢。",
+            description: "书签多到找不着？MyURLs 把重要链接整齐地收在一处，支持文件夹、搜索和可选的云备份，再也不会弄丢。",
             feature1: "🔗 通过共享菜单从任意应用保存链接",
             feature2: "📁 用文件夹和标签整理，搜索一下就能找到",
             feature3: "☁️ 可选云备份 — 登录后在新手机上恢复",
@@ -461,7 +461,7 @@ const translations = {
         myurls: {
             name: "MyURLs - Pengelola Markah",
             tagline: "Simpan dan atur tautan Anda",
-            description: "Tenggelam dalam markah? My URLs menyimpan setiap tautan penting di satu tempat yang rapi, dengan folder, pencarian, dan cadangan awan opsional agar tidak pernah hilang.",
+            description: "Tenggelam dalam markah? MyURLs menyimpan setiap tautan penting di satu tempat yang rapi, dengan folder, pencarian, dan cadangan awan opsional agar tidak pernah hilang.",
             feature1: "🔗 Simpan tautan dari aplikasi apa pun lewat menu berbagi",
             feature2: "📁 Atur dengan folder dan tag, temukan apa pun lewat pencarian",
             feature3: "☁️ Cadangan awan opsional — masuk dan pulihkan di ponsel baru",
@@ -542,7 +542,7 @@ const translations = {
         myurls: {
             name: "MyURLs - ตัวจัดการบุ๊กมาร์ก",
             tagline: "บันทึกและจัดระเบียบลิงก์ของคุณ",
-            description: "บุ๊กมาร์กเยอะจนหาไม่เจอ? My URLs เก็บทุกลิงก์สำคัญไว้ในที่เดียวอย่างเป็นระเบียบ พร้อมโฟลเดอร์ การค้นหา และการสำรองข้อมูลบนคลาวด์แบบเลือกได้ เพื่อไม่ให้คุณทำหาย",
+            description: "บุ๊กมาร์กเยอะจนหาไม่เจอ? MyURLs เก็บทุกลิงก์สำคัญไว้ในที่เดียวอย่างเป็นระเบียบ พร้อมโฟลเดอร์ การค้นหา และการสำรองข้อมูลบนคลาวด์แบบเลือกได้ เพื่อไม่ให้คุณทำหาย",
             feature1: "🔗 บันทึกลิงก์จากแอปใดก็ได้ผ่านเมนูแชร์",
             feature2: "📁 จัดระเบียบด้วยโฟลเดอร์และแท็ก ค้นหาได้ทุกอย่าง",
             feature3: "☁️ สำรองข้อมูลบนคลาวด์แบบเลือกได้ — ลงชื่อเข้าใช้แล้วกู้คืนบนเครื่องใหม่",
