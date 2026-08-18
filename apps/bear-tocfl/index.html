@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bear TOCFL - CleanDino</title>
+    <meta name="description" content="Master the official TOCFL vocabulary list (7,500+ Traditional Chinese words) with pinyin, Zhuyin, SRS smart review and speed quizzes.">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="../favicon-32x32.ico">
+    <link rel="icon" type="image/png" sizes="192x192" href="../favicon-192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="../favicon-512.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Bear TOCFL - CleanDino">
+    <meta property="og:description" content="Master Taiwan Mandarin for the TOCFL exam — 7,500+ words with SRS.">
+    <meta property="og:image" content="https://cleandino.github.io/apps/og-image.png">
+    <meta property="og:url" content="https://cleandino.github.io/apps/bear-tocfl/">
+    <meta property="og:type" content="website">
+
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root { --detail-accent: #157A5C; }
+        .detail-hero { background: linear-gradient(180deg, rgba(21,122,92,0.06) 0%, var(--bg-primary) 100%); }
+        .detail-app-name { color: #157A5C; }
+        [data-theme="dark"] .detail-hero { background: linear-gradient(180deg, rgba(21,122,92,0.08) 0%, var(--bg-primary) 100%); }
+    </style>
+</head>
+<body data-page="detail" data-app="bear">
+    <!-- Language & Theme Controls -->
+    <div class="language-selector">
+        <div class="lang-dropdown">
+            <button class="lang-selected" aria-label="Select language">EN</button>
+            <div class="lang-options">
+                <button class="lang-option" data-lang="en">EN</button>
+                <button class="lang-option" data-lang="ja">日本語</button>
+                <button class="lang-option" data-lang="ko">한국어</button>
+                <button class="lang-option" data-lang="vi">Tiếng Việt</button>
+                <button class="lang-option" data-lang="zh">中文</button>
+                <button class="lang-option" data-lang="id">Indonesia</button>
+                <button class="lang-option" data-lang="th">ไทย</button>
+            </div>
+        </div>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+            <span id="themeIcon">🌙</span>
+        </button>
+    </div>
+
+    <!-- Back Link -->
+    <div class="container">
+        <a href="../" class="back-link">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+            <span data-i18n="back">CleanDino</span>
+        </a>
+    </div>
+
+    <!-- Detail Hero -->
+    <section class="detail-hero">
+        <div class="detail-hero-inner">
+            <img src="../images/bear-tocfl-icon.png" alt="Bear TOCFL" class="detail-icon" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Crect fill=%22%23157A5C%22 width=%22100%22 height=%22100%22 rx=%2220%22/%3E%3Ctext x=%2250%22 y=%2265%22 font-size=%2235%22 fill=%22white%22 text-anchor=%22middle%22 font-family=%22sans-serif%22 font-weight=%22bold%22%3ETOCFL%3C/text%3E%3C/svg%3E'">
+            <h1 class="detail-app-name">Bear TOCFL - 台灣華語</h1>
+            <p class="detail-tagline">Taiwan Mandarin Vocabulary for the TOCFL Exam</p>
+
+            <div class="detail-downloads">
+                <a href="https://play.google.com/store/apps/details?id=com.cleandino.bear_tocfl_vocab" class="download-btn google-play" target="_blank" rel="noopener">
+                    <svg viewBox="0 0 24 24" class="btn-icon"><path fill="currentColor" d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.5,12.92 20.16,13.19L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z"/></svg>
+                    <span data-i18n="download.android">Google Play</span>
+                </a>
+                <!-- App Store 링크: iOS 출시 후 추가 -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Detail Content -->
+    <main class="detail-content">
+        <div class="container">
+            <p class="detail-description">
+                Preparing for the TOCFL? Learn the full official vocabulary list — 7,500+ Traditional Chinese words from Novice to Band C — with pinyin, Zhuyin (Bopomofo), Taiwan Mandarin example sentences and spaced repetition.
+            </p>
+
+            <div class="detail-features">
+                <h3 data-i18n="features.title">Key Features</h3>
+                <ul>
+                    <li>📚 Full official TOCFL list: Novice 1 to Band C (7,500+ words)</li>
+                    <li>🎯 Smart review (SRS) with auto-generated wrong answer notes</li>
+                    <li>📱 Home screen widgets for learning without opening the app</li>
+                    <li>⚡ 60-second speed quizzes for rapid drilling</li>
+                    <li>🈶 Pinyin and Zhuyin (ㄅㄆㄇ) display, three Taiwan character styles</li>
+                </ul>
+            </div>
+
+            <div class="detail-share">
+                <button class="detail-share-btn">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+                    <span data-i18n="share">Share</span>
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-copyright">&copy; 2025 CleanDino. All rights reserved.</p>
+            <p class="footer-links">
+                <a href="https://cleandino.github.io/" target="_blank" rel="noopener">Privacy Policy</a>
+                <span class="footer-separator">&middot;</span>
+                <a href="delete-data/" rel="noopener" data-i18n="dataDeletion">Data Deletion</a>
+                <span class="footer-separator">&middot;</span>
+                <a href="https://www.threads.com/@cd_labs" target="_blank" rel="noopener">Threads</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>
