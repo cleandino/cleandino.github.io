@@ -276,15 +276,14 @@ body {
     opacity: 1;
 }
 
-.app-grid-card[data-color="#E74C3C"] { --card-accent: #E74C3C; }
-.app-grid-card[data-color="#2E8B57"] { --card-accent: #2E8B57; }
+.app-grid-card[data-color="#42A5F5"] { --card-accent: #42A5F5; }
+.app-grid-card[data-color="#1D3557"] { --card-accent: #1D3557; }
 .app-grid-card[data-color="#3498DB"] { --card-accent: #3498DB; }
 .app-grid-card[data-color="#E0873C"] { --card-accent: #E0873C; }
 .app-grid-card[data-color="#4A6D8C"] { --card-accent: #4A6D8C; }
 .app-grid-card[data-color="#F5A623"] { --card-accent: #F5A623; }
 .app-grid-card[data-color="#4472C4"] { --card-accent: #4472C4; }
 .app-grid-card[data-color="#B02E25"] { --card-accent: #B02E25; }
-.app-grid-card[data-color="#157A5C"] { --card-accent: #157A5C; }
 
 .grid-card-icon {
     width: 64px;

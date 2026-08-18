@@ -5,6 +5,26 @@ const translations = {
             title: "CleanDino",
             subtitle: "Quality Apps for Everyone"
         },
+        hsk: {
+            name: "HSK Vocab: Chinese Words 1-9",
+            tagline: "11,000 words · Pinyin · SRS",
+            description: "Studying for the HSK? Learn the full new HSK 3.0 vocabulary list — 11,000+ Chinese words from HSK 1 all the way through the advanced HSK 7-9 band — with pinyin, example sentences and spaced repetition.",
+            feature1: "📚 Complete HSK 3.0 list: HSK 1 to 7-9 (11,000+ words)",
+            feature2: "🎯 Smart review (SRS) with auto-generated wrong answer notes",
+            feature3: "📱 Home screen widgets for learning without opening the app",
+            feature4: "⚡ 60-second speed quizzes for rapid drilling",
+            feature5: "🔤 Pinyin with tone marks, plus pinyin search — type \"hao\" to find 好"
+        },
+        bearTocfl: {
+            name: "Bear TOCFL - 台灣華語",
+            tagline: "Taiwan Mandarin for the TOCFL Exam",
+            description: "Preparing for the TOCFL? Learn the full official vocabulary list — 7,500+ Traditional Chinese words from Novice to Band C — with pinyin, Zhuyin (Bopomofo), Taiwan Mandarin example sentences and spaced repetition.",
+            feature1: "📚 Full official TOCFL list: Novice 1 to Band C (7,500+ words)",
+            feature2: "🎯 Smart review (SRS) with auto-generated wrong answer notes",
+            feature3: "📱 Home screen widgets for learning without opening the app",
+            feature4: "⚡ 60-second speed quizzes for rapid drilling",
+            feature5: "🈶 Pinyin and Zhuyin (ㄅㄆㄇ) display, three Taiwan character styles"
+        },
         raku: {
             name: "Raku JLPT Vocabulary",
             tagline: "Master JLPT with Smart Learning",
@@ -85,6 +105,26 @@ const translations = {
         hero: {
             title: "CleanDino",
             subtitle: "みんなのための高品質アプリ"
+        },
+        hsk: {
+            name: "HSK 単語帳：中国語 1-9級",
+            tagline: "11,000語 · ピンイン · SRS",
+            description: "HSK受験準備中ですか？新HSK 3.0の全語彙、HSK 1級から上級の7-9級まで11,000語以上を、ピンイン・例文・間隔反復学習でマスターしましょう。",
+            feature1: "📚 新HSK 3.0の全範囲：1級から7-9級まで（11,000語以上）",
+            feature2: "🎯 自動生成される間違いノートでスマート復習（SRS）",
+            feature3: "📱 アプリを開かずに学習できるホーム画面ウィジェット",
+            feature4: "⚡ 60秒のスピードクイズで集中特訓",
+            feature5: "🔤 声調記号付きピンイン表示、ピンイン検索対応（「hao」で好が見つかります）"
+        },
+        bearTocfl: {
+            name: "Bear TOCFL - 台湾華語",
+            tagline: "TOCFL試験のための台湾華語",
+            description: "TOCFL受験準備中ですか？公式語彙リストの全範囲、入門から C レベルまで7,500語以上の繁体字を、ピンイン・注音（ボポモフォ）・台湾華語の例文と間隔反復学習でマスターしましょう。",
+            feature1: "📚 公式TOCFL全リスト：入門1から Cレベルまで（7,500語以上）",
+            feature2: "🎯 自動生成される間違いノートでスマート復習（SRS）",
+            feature3: "📱 アプリを開かずに学習できるホーム画面ウィジェット",
+            feature4: "⚡ 60秒のスピードクイズで集中特訓",
+            feature5: "🈶 ピンインと注音（ㄅㄆㄇ）表示、3種類の台湾字体に対応"
         },
         raku: {
             name: "Raku JLPT 単語帳",
@@ -167,6 +207,26 @@ const translations = {
             title: "CleanDino",
             subtitle: "모두를 위한 고품질 앱"
         },
+        hsk: {
+            name: "HSK 단어장: 중국어 1-9급",
+            tagline: "11,000단어 · 병음 · SRS",
+            description: "HSK 준비 중이신가요? 신HSK 3.0 전체 어휘를 HSK 1급부터 고급 7-9급까지 11,000단어 이상, 병음과 예문 그리고 간격 반복 학습으로 마스터하세요.",
+            feature1: "📚 신HSK 3.0 전 범위: 1급부터 7-9급까지 (11,000단어 이상)",
+            feature2: "🎯 자동 생성되는 오답노트로 스마트 복습 (SRS)",
+            feature3: "📱 앱을 열지 않고도 학습하는 홈 화면 위젯",
+            feature4: "⚡ 60초 스피드 퀴즈로 빠른 반복 훈련",
+            feature5: "🔤 성조 표기 병음과 병음 검색 — \"hao\" 입력으로 好 찾기"
+        },
+        bearTocfl: {
+            name: "Bear TOCFL - 대만 중국어",
+            tagline: "TOCFL 시험을 위한 대만 화어",
+            description: "TOCFL 준비 중이신가요? 공식 어휘 목록 전체를 입문부터 C등급까지 번체자 7,500단어 이상, 병음과 주음부호 그리고 대만 화어 예문과 간격 반복 학습으로 마스터하세요.",
+            feature1: "📚 공식 TOCFL 전체 목록: 입문 1부터 C등급까지 (7,500단어 이상)",
+            feature2: "🎯 자동 생성되는 오답노트로 스마트 복습 (SRS)",
+            feature3: "📱 앱을 열지 않고도 학습하는 홈 화면 위젯",
+            feature4: "⚡ 60초 스피드 퀴즈로 빠른 반복 훈련",
+            feature5: "🈶 병음과 주음부호(ㄅㄆㄇ) 표시, 대만 3종 자체 지원"
+        },
         raku: {
             name: "Raku JLPT 단어장",
             tagline: "스마트 학습으로 JLPT 마스터",
@@ -247,6 +307,26 @@ const translations = {
         hero: {
             title: "CleanDino",
             subtitle: "Ứng dụng chất lượng cho mọi người"
+        },
+        hsk: {
+            name: "Từ vựng HSK: Tiếng Trung 1-9",
+            tagline: "11.000 từ · Pinyin · SRS",
+            description: "Đang ôn thi HSK? Học trọn bộ từ vựng HSK 3.0 mới — hơn 11.000 từ tiếng Trung từ HSK 1 đến cấp độ nâng cao HSK 7-9 — với pinyin, câu ví dụ và lặp lại ngắt quãng.",
+            feature1: "📚 Trọn bộ HSK 3.0: từ HSK 1 đến 7-9 (hơn 11.000 từ)",
+            feature2: "🎯 Ôn tập thông minh (SRS) với sổ ghi lỗi sai tự động",
+            feature3: "📱 Tiện ích màn hình chính để học mà không cần mở ứng dụng",
+            feature4: "⚡ Trắc nghiệm tốc độ 60 giây để luyện tập nhanh",
+            feature5: "🔤 Pinyin có dấu thanh và tìm kiếm bằng pinyin — gõ \"hao\" để tìm 好"
+        },
+        bearTocfl: {
+            name: "Bear TOCFL - Hoa ngữ Đài Loan",
+            tagline: "Tiếng Trung Đài Loan cho kỳ thi TOCFL",
+            description: "Đang ôn thi TOCFL? Học trọn bộ danh sách từ vựng chính thức — hơn 7.500 từ tiếng Trung phồn thể từ Nhập môn đến Band C — với pinyin, Chú âm (Bopomofo), câu ví dụ tiếng Trung Đài Loan và lặp lại ngắt quãng.",
+            feature1: "📚 Trọn bộ TOCFL chính thức: từ Nhập môn 1 đến Band C (hơn 7.500 từ)",
+            feature2: "🎯 Ôn tập thông minh (SRS) với sổ ghi lỗi sai tự động",
+            feature3: "📱 Tiện ích màn hình chính để học mà không cần mở ứng dụng",
+            feature4: "⚡ Trắc nghiệm tốc độ 60 giây để luyện tập nhanh",
+            feature5: "🈶 Hiển thị pinyin và Chú âm (ㄅㄆㄇ), ba kiểu chữ Đài Loan"
         },
         raku: {
             name: "Raku JLPT Từ vựng",
@@ -329,6 +409,26 @@ const translations = {
             title: "CleanDino",
             subtitle: "为每个人打造的优质应用"
         },
+        hsk: {
+            name: "HSK 单词本：中文 1-9级",
+            tagline: "11,000词 · 拼音 · SRS",
+            description: "正在备考HSK吗？学习新HSK 3.0全部词汇——从HSK 1级到高级7-9级共11,000多个中文词，配有拼音、例句和间隔重复复习。",
+            feature1: "📚 新HSK 3.0全范围：1级至7-9级（11,000词以上）",
+            feature2: "🎯 智能复习（SRS），自动生成错题本",
+            feature3: "📱 主屏幕小组件，不打开应用也能学习",
+            feature4: "⚡ 60秒速度测验，快速强化训练",
+            feature5: "🔤 带声调的拼音显示，支持拼音搜索——输入\"hao\"即可找到好"
+        },
+        bearTocfl: {
+            name: "Bear TOCFL - 台湾华语",
+            tagline: "备考TOCFL的台湾华语",
+            description: "正在备考TOCFL吗？学习官方词汇表全部内容——从入门到C等共7,500多个繁体中文词，配有拼音、注音符号、台湾华语例句和间隔重复复习。",
+            feature1: "📚 官方TOCFL完整词表：入门1级至C等（7,500词以上）",
+            feature2: "🎯 智能复习（SRS），自动生成错题本",
+            feature3: "📱 主屏幕小组件，不打开应用也能学习",
+            feature4: "⚡ 60秒速度测验，快速强化训练",
+            feature5: "🈶 拼音与注音（ㄅㄆㄇ）显示，支持三种台湾字体"
+        },
         raku: {
             name: "Raku JLPT 词汇本",
             tagline: "智能学习掌握JLPT",
@@ -410,6 +510,26 @@ const translations = {
             title: "CleanDino",
             subtitle: "Aplikasi berkualitas untuk semua orang"
         },
+        hsk: {
+            name: "Kosakata HSK: Mandarin 1-9",
+            tagline: "11.000 kata · Pinyin · SRS",
+            description: "Sedang belajar untuk HSK? Pelajari seluruh daftar kosakata HSK 3.0 terbaru — lebih dari 11.000 kata Mandarin dari HSK 1 hingga tingkat lanjut HSK 7-9 — dengan pinyin, contoh kalimat, dan pengulangan berjarak.",
+            feature1: "📚 Daftar lengkap HSK 3.0: HSK 1 sampai 7-9 (11.000+ kata)",
+            feature2: "🎯 Ulasan cerdas (SRS) dengan catatan salah otomatis",
+            feature3: "📱 Widget layar utama untuk belajar tanpa membuka aplikasi",
+            feature4: "⚡ Kuis cepat 60 detik untuk latihan kilat",
+            feature5: "🔤 Pinyin dengan tanda nada dan pencarian pinyin — ketik \"hao\" untuk menemukan 好"
+        },
+        bearTocfl: {
+            name: "Bear TOCFL - Mandarin Taiwan",
+            tagline: "Mandarin Taiwan untuk Ujian TOCFL",
+            description: "Bersiap untuk TOCFL? Pelajari seluruh daftar kosakata resmi — lebih dari 7.500 kata Mandarin tradisional dari Novice hingga Band C — dengan pinyin, Zhuyin (Bopomofo), contoh kalimat Mandarin Taiwan, dan pengulangan berjarak.",
+            feature1: "📚 Daftar resmi TOCFL lengkap: Novice 1 sampai Band C (7.500+ kata)",
+            feature2: "🎯 Ulasan cerdas (SRS) dengan catatan salah otomatis",
+            feature3: "📱 Widget layar utama untuk belajar tanpa membuka aplikasi",
+            feature4: "⚡ Kuis cepat 60 detik untuk latihan kilat",
+            feature5: "🈶 Tampilan pinyin dan Zhuyin (ㄅㄆㄇ), tiga gaya karakter Taiwan"
+        },
         raku: {
             name: "Raku JLPT Kosakata",
             tagline: "Kuasai JLPT dengan pembelajaran cerdas",
@@ -490,6 +610,26 @@ const translations = {
         hero: {
             title: "CleanDino",
             subtitle: "แอปคุณภาพสำหรับทุกคน"
+        },
+        hsk: {
+            name: "คลังศัพท์ HSK: ภาษาจีน 1-9",
+            tagline: "11,000 คำ · พินอิน · SRS",
+            description: "กำลังเตรียมสอบ HSK อยู่ใช่ไหม? เรียนรู้คลังศัพท์ HSK 3.0 ฉบับใหม่ทั้งหมด กว่า 11,000 คำ ตั้งแต่ HSK 1 ไปจนถึงระดับสูง HSK 7-9 พร้อมพินอิน ประโยคตัวอย่าง และการทบทวนแบบเว้นระยะ",
+            feature1: "📚 ครบทุกระดับ HSK 3.0: ตั้งแต่ HSK 1 ถึง 7-9 (กว่า 11,000 คำ)",
+            feature2: "🎯 ทบทวนอัจฉริยะ (SRS) พร้อมสมุดคำผิดอัตโนมัติ",
+            feature3: "📱 วิดเจ็ตหน้าจอหลัก เรียนได้โดยไม่ต้องเปิดแอป",
+            feature4: "⚡ แบบทดสอบเร็ว 60 วินาที ฝึกฝนแบบเข้มข้น",
+            feature5: "🔤 พินอินพร้อมเครื่องหมายวรรณยุกต์ และค้นหาด้วยพินอิน พิมพ์ \"hao\" เพื่อหา 好"
+        },
+        bearTocfl: {
+            name: "Bear TOCFL - ภาษาจีนไต้หวัน",
+            tagline: "ภาษาจีนไต้หวันสำหรับสอบ TOCFL",
+            description: "กำลังเตรียมสอบ TOCFL อยู่ใช่ไหม? เรียนรู้คลังศัพท์ทางการทั้งหมด กว่า 7,500 คำภาษาจีนตัวเต็ม ตั้งแต่ระดับเริ่มต้นถึง Band C พร้อมพินอิน จู้อิน (ㄅㄆㄇ) ประโยคตัวอย่างภาษาจีนไต้หวัน และการทบทวนแบบเว้นระยะ",
+            feature1: "📚 คลังศัพท์ TOCFL ทางการครบถ้วน: ตั้งแต่เริ่มต้น 1 ถึง Band C (กว่า 7,500 คำ)",
+            feature2: "🎯 ทบทวนอัจฉริยะ (SRS) พร้อมสมุดคำผิดอัตโนมัติ",
+            feature3: "📱 วิดเจ็ตหน้าจอหลัก เรียนได้โดยไม่ต้องเปิดแอป",
+            feature4: "⚡ แบบทดสอบเร็ว 60 วินาที ฝึกฝนแบบเข้มข้น",
+            feature5: "🈶 แสดงพินอินและจู้อิน (ㄅㄆㄇ) รองรับตัวอักษรไต้หวัน 3 แบบ"
         },
         raku: {
             name: "Raku JLPT คำศัพท์",
