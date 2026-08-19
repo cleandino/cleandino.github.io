@@ -24,14 +24,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
-        :root { --detail-accent: #4A6D8C; }
-        .detail-hero { background: linear-gradient(180deg, rgba(74,109,140,0.10) 0%, var(--bg-primary) 100%); }
-        .detail-app-name { color: #4A6D8C; }
-        [data-theme="dark"] .detail-hero { background: linear-gradient(180deg, rgba(74,109,140,0.16) 0%, var(--bg-primary) 100%); }
-        [data-theme="dark"] .detail-app-name { color: #7FA3C4; }
+        :root { --detail-accent: #FF7043; }
+        .detail-hero { background: linear-gradient(180deg, rgba(255,112,67,0.10) 0%, var(--bg-primary) 100%); }
+        .detail-app-name { color: #FF7043; }
+        [data-theme="dark"] .detail-hero { background: linear-gradient(180deg, rgba(255,112,67,0.16) 0%, var(--bg-primary) 100%); }
+        [data-theme="dark"] .detail-app-name { color: #FF8A65; }
         /* 텍스트 드래그 선택 하이라이트도 앱 컬러로(기본은 사이트 초록) */
-        ::selection { background: rgba(74,109,140,0.32); }
-        ::-moz-selection { background: rgba(74,109,140,0.32); }
+        ::selection { background: rgba(255,112,67,0.32); }
+        ::-moz-selection { background: rgba(255,112,67,0.32); }
     </style>
 </head>
 <body data-page="detail" data-app="rushkitchen">
@@ -65,7 +65,7 @@
     <!-- Detail Hero -->
     <section class="detail-hero">
         <div class="detail-hero-inner">
-            <img src="../images/rush-hour-kitchen-icon.png" alt="Rush Hour Kitchen" class="detail-icon" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Crect fill=%22%234A6D8C%22 width=%22100%22 height=%22100%22 rx=%2220%22/%3E%3Ctext x=%2250%22 y=%2262%22 font-size=%2244%22 text-anchor=%22middle%22%3E🐱%3C/text%3E%3C/svg%3E'">
+            <img src="../images/rush-hour-kitchen-icon.png" alt="Rush Hour Kitchen" class="detail-icon" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Crect fill=%22%23FF7043%22 width=%22100%22 height=%22100%22 rx=%2220%22/%3E%3Ctext x=%2250%22 y=%2262%22 font-size=%2244%22 text-anchor=%22middle%22%3E🐱%3C/text%3E%3C/svg%3E'">
             <h1 class="detail-app-name" data-i18n="rushkitchen.name">Rush Hour Kitchen: Roguelike</h1>
             <p class="detail-tagline" data-i18n="rushkitchen.tagline">A cooking roguelike deckbuilder</p>
 
