@@ -13,7 +13,8 @@ const translations = {
             feature2: "🎯 Smart review (SRS) with auto-generated wrong answer notes",
             feature3: "📱 Home screen widgets for learning without opening the app",
             feature4: "⚡ 60-second speed quizzes for rapid drilling",
-            feature5: "🔤 Pinyin with tone marks, plus pinyin search — type \"hao\" to find 好"
+            feature5: "🔤 Pinyin with tone marks, plus pinyin search — type \"hao\" to find 好",
+            feature6: "🔀 Confusable words quiz: 649 homophone pairs and 2,100+ tone pairs"
         },
         bearTocfl: {
             name: "Bear TOCFL - 台灣華語",
@@ -125,7 +126,8 @@ const translations = {
             feature2: "🎯 自動生成される間違いノートでスマート復習（SRS）",
             feature3: "📱 アプリを開かずに学習できるホーム画面ウィジェット",
             feature4: "⚡ 60秒のスピードクイズで集中特訓",
-            feature5: "🔤 声調記号付きピンイン表示、ピンイン検索対応（「hao」で好が見つかります）"
+            feature5: "🔤 声調記号付きピンイン表示、ピンイン検索対応（「hao」で好が見つかります）",
+            feature6: "🔀 紛らわしい単語クイズ：同音異字649組、声調だけが違う2,100組以上"
         },
         bearTocfl: {
             name: "Bear TOCFL - 台湾華語",
@@ -237,7 +239,8 @@ const translations = {
             feature2: "🎯 자동 생성되는 오답노트로 스마트 복습 (SRS)",
             feature3: "📱 앱을 열지 않고도 학습하는 홈 화면 위젯",
             feature4: "⚡ 60초 스피드 퀴즈로 빠른 반복 훈련",
-            feature5: "🔤 성조 표기 병음과 병음 검색 — \"hao\" 입력으로 好 찾기"
+            feature5: "🔤 성조 표기 병음과 병음 검색 — \"hao\" 입력으로 好 찾기",
+            feature6: "🔀 헷갈리는 단어 퀴즈: 동음이의 649쌍, 성조만 다른 2,100쌍 이상"
         },
         bearTocfl: {
             name: "Bear TOCFL - 대만 중국어",
@@ -349,7 +352,8 @@ const translations = {
             feature2: "🎯 Ôn tập thông minh (SRS) với sổ ghi lỗi sai tự động",
             feature3: "📱 Tiện ích màn hình chính để học mà không cần mở ứng dụng",
             feature4: "⚡ Trắc nghiệm tốc độ 60 giây để luyện tập nhanh",
-            feature5: "🔤 Pinyin có dấu thanh và tìm kiếm bằng pinyin — gõ \"hao\" để tìm 好"
+            feature5: "🔤 Pinyin có dấu thanh và tìm kiếm bằng pinyin — gõ \"hao\" để tìm 好",
+            feature6: "🔀 Đố vui từ dễ nhầm: 649 cặp đồng âm và hơn 2.100 cặp chỉ khác thanh điệu"
         },
         bearTocfl: {
             name: "Bear TOCFL - Hoa ngữ Đài Loan",
@@ -461,7 +465,8 @@ const translations = {
             feature2: "🎯 智能复习（SRS），自动生成错题本",
             feature3: "📱 主屏幕小组件，不打开应用也能学习",
             feature4: "⚡ 60秒速度测验，快速强化训练",
-            feature5: "🔤 带声调的拼音显示，支持拼音搜索——输入\"hao\"即可找到好"
+            feature5: "🔤 带声调的拼音显示，支持拼音搜索——输入\"hao\"即可找到好",
+            feature6: "🔀 易混词测验：649 组同音字词，以及 2,100+ 组仅声调不同的词对"
         },
         bearTocfl: {
             name: "Bear TOCFL - 台湾华语",
@@ -573,7 +578,8 @@ const translations = {
             feature2: "🎯 Ulasan cerdas (SRS) dengan catatan salah otomatis",
             feature3: "📱 Widget layar utama untuk belajar tanpa membuka aplikasi",
             feature4: "⚡ Kuis cepat 60 detik untuk latihan kilat",
-            feature5: "🔤 Pinyin dengan tanda nada dan pencarian pinyin — ketik \"hao\" untuk menemukan 好"
+            feature5: "🔤 Pinyin dengan tanda nada dan pencarian pinyin — ketik \"hao\" untuk menemukan 好",
+            feature6: "🔀 Kuis kata membingungkan: 649 pasangan homofon dan 2.100+ pasangan yang hanya beda nada"
         },
         bearTocfl: {
             name: "Bear TOCFL - Mandarin Taiwan",
@@ -685,7 +691,8 @@ const translations = {
             feature2: "🎯 ทบทวนอัจฉริยะ (SRS) พร้อมสมุดคำผิดอัตโนมัติ",
             feature3: "📱 วิดเจ็ตหน้าจอหลัก เรียนได้โดยไม่ต้องเปิดแอป",
             feature4: "⚡ แบบทดสอบเร็ว 60 วินาที ฝึกฝนแบบเข้มข้น",
-            feature5: "🔤 พินอินพร้อมเครื่องหมายวรรณยุกต์ และค้นหาด้วยพินอิน พิมพ์ \"hao\" เพื่อหา 好"
+            feature5: "🔤 พินอินพร้อมเครื่องหมายวรรณยุกต์ และค้นหาด้วยพินอิน พิมพ์ \"hao\" เพื่อหา 好",
+            feature6: "🔀 ควิซคำที่สับสน: คู่คำพ้องเสียง 649 คู่ และคู่คำที่ต่างกันแค่วรรณยุกต์ 2,100+ คู่"
         },
         bearTocfl: {
             name: "Bear TOCFL - ภาษาจีนไต้หวัน",
