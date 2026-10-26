@@ -27,22 +27,33 @@ const translations = {
         },
         raku: {
             name: "Raku JLPT Vocabulary",
-            tagline: "Master JLPT with Smart Learning",
-            description: "Struggling with JLPT vocabulary? Master N5-N1 with smart review and proven results. Your pocket JLPT tutor.",
-            feature1: "📚 Complete N5-N1 vocabulary with systematic learning paths",
-            feature2: "🎯 Smart review with auto-generated wrong answer notes",
-            feature3: "📱 Home screen widgets for learning without opening app",
-            feature4: "⚡ Speed mode for rapid practice and exam preparation",
-            feature5: "🧠 SRS smart study with goal-based exam preparation"
+            tagline: "7,000+ words · Kanji · SRS",
+            description: "Studying for the JLPT? Learn 7,000+ words from N5 to N1 with example sentences, readings and meanings in 15 languages — plus spaced repetition, a same-reading kanji quiz and kana practice.",
+            feature1: "📚 7,000+ words across N5–N1 with example sentences",
+            feature2: "🧠 Smart Review (SRS) brings words back right before you forget",
+            feature3: "🔤 Same-reading kanji quiz: 1,035 words in 24 stages",
+            feature4: "🎯 Auto-generated wrong answer notes for focused review",
+            feature5: "📱 Home screen widgets, plus free Hiragana & Katakana practice"
         },
         topik: {
             name: "Sae TOPIK Vocabulary",
-            tagline: "Master TOPIK with Smart Learning",
-            description: "Preparing for TOPIK? Master Level 1-6 vocabulary with SRS-based smart learning and exam-focused study plans.",
-            feature1: "📚 Complete TOPIK Level 1-6 vocabulary (2,900+ words)",
-            feature2: "🧠 SRS smart study with goal-based exam preparation",
-            feature3: "📱 Home screen widgets for daily word learning",
-            feature4: "⚡ Speed mode for rapid vocabulary practice"
+            tagline: "5,900 words · Confusing-words quiz · SRS",
+            description: "Preparing for TOPIK? Learn 5,900+ words for levels 1–6, each with an example sentence — plus Smart Review (SRS) and a quiz that trains you to tell look-alike pairs like 잊다/잇다 apart.",
+            feature1: "📚 Complete TOPIK Level 1-6 vocabulary (5,900+ words)",
+            feature2: "🔀 Confusing words quiz: look-alike pairs like 잊다/잇다 side by side",
+            feature3: "🧠 Smart Review (SRS) brings weak words back at the right time",
+            feature4: "📱 Home screen widgets for daily word learning",
+            feature5: "⚡ Speed mode for rapid vocabulary practice"
+        },
+        coq: {
+            name: "Coq French: A1–B2 Vocabulary",
+            tagline: "4,941 words · CEFR A1–B2 · IPA · SRS",
+            description: "Learn the French words you actually need for daily life, work, and exams like TCF Canada, TCF IRN, and DELF. Each word comes with its gender, IPA, and an example sentence translated into your language.",
+            feature1: "📚 4,941 words across CEFR A1, A2, B1 and B2",
+            feature2: "🎯 Smart review (SRS) with automatic wrong-answer notes",
+            feature3: "👂 Sound-alike quiz: mer / mère / maire, vin / vent",
+            feature4: "🔤 IPA for every word, read aloud with a France or Québec accent",
+            feature5: "🔎 Search without accents: type ecole to find école"
         },
         age: {
             name: "Age Calculator",
@@ -128,22 +139,33 @@ const translations = {
         },
         raku: {
             name: "Raku JLPT 単語帳",
-            tagline: "スマート学習でJLPTをマスター",
-            description: "JLPT単語学習に悩んでいますか？スマート復習と確実な暗記でN5-N1をマスター。あなたのポケットJLPT講師。",
-            feature1: "📚 N5-N1の全単語を体系的な学習パスで提供",
-            feature2: "🎯 自動生成される間違いノートでスマート復習",
-            feature3: "📱 アプリを開かずに学習できるホーム画面ウィジェット",
-            feature4: "⚡試験対策のための高速練習モード",
-            feature5: "🧠 目標ベースの試験対策SRSスマート学習"
+            tagline: "7,000語 · 漢字 · SRS",
+            description: "JLPT対策中ですか？N5〜N1の単語7,000語以上を、例文・読み・15言語の意味とともに学べます。間隔反復学習、同じ読みの漢字クイズ、かな練習も。",
+            feature1: "📚 N5〜N1の7,000語以上（例文付き）",
+            feature2: "🧠 スマート復習（SRS）で忘れる直前に単語が戻ってきます",
+            feature3: "🔤 同じ読みの漢字クイズ：1,035語・24ステージ",
+            feature4: "🎯 間違えた単語のノートを自動作成して集中復習",
+            feature5: "📱 ホーム画面ウィジェット、ひらがな・カタカナ練習は無料"
         },
         topik: {
             name: "Sae TOPIK 単語帳",
-            tagline: "スマート学習でTOPIKをマスター",
-            description: "TOPIK受験準備中ですか？SRS基盤のスマート学習と試験対策プランで1-6級の語彙をマスターしましょう。",
-            feature1: "📚 TOPIK 1-6級の全語彙（2,900語以上）",
-            feature2: "🧠 目標ベースの試験対策SRSスマート学習",
-            feature3: "📱 毎日の単語学習用ホーム画面ウィジェット",
-            feature4: "⚡ 高速語彙練習のためのスピードモード"
+            tagline: "5,900語 · 紛らわしい単語クイズ · SRS",
+            description: "TOPIK受験準備中ですか？1〜6級の語彙5,900語以上を例文付きで学び、スマート復習（SRS）と、잊다/잇다のようなそっくりな単語ペアを見分ける紛らわしい単語クイズで力をつけましょう。",
+            feature1: "📚 TOPIK 1〜6級の全語彙（5,900語以上）",
+            feature2: "🔀 紛らわしい単語クイズ：잊다/잇다のようなそっくりなペアを並べて比較",
+            feature3: "🧠 スマート復習（SRS）で苦手な単語を最適なタイミングで再出題",
+            feature4: "📱 毎日の単語学習に役立つホーム画面ウィジェット",
+            feature5: "⚡ 単語をすばやく練習できるスピードモード"
+        },
+        coq: {
+            name: "Coq French：フランス語 A1–B2 単語帳",
+            tagline: "4,941語 · CEFR A1–B2 · IPA · SRS",
+            description: "日常生活・仕事・TCF Canada、TCF IRN、DELFなどの試験に本当に必要なフランス語の単語を学べます。すべての単語に、性（男性・女性）、IPA、あなたの言語に訳された例文が付いています。",
+            feature1: "📚 CEFR A1・A2・B1・B2の4,941語",
+            feature2: "🎯 間隔反復学習（SRS）と間違いノートの自動作成",
+            feature3: "👂 似た発音のクイズ：mer / mère / maire、vin / vent",
+            feature4: "🔤 全単語にIPA付き、フランスまたはケベックのアクセントで読み上げ",
+            feature5: "🔎 アクセント記号なしで検索：ecole と入力すると école が見つかります"
         },
         age: {
             name: "年齢計算機",
@@ -229,22 +251,33 @@ const translations = {
         },
         raku: {
             name: "Raku JLPT 단어장",
-            tagline: "스마트 학습으로 JLPT 마스터",
-            description: "JLPT 단어 암기가 어려우신가요? 스마트 복습과 확실한 암기로 N5-N1 마스터. 주머니 속 JLPT 과외 선생님.",
-            feature1: "📚 체계적인 학습 경로로 제공되는 N5-N1 전체 단어",
-            feature2: "🎯 자동 생성 오답노트로 스마트 복습",
-            feature3: "📱 앱을 열지 않고 학습하는 홈 화면 위젯",
-            feature4: "⚡ 시험 대비를 위한 스피드 모드",
-            feature5: "🧠 목표 기반 시험 대비 SRS 스마트 학습"
+            tagline: "7,000단어 · 한자 · SRS",
+            description: "JLPT 준비 중이신가요? N5~N1 단어 7,000개 이상을 예문, 읽기, 15개 언어 뜻과 함께 배워요. 간격 반복 학습, 같은 발음 한자 퀴즈, 가나 연습까지 한 앱에서.",
+            feature1: "📚 N5~N1 단어 7,000개 이상 (예문 포함)",
+            feature2: "🧠 스마트 복습(SRS)으로 잊기 직전에 단어를 다시 보여줘요",
+            feature3: "🔤 같은 발음 한자 퀴즈: 1,035단어, 24단계",
+            feature4: "🎯 틀린 단어 노트 자동 생성으로 집중 복습",
+            feature5: "📱 홈 화면 위젯, 히라가나·가타카나 연습은 무료"
         },
         topik: {
             name: "새 TOPIK 단어장",
-            tagline: "스마트 학습으로 TOPIK 마스터",
-            description: "TOPIK 준비 중이신가요? SRS 기반 스마트 학습과 시험 맞춤 학습 플랜으로 1-6급 어휘를 마스터하세요.",
-            feature1: "📚 TOPIK 1-6급 전체 어휘 (2,900단어 이상)",
-            feature2: "🧠 목표 기반 시험 대비 SRS 스마트 학습",
-            feature3: "📱 매일 단어 학습을 위한 홈 화면 위젯",
-            feature4: "⚡ 빠른 어휘 연습을 위한 스피드 모드"
+            tagline: "5,900단어 · 헷갈리는 단어 퀴즈 · SRS",
+            description: "TOPIK 준비 중이신가요? 1~6급 어휘 5,900단어 이상을 예문과 함께 배우고, 스마트 복습(SRS)과 잊다/잇다처럼 헷갈리는 단어쌍을 구별하는 퀴즈로 실력을 키우세요.",
+            feature1: "📚 TOPIK 1~6급 전체 어휘 (5,900단어 이상)",
+            feature2: "🔀 헷갈리는 단어 퀴즈: 잊다/잇다 같은 비슷한 단어쌍을 나란히 비교",
+            feature3: "🧠 스마트 복습(SRS)으로 약한 단어를 알맞은 때에 다시 보여줘요",
+            feature4: "📱 매일 단어 학습을 돕는 홈 화면 위젯",
+            feature5: "⚡ 빠른 단어 연습을 위한 스피드 모드"
+        },
+        coq: {
+            name: "Coq French: 프랑스어 A1–B2 단어장",
+            tagline: "4,941단어 · CEFR A1–B2 · IPA · SRS",
+            description: "일상생활, 직장, TCF Canada·TCF IRN·DELF 같은 시험에 꼭 필요한 프랑스어 단어를 배워요. 모든 단어에 성(性), IPA 발음기호, 내 언어로 번역된 예문이 함께 있어요.",
+            feature1: "📚 CEFR A1·A2·B1·B2 총 4,941단어",
+            feature2: "🎯 간격 반복(SRS) 스마트 복습과 오답 노트 자동 생성",
+            feature3: "👂 발음이 비슷한 단어 퀴즈: mer / mère / maire, vin / vent",
+            feature4: "🔤 모든 단어에 IPA 제공, 프랑스·퀘벡 억양으로 읽어줘요",
+            feature5: "🔎 악센트 없이 검색: ecole 입력하면 école 검색"
         },
         age: {
             name: "만나이 계산기",
@@ -330,22 +363,33 @@ const translations = {
         },
         raku: {
             name: "Raku JLPT Từ vựng",
-            tagline: "Chinh phục JLPT với học thông minh",
-            description: "Đang gặp khó khăn với từ vựng JLPT? Chinh phục N5-N1 với ôn tập thông minh và kết quả đã được chứng minh.",
-            feature1: "📚 Từ vựng N5-N1 đầy đủ với lộ trình học có hệ thống",
-            feature2: "🎯 Ôn tập thông minh với ghi chú đáp án sai tự động",
-            feature3: "📱 Widget màn hình chính để học mà không cần mở ứng dụng",
-            feature4: "⚡ Chế độ tốc độ để luyện tập nhanh và ôn thi",
-            feature5: "🧠 Học thông minh SRS với ôn thi theo mục tiêu"
+            tagline: "7.000 từ · Kanji · SRS",
+            description: "Đang ôn JLPT? Học hơn 7.000 từ từ N5 đến N1 kèm câu ví dụ, cách đọc và nghĩa bằng 15 ngôn ngữ — cùng ôn tập ngắt quãng, đố vui kanji đồng âm và luyện kana.",
+            feature1: "📚 Hơn 7.000 từ từ N5–N1, có câu ví dụ",
+            feature2: "🧠 Ôn tập thông minh (SRS) đưa từ quay lại ngay trước khi bạn quên",
+            feature3: "🔤 Đố vui kanji đồng âm: 1.035 từ, 24 chặng",
+            feature4: "🎯 Tự động ghi chú các câu trả lời sai để ôn tập tập trung",
+            feature5: "📱 Widget màn hình chính, luyện Hiragana & Katakana miễn phí"
         },
         topik: {
             name: "Sae TOPIK Từ vựng",
-            tagline: "Chinh phục TOPIK với học thông minh",
-            description: "Đang chuẩn bị cho TOPIK? Chinh phục từ vựng cấp 1-6 với học thông minh dựa trên SRS và kế hoạch ôn thi.",
-            feature1: "📚 Từ vựng TOPIK cấp 1-6 đầy đủ (hơn 2.900 từ)",
-            feature2: "🧠 Học thông minh SRS với ôn thi theo mục tiêu",
-            feature3: "📱 Widget màn hình chính để học từ hàng ngày",
-            feature4: "⚡ Chế độ tốc độ để luyện từ vựng nhanh"
+            tagline: "5.900 từ · Đố vui từ dễ nhầm · SRS",
+            description: "Đang ôn TOPIK? Học hơn 5.900 từ cho cấp 1–6, mỗi từ đều có câu ví dụ — cùng ôn tập thông minh (SRS) và bài đố giúp bạn phân biệt các cặp từ giống nhau như 잊다/잇다.",
+            feature1: "📚 Trọn bộ từ vựng TOPIK cấp 1-6 (hơn 5.900 từ)",
+            feature2: "🔀 Đố vui từ dễ nhầm: các cặp từ giống nhau như 잊다/잇다 đặt cạnh nhau",
+            feature3: "🧠 Ôn tập thông minh (SRS) đưa từ yếu quay lại đúng lúc",
+            feature4: "📱 Widget màn hình chính để học từ mỗi ngày",
+            feature5: "⚡ Chế độ tốc độ để luyện từ vựng nhanh"
+        },
+        coq: {
+            name: "Coq French: Từ vựng tiếng Pháp A1–B2",
+            tagline: "4.941 từ · CEFR A1–B2 · IPA · SRS",
+            description: "Học những từ tiếng Pháp bạn thực sự cần cho cuộc sống hằng ngày, công việc và các kỳ thi như TCF Canada, TCF IRN và DELF. Mỗi từ đều có giống (đực/cái), phiên âm IPA và câu ví dụ được dịch sang ngôn ngữ của bạn.",
+            feature1: "📚 4.941 từ thuộc bốn cấp CEFR A1, A2, B1 và B2",
+            feature2: "🎯 Ôn tập thông minh (SRS) kèm sổ ghi chú câu sai tự động",
+            feature3: "👂 Đố vui từ phát âm giống nhau: mer / mère / maire, vin / vent",
+            feature4: "🔤 Có IPA cho mọi từ, đọc to bằng giọng Pháp hoặc Québec",
+            feature5: "🔎 Tìm kiếm không cần dấu: gõ ecole để tìm école"
         },
         age: {
             name: "Máy tính tuổi",
@@ -431,22 +475,33 @@ const translations = {
         },
         raku: {
             name: "Raku JLPT 词汇本",
-            tagline: "智能学习掌握JLPT",
-            description: "JLPT词汇学习遇到困难？通过智能复习和有效记忆掌握N5-N1。您的口袋JLPT老师。",
-            feature1: "📚 系统化学习路径提供N5-N1全部词汇",
-            feature2: "🎯 自动生成错题笔记的智能复习",
-            feature3: "📱 无需打开应用即可学习的主屏幕小组件",
-            feature4: "⚡ 快速练习和备考的速度模式",
-            feature5: "🧠 基于目标的考试备考SRS智能学习"
+            tagline: "7,000词 · 汉字 · SRS",
+            description: "正在备考 JLPT？学习 N5 到 N1 的 7,000 多个单词，附例句、读音和 15 种语言释义，还有间隔重复复习、同音汉字测验和假名练习。",
+            feature1: "📚 N5–N1 共 7,000+ 单词，附例句",
+            feature2: "🧠 智能复习（SRS），在你快要忘记时让单词重新出现",
+            feature3: "🔤 同音汉字测验：1,035 个单词，24 个关卡",
+            feature4: "🎯 自动生成错题笔记，集中复习",
+            feature5: "📱 主屏幕小组件，平假名和片假名练习免费"
         },
         topik: {
             name: "新TOPIK词汇本",
-            tagline: "智能学习掌握TOPIK",
-            description: "正在准备TOPIK？通过基于SRS的智能学习和考试备考计划掌握1-6级词汇。",
-            feature1: "📚 TOPIK 1-6级全部词汇（2,900+词）",
-            feature2: "🧠 基于目标的考试备考SRS智能学习",
-            feature3: "📱 每日单词学习主屏幕小组件",
-            feature4: "⚡ 快速词汇练习的速度模式"
+            tagline: "5,900词 · 易混词测验 · SRS",
+            description: "正在备考 TOPIK？学习 1–6 级共 5,900 多个单词，每个单词都有例句，还有智能复习（SRS）和易混词测验，帮你分辨 잊다/잇다 这样的相似词对。",
+            feature1: "📚 完整的 TOPIK 1-6 级词汇（5,900+ 个单词）",
+            feature2: "🔀 易混词测验：把 잊다/잇다 这样的相似词对并排比较",
+            feature3: "🧠 智能复习（SRS）在合适的时间让薄弱单词重新出现",
+            feature4: "📱 主屏幕小组件，每天学单词",
+            feature5: "⚡ 速度模式，快速练习词汇"
+        },
+        coq: {
+            name: "Coq French：法语 A1–B2 词汇",
+            tagline: "4,941词 · CEFR A1–B2 · IPA · SRS",
+            description: "学习日常生活、工作以及 TCF Canada、TCF IRN、DELF 等考试真正用得上的法语单词。每个单词都附有词性（阴阳性）、IPA 音标，以及翻译成你的语言的例句。",
+            feature1: "📚 涵盖 CEFR A1、A2、B1、B2 共 4,941 个单词",
+            feature2: "🎯 智能复习（SRS），自动生成错题笔记",
+            feature3: "👂 近音词测验：mer / mère / maire、vin / vent",
+            feature4: "🔤 每个单词都有 IPA，可用法国或魁北克口音朗读",
+            feature5: "🔎 无需重音符号即可搜索：输入 ecole 就能找到 école"
         },
         age: {
             name: "年龄计算器",
@@ -532,22 +587,33 @@ const translations = {
         },
         raku: {
             name: "Raku JLPT Kosakata",
-            tagline: "Kuasai JLPT dengan pembelajaran cerdas",
-            description: "Kesulitan menghafal kosakata JLPT? Kuasai N5-N1 dengan review cerdas dan hasil yang terbukti.",
-            feature1: "📚 Kosakata N5-N1 lengkap dengan jalur pembelajaran sistematis",
-            feature2: "🎯 Review cerdas dengan catatan jawaban salah otomatis",
-            feature3: "📱 Widget layar utama untuk belajar tanpa membuka aplikasi",
-            feature4: "⚡ Mode kecepatan untuk latihan cepat dan persiapan ujian",
-            feature5: "🧠 Belajar cerdas SRS dengan persiapan ujian berbasis tujuan"
+            tagline: "7.000 kata · Kanji · SRS",
+            description: "Sedang belajar untuk JLPT? Pelajari lebih dari 7.000 kata N5–N1 dengan contoh kalimat, cara baca, dan arti dalam 15 bahasa — plus pengulangan berjarak (SRS), kuis kanji dengan bacaan sama, dan latihan kana.",
+            feature1: "📚 7.000+ kata N5–N1 dengan contoh kalimat",
+            feature2: "🧠 Ulasan Pintar (SRS) memunculkan kata tepat sebelum Anda lupa",
+            feature3: "🔤 Kuis kanji bacaan sama: 1.035 kata dalam 24 tahap",
+            feature4: "🎯 Catatan jawaban salah otomatis untuk ulasan terfokus",
+            feature5: "📱 Widget layar utama, plus latihan Hiragana & Katakana gratis"
         },
         topik: {
             name: "Sae TOPIK Kosakata",
-            tagline: "Kuasai TOPIK dengan pembelajaran cerdas",
-            description: "Sedang mempersiapkan TOPIK? Kuasai kosakata level 1-6 dengan pembelajaran cerdas berbasis SRS dan rencana belajar ujian.",
-            feature1: "📚 Kosakata TOPIK level 1-6 lengkap (2.900+ kata)",
-            feature2: "🧠 Belajar cerdas SRS dengan persiapan ujian berbasis tujuan",
-            feature3: "📱 Widget layar utama untuk belajar kata harian",
-            feature4: "⚡ Mode kecepatan untuk latihan kosakata cepat"
+            tagline: "5.900 kata · Kuis kata membingungkan · SRS",
+            description: "Sedang menyiapkan TOPIK? Pelajari 5.900+ kata untuk level 1–6, masing-masing dengan contoh kalimat — plus Ulasan Pintar (SRS) dan kuis yang melatih Anda membedakan pasangan kata mirip seperti 잊다/잇다.",
+            feature1: "📚 Kosakata TOPIK Level 1-6 lengkap (5.900+ kata)",
+            feature2: "🔀 Kuis kata membingungkan: pasangan mirip seperti 잊다/잇다 berdampingan",
+            feature3: "🧠 Ulasan Pintar (SRS) memunculkan kata lemah pada waktu yang tepat",
+            feature4: "📱 Widget layar utama untuk belajar kata setiap hari",
+            feature5: "⚡ Mode kecepatan untuk latihan kosakata cepat"
+        },
+        coq: {
+            name: "Coq French: Kosakata Prancis A1–B2",
+            tagline: "4.941 kata · CEFR A1–B2 · IPA · SRS",
+            description: "Pelajari kata-kata Prancis yang benar-benar Anda butuhkan untuk kehidupan sehari-hari, pekerjaan, dan ujian seperti TCF Canada, TCF IRN, dan DELF. Setiap kata dilengkapi gender, IPA, dan contoh kalimat yang diterjemahkan ke bahasa Anda.",
+            feature1: "📚 4.941 kata di empat level CEFR: A1, A2, B1, dan B2",
+            feature2: "🎯 Ulasan pintar (SRS) dengan catatan jawaban salah otomatis",
+            feature3: "👂 Kuis kata berbunyi mirip: mer / mère / maire, vin / vent",
+            feature4: "🔤 IPA untuk setiap kata, dibacakan dengan aksen Prancis atau Québec",
+            feature5: "🔎 Cari tanpa aksen: ketik ecole untuk menemukan école"
         },
         age: {
             name: "Kalkulator Usia",
@@ -633,22 +699,33 @@ const translations = {
         },
         raku: {
             name: "Raku JLPT คำศัพท์",
-            tagline: "พิชิต JLPT ด้วยการเรียนรู้อัจฉริยะ",
-            description: "มีปัญหากับคำศัพท์ JLPT? พิชิต N5-N1 ด้วยการทบทวนอัจฉริยะและผลลัพธ์ที่พิสูจน์แล้ว",
-            feature1: "📚 คำศัพท์ N5-N1 ครบถ้วนพร้อมเส้นทางการเรียนอย่างเป็นระบบ",
-            feature2: "🎯 ทบทวนอัจฉริยะพร้อมบันทึกคำตอบผิดอัตโนมัติ",
-            feature3: "📱 วิดเจ็ตหน้าจอหลักเพื่อเรียนรู้โดยไม่ต้องเปิดแอป",
-            feature4: "⚡ โหมดความเร็วสำหรับฝึกเร็วและเตรียมสอบ",
-            feature5: "🧠 เรียนอัจฉริยะ SRS พร้อมเตรียมสอบตามเป้าหมาย"
+            tagline: "7,000 คำ · คันจิ · SRS",
+            description: "กำลังเตรียมสอบ JLPT? เรียนคำศัพท์ N5–N1 กว่า 7,000 คำ พร้อมประโยคตัวอย่าง คำอ่าน และความหมาย 15 ภาษา รวมถึงการทบทวนแบบเว้นระยะ (SRS) แบบทดสอบคันจิที่อ่านเหมือนกัน และฝึกคานะ",
+            feature1: "📚 คำศัพท์ N5–N1 กว่า 7,000 คำ พร้อมประโยคตัวอย่าง",
+            feature2: "🧠 ทบทวนอัจฉริยะ (SRS) นำคำกลับมาก่อนที่คุณจะลืม",
+            feature3: "🔤 แบบทดสอบคันจิอ่านเหมือนกัน: 1,035 คำ 24 ด่าน",
+            feature4: "🎯 สมุดบันทึกข้อที่ตอบผิดอัตโนมัติ สำหรับทบทวนอย่างตรงจุด",
+            feature5: "📱 วิดเจ็ตหน้าจอหลัก ฝึกฮิรางานะและคาตาคานะฟรี"
         },
         topik: {
             name: "Sae TOPIK คำศัพท์",
-            tagline: "พิชิต TOPIK ด้วยการเรียนรู้อัจฉริยะ",
-            description: "กำลังเตรียมตัวสอบ TOPIK? พิชิตคำศัพท์ระดับ 1-6 ด้วยการเรียนรู้อัจฉริยะ SRS และแผนเตรียมสอบ",
-            feature1: "📚 คำศัพท์ TOPIK ระดับ 1-6 ครบถ้วน (2,900+ คำ)",
-            feature2: "🧠 เรียนอัจฉริยะ SRS พร้อมเตรียมสอบตามเป้าหมาย",
-            feature3: "📱 วิดเจ็ตหน้าจอหลักสำหรับเรียนคำศัพท์รายวัน",
-            feature4: "⚡ โหมดความเร็วสำหรับฝึกคำศัพท์เร็ว"
+            tagline: "5,900 คำ · ควิซคำที่สับสน · SRS",
+            description: "กำลังเตรียมสอบ TOPIK? เรียนคำศัพท์กว่า 5,900 คำสำหรับระดับ 1–6 ทุกคำมีประโยคตัวอย่าง พร้อมการทบทวนอัจฉริยะ (SRS) และควิซที่ช่วยให้แยกคู่คำหน้าตาคล้ายกันอย่าง 잊다/잇다 ได้",
+            feature1: "📚 คำศัพท์ TOPIK ระดับ 1-6 ครบถ้วน (5,900+ คำ)",
+            feature2: "🔀 ควิซคำที่สับสน: คู่คำหน้าตาคล้ายกันอย่าง 잊다/잇다 วางเทียบกัน",
+            feature3: "🧠 ทบทวนอัจฉริยะ (SRS) นำคำที่ยังอ่อนกลับมาในเวลาที่เหมาะสม",
+            feature4: "📱 วิดเจ็ตหน้าจอหลักสำหรับเรียนคำศัพท์ทุกวัน",
+            feature5: "⚡ โหมดความเร็วสำหรับฝึกคำศัพท์อย่างรวดเร็ว"
+        },
+        coq: {
+            name: "Coq French: คำศัพท์ภาษาฝรั่งเศส A1–B2",
+            tagline: "4,941 คำ · CEFR A1–B2 · IPA · SRS",
+            description: "เรียนคำศัพท์ภาษาฝรั่งเศสที่คุณต้องใช้จริงในชีวิตประจำวัน การทำงาน และการสอบอย่าง TCF Canada, TCF IRN และ DELF ทุกคำมีเพศของคำ (เพศชาย/เพศหญิง), IPA และประโยคตัวอย่างที่แปลเป็นภาษาของคุณ",
+            feature1: "📚 4,941 คำ ครอบคลุม CEFR A1, A2, B1 และ B2",
+            feature2: "🎯 ทบทวนอัจฉริยะ (SRS) พร้อมสมุดบันทึกข้อที่ตอบผิดอัตโนมัติ",
+            feature3: "👂 แบบทดสอบคำเสียงคล้าย: mer / mère / maire, vin / vent",
+            feature4: "🔤 มี IPA ทุกคำ อ่านออกเสียงด้วยสำเนียงฝรั่งเศสหรือควิเบก",
+            feature5: "🔎 ค้นหาโดยไม่ต้องใส่เครื่องหมายเน้นเสียง: พิมพ์ ecole เพื่อหา école"
         },
         age: {
             name: "เครื่องคำนวณอายุ",
