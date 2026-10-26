@@ -37,7 +37,7 @@ const translations = {
             feature5: "📱 Home screen widgets, plus free Hiragana & Katakana practice"
         },
         topik: {
-            name: "Sae TOPIK Vocabulary",
+            name: "Horang TOPIK Vocabulary",
             tagline: "5,900 words · Confusing-words quiz · SRS",
             description: "Preparing for TOPIK? Learn 5,900+ words for levels 1–6, each with an example sentence — plus Smart Review (SRS) and a quiz that trains you to tell look-alike pairs like 잊다/잇다 apart.",
             feature1: "📚 Complete TOPIK Level 1-6 vocabulary (5,900+ words)",
@@ -150,7 +150,7 @@ const translations = {
             feature5: "📱 ホーム画面ウィジェット、ひらがな・カタカナ練習は無料"
         },
         topik: {
-            name: "Sae TOPIK 単語帳",
+            name: "Horang TOPIK 単語帳",
             tagline: "5,900語 · 紛らわしい単語クイズ · SRS",
             description: "TOPIK受験準備中ですか？1〜6級の語彙5,900語以上を例文付きで学び、スマート復習（SRS）と、잊다/잇다のようなそっくりな単語ペアを見分ける紛らわしい単語クイズで力をつけましょう。",
             feature1: "📚 TOPIK 1〜6級の全語彙（5,900語以上）",
@@ -263,7 +263,7 @@ const translations = {
             feature5: "📱 홈 화면 위젯, 히라가나·가타카나 연습은 무료"
         },
         topik: {
-            name: "새 TOPIK 단어장",
+            name: "Horang TOPIK 단어장",
             tagline: "5,900단어 · 헷갈리는 단어 퀴즈 · SRS",
             description: "TOPIK 준비 중이신가요? 1~6급 어휘 5,900단어 이상을 예문과 함께 배우고, 스마트 복습(SRS)과 잊다/잇다처럼 헷갈리는 단어쌍을 구별하는 퀴즈로 실력을 키우세요.",
             feature1: "📚 TOPIK 1~6급 전체 어휘 (5,900단어 이상)",
@@ -376,7 +376,7 @@ const translations = {
             feature5: "📱 Widget màn hình chính, luyện Hiragana & Katakana miễn phí"
         },
         topik: {
-            name: "Sae TOPIK Từ vựng",
+            name: "Horang TOPIK Từ vựng",
             tagline: "5.900 từ · Đố vui từ dễ nhầm · SRS",
             description: "Đang ôn TOPIK? Học hơn 5.900 từ cho cấp 1–6, mỗi từ đều có câu ví dụ — cùng ôn tập thông minh (SRS) và bài đố giúp bạn phân biệt các cặp từ giống nhau như 잊다/잇다.",
             feature1: "📚 Trọn bộ từ vựng TOPIK cấp 1-6 (hơn 5.900 từ)",
@@ -489,7 +489,7 @@ const translations = {
             feature5: "📱 主屏幕小组件，平假名和片假名练习免费"
         },
         topik: {
-            name: "新TOPIK词汇本",
+            name: "Horang TOPIK 词汇本",
             tagline: "5,900词 · 易混词测验 · SRS",
             description: "正在备考 TOPIK？学习 1–6 级共 5,900 多个单词，每个单词都有例句，还有智能复习（SRS）和易混词测验，帮你分辨 잊다/잇다 这样的相似词对。",
             feature1: "📚 完整的 TOPIK 1-6 级词汇（5,900+ 个单词）",
@@ -602,7 +602,7 @@ const translations = {
             feature5: "📱 Widget layar utama, plus latihan Hiragana & Katakana gratis"
         },
         topik: {
-            name: "Sae TOPIK Kosakata",
+            name: "Horang TOPIK Kosakata",
             tagline: "5.900 kata · Kuis kata membingungkan · SRS",
             description: "Sedang menyiapkan TOPIK? Pelajari 5.900+ kata untuk level 1–6, masing-masing dengan contoh kalimat — plus Ulasan Pintar (SRS) dan kuis yang melatih Anda membedakan pasangan kata mirip seperti 잊다/잇다.",
             feature1: "📚 Kosakata TOPIK Level 1-6 lengkap (5.900+ kata)",
@@ -715,7 +715,7 @@ const translations = {
             feature5: "📱 วิดเจ็ตหน้าจอหลัก ฝึกฮิรางานะและคาตาคานะฟรี"
         },
         topik: {
-            name: "Sae TOPIK คำศัพท์",
+            name: "Horang TOPIK คำศัพท์",
             tagline: "5,900 คำ · ควิซคำที่สับสน · SRS",
             description: "กำลังเตรียมสอบ TOPIK? เรียนคำศัพท์กว่า 5,900 คำสำหรับระดับ 1–6 ทุกคำมีประโยคตัวอย่าง พร้อมการทบทวนอัจฉริยะ (SRS) และควิซที่ช่วยให้แยกคู่คำหน้าตาคล้ายกันอย่าง 잊다/잇다 ได้",
             feature1: "📚 คำศัพท์ TOPIK ระดับ 1-6 ครบถ้วน (5,900+ คำ)",
