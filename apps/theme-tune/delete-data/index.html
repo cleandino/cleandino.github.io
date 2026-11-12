@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Deletion - Theme Tune - CleanDino</title>
+    <meta name="description" content="How to remove your data in Theme Tune by CleanDino.">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="../../favicon-32x32.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png">
+
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root { --detail-accent: #7BA600; }
+        .detail-hero { background: linear-gradient(180deg, rgba(123,166,0,0.06) 0%, var(--bg-primary) 100%); }
+        .detail-app-name { color: #7BA600; }
+        [data-theme="dark"] .detail-hero { background: linear-gradient(180deg, rgba(123,166,0,0.08) 0%, var(--bg-primary) 100%); }
+        .dd-section { margin-bottom: 2rem; }
+        .dd-section h2 { font-size: 1.15rem; font-weight: 700; margin-bottom: 0.6rem; color: var(--text-primary); }
+        .dd-steps { padding-left: 1.2rem; line-height: 1.9; }
+        .dd-steps li { margin-bottom: 0.3rem; }
+        .dd-note { font-size: 0.92rem; color: var(--text-secondary); line-height: 1.7; }
+        .dd-path { font-weight: 600; color: #7BA600; }
+    </style>
+</head>
+<body data-page="detail" data-app="theme-tune">
+    <!-- Language & Theme Controls -->
+    <div class="language-selector">
+        <div class="lang-dropdown">
+            <button class="lang-selected" aria-label="Select language">EN</button>
+            <div class="lang-options">
+                <button class="lang-option" data-lang="en">EN</button>
+                <button class="lang-option" data-lang="ja">日本語</button>
+                <button class="lang-option" data-lang="ko">한국어</button>
+                <button class="lang-option" data-lang="vi">Tiếng Việt</button>
+                <button class="lang-option" data-lang="zh">中文</button>
+                <button class="lang-option" data-lang="id">Indonesia</button>
+                <button class="lang-option" data-lang="th">ไทย</button>
+            </div>
+        </div>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+            <span id="themeIcon">🌙</span>
+        </button>
+    </div>
+
+    <!-- Back Link -->
+    <div class="container">
+        <a href="../../" class="back-link">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+            <span data-i18n="back">CleanDino</span>
+        </a>
+    </div>
+
+    <!-- Hero -->
+    <section class="detail-hero">
+        <div class="detail-hero-inner">
+            <h1 class="detail-app-name" data-i18n="title">Data Deletion</h1>
+            <p class="detail-tagline" data-i18n="app">Theme Tune by CleanDino</p>
+        </div>
+    </section>
+
+    <!-- Content -->
+    <main class="detail-content">
+        <div class="container">
+
+            <div class="dd-section">
+                <p class="detail-description" data-i18n="intro">
+                    This page explains what data Theme Tune keeps and how to remove it.
+                </p>
+            </div>
+
+            <div class="dd-section">
+                <h2 data-i18n="none.title">We hold no data about you</h2>
+                <p class="dd-note" data-i18n="none.desc">
+                    Theme Tune has no account and no server of ours. Your music files, playlists, folders and playback position are stored only on your own device. We never receive them, so there is nothing on our side to delete.
+                </p>
+            </div>
+
+            <div class="dd-section">
+                <h2 data-i18n="device.title">Remove the data from your device</h2>
+                <ol class="dd-steps">
+                    <li data-i18n="device.step1">To remove downloaded or imported songs, open the app, go to <span class="dd-path">Settings &gt; Manage storage</span> and delete songs, or choose delete all.</li>
+                    <li data-i18n="device.step2">To remove everything the app stores, delete the app from your device. Songs, playlists, folders and settings are deleted with it.</li>
+                    <li data-i18n="device.step3">On iOS, files you placed in the app's folder through Finder or the Files app are deleted with the app too.</li>
+                </ol>
+            </div>
+
+            <div class="dd-section">
+                <h2 data-i18n="cloud.title">Disconnect Google Drive or Dropbox</h2>
+                <p class="dd-note" data-i18n="cloud.desc">
+                    If you connected a cloud account, the app keeps only a sign-in token on your device (in the iOS Keychain or Android Keystore). It reads your files and never uploads or deletes anything. To remove access:
+                </p>
+                <ol class="dd-steps">
+                    <li data-i18n="cloud.step1">In the app, open <span class="dd-path">Cloud</span>, tap the menu on the account and choose <span class="dd-path">Disconnect</span>. The token is deleted from your device.</li>
+                    <li data-i18n="cloud.step2">To also revoke the app's access on the service side, open your Google Account (Security &gt; Third-party access) or Dropbox (Settings &gt; Connected apps) and remove Theme Tune.</li>
+                </ol>
+            </div>
+
+            <div class="dd-section">
+                <h2 data-i18n="ads.title">Advertising and purchases</h2>
+                <p class="dd-note" data-i18n="ads.desc">
+                    Ads, when shown, are served by Google AdMob under its own privacy terms; you can change your ad choices in the app's Settings. Purchases are handled by Google Play or the App Store; manage or request refunds there. We do not receive your payment details.
+                </p>
+            </div>
+
+            <div class="dd-section">
+                <h2 data-i18n="contact.title">Questions</h2>
+                <p class="dd-note" data-i18n="contact.desc">
+                    Contact us at <a href="mailto:CleanDino@gmail.com">CleanDino@gmail.com</a>.
+                </p>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-copyright">&copy; 2025 CleanDino. All rights reserved.</p>
+            <p class="footer-links">
+                <a href="https://cleandino.github.io/#theme-tune" target="_blank" rel="noopener">Privacy Policy</a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Theme + Language (self-contained; does not depend on apps/script.js) -->
+    <script>
+    (function () {
+        const T = {
+            en: {"back": "CleanDino", "title": "Data Deletion", "app": "Theme Tune by CleanDino", "intro": "This page explains what data Theme Tune keeps and how to remove it.", "none.title": "We hold no data about you", "none.desc": "Theme Tune has no account and no server of ours. Your music files, playlists, folders and playback position are stored only on your own device. We never receive them, so there is nothing on our side to delete.", "device.title": "Remove the data from your device", "device.step1": "To remove downloaded or imported songs, open the app, go to <span class='dd-path'>Settings &gt; Manage storage</span> and delete songs, or choose delete all.", "device.step2": "To remove everything the app stores, delete the app from your device. Songs, playlists, folders and settings are deleted with it.", "device.step3": "On iOS, files you placed in the app's folder through Finder or the Files app are deleted with the app too.", "cloud.title": "Disconnect Google Drive or Dropbox", "cloud.desc": "If you connected a cloud account, the app keeps only a sign-in token on your device (in the iOS Keychain or Android Keystore). It reads your files and never uploads or deletes anything. To remove access:", "cloud.step1": "In the app, open <span class='dd-path'>Cloud</span>, tap the menu on the account and choose <span class='dd-path'>Disconnect</span>. The token is deleted from your device.", "cloud.step2": "To also revoke the app's access on the service side, open your Google Account (Security &gt; Third-party access) or Dropbox (Settings &gt; Connected apps) and remove Theme Tune.", "ads.title": "Advertising and purchases", "ads.desc": "Ads, when shown, are served by Google AdMob under its own privacy terms; you can change your ad choices in the app's Settings. Purchases are handled by Google Play or the App Store; manage or request refunds there. We do not receive your payment details.", "contact.title": "Questions", "contact.desc": "Contact us at <a href='mailto:CleanDino@gmail.com'>CleanDino@gmail.com</a>."},
+            ko: {"back": "CleanDino", "title": "데이터 삭제", "app": "CleanDino의 Theme Tune", "intro": "이 페이지는 Theme Tune이 어떤 데이터를 보관하는지, 그리고 어떻게 지우는지 설명합니다.", "none.title": "저희는 사용자 데이터를 보관하지 않습니다", "none.desc": "Theme Tune에는 계정이 없고 저희 서버도 없습니다. 음악 파일, 재생목록, 폴더, 재생 위치는 사용자의 기기에만 저장됩니다. 저희가 받지 않으므로 저희 쪽에서 지울 데이터가 없습니다.", "device.title": "기기에서 데이터 지우기", "device.step1": "받거나 가져온 곡을 지우려면 앱의 <span class='dd-path'>설정 &gt; 저장공간 관리</span>에서 곡을 삭제하거나 모두 삭제를 고르세요.", "device.step2": "앱이 저장한 모든 것을 지우려면 기기에서 앱을 삭제하세요. 곡, 재생목록, 폴더, 설정이 함께 지워집니다.", "device.step3": "iOS에서 Finder나 파일 앱으로 앱 폴더에 넣은 파일도 앱을 삭제하면 함께 지워집니다.", "cloud.title": "Google Drive·Dropbox 연결 해제", "cloud.desc": "클라우드 계정을 연결했다면 앱은 기기에 로그인 토큰만 보관합니다(iOS 키체인 또는 Android Keystore). 앱은 파일을 읽기만 하고 올리거나 지우지 않습니다. 접근 권한을 없애려면:", "cloud.step1": "앱에서 <span class='dd-path'>클라우드</span>로 가서 계정의 메뉴를 누르고 <span class='dd-path'>연결 해제</span>를 고르세요. 기기의 토큰이 삭제됩니다.", "cloud.step2": "서비스 쪽 접근 권한도 취소하려면 Google 계정(보안 &gt; 서드 파티 액세스) 또는 Dropbox(설정 &gt; 연결된 앱)에서 Theme Tune을 제거하세요.", "ads.title": "광고와 결제", "ads.desc": "광고가 표시되는 경우 Google AdMob이 자체 개인정보 약관에 따라 제공하며, 앱 설정에서 광고 선택을 바꿀 수 있습니다. 결제는 Google Play 또는 App Store가 처리하며 환불 등은 그쪽에서 관리합니다. 결제 정보는 저희가 받지 않습니다.", "contact.title": "문의", "contact.desc": "<a href='mailto:CleanDino@gmail.com'>CleanDino@gmail.com</a> 으로 연락해 주세요."},
+            ja: {"back": "CleanDino", "title": "データの削除", "app": "CleanDino の Theme Tune", "intro": "このページでは、Theme Tune が保持するデータと削除方法を説明します。", "none.title": "当社はお客様のデータを保持しません", "none.desc": "Theme Tune にはアカウントも当社のサーバーもありません。音楽ファイル、プレイリスト、フォルダ、再生位置はお使いのデバイスにのみ保存され、当社が受け取ることはないため、当社側で削除するデータはありません。", "device.title": "デバイスからデータを削除する", "device.step1": "ダウンロードまたは取り込んだ曲を削除するには、アプリの<span class='dd-path'>設定 &gt; ストレージ管理</span>で曲を削除するか、すべて削除を選びます。", "device.step2": "アプリが保存するすべてを削除するには、デバイスからアプリを削除します。曲、プレイリスト、フォルダ、設定も一緒に削除されます。", "device.step3": "iOS で Finder や「ファイル」アプリからアプリのフォルダに入れたファイルも、アプリの削除とともに削除されます。", "cloud.title": "Google Drive・Dropbox の連携を解除する", "cloud.desc": "クラウドアカウントを連携した場合、アプリはデバイスにサインイン用トークンのみを保存します（iOS キーチェーンまたは Android Keystore）。アプリはファイルを読み取るだけで、アップロードや削除は行いません。アクセスを解除するには:", "cloud.step1": "アプリで<span class='dd-path'>クラウド</span>を開き、アカウントのメニューから<span class='dd-path'>連携解除</span>を選びます。デバイス上のトークンが削除されます。", "cloud.step2": "サービス側のアクセス権も取り消すには、Google アカウント（セキュリティ &gt; サードパーティのアクセス）または Dropbox（設定 &gt; 連携アプリ）で Theme Tune を削除してください。", "ads.title": "広告と購入", "ads.desc": "広告が表示される場合は Google AdMob が独自のプライバシー規約に基づいて配信し、アプリの設定で広告の選択を変更できます。購入は Google Play または App Store が処理し、返金などはそちらで管理します。お支払い情報は当社に届きません。", "contact.title": "お問い合わせ", "contact.desc": "<a href='mailto:CleanDino@gmail.com'>CleanDino@gmail.com</a> までご連絡ください。"},
+            zh: {"back": "CleanDino", "title": "数据删除", "app": "CleanDino 的 Theme Tune", "intro": "本页说明 Theme Tune 保存哪些数据以及如何删除。", "none.title": "我们不保存您的数据", "none.desc": "Theme Tune 没有账号，也没有我们自己的服务器。您的音乐文件、歌单、文件夹和播放位置只保存在您自己的设备上。我们不会收到这些数据，因此我们这边没有需要删除的内容。", "device.title": "从设备中删除数据", "device.step1": "要删除下载或导入的歌曲，请在应用的<span class='dd-path'>设置 &gt; 存储管理</span>中删除歌曲，或选择全部删除。", "device.step2": "要删除应用保存的全部内容，请从设备中卸载应用。歌曲、歌单、文件夹和设置会一并删除。", "device.step3": "在 iOS 上，通过 Finder 或“文件”App 放入应用文件夹的文件也会随应用一起删除。", "cloud.title": "断开 Google Drive 或 Dropbox", "cloud.desc": "如果您连接了云盘账号，应用只会在设备上保存登录令牌（iOS 钥匙串或 Android Keystore）。应用只读取您的文件，不会上传或删除任何内容。要移除访问权限：", "cloud.step1": "在应用中打开<span class='dd-path'>云盘</span>，点击账号的菜单并选择<span class='dd-path'>断开连接</span>。设备上的令牌将被删除。", "cloud.step2": "若还要在服务端撤销应用的访问权限，请在 Google 账号（安全 &gt; 第三方访问）或 Dropbox（设置 &gt; 已连接的应用）中移除 Theme Tune。", "ads.title": "广告与购买", "ads.desc": "显示广告时由 Google AdMob 按其自身隐私条款提供，您可在应用设置中更改广告选择。购买由 Google Play 或 App Store 处理，退款等请在那里管理。我们不会收到您的支付信息。", "contact.title": "疑问", "contact.desc": "请联系 <a href='mailto:CleanDino@gmail.com'>CleanDino@gmail.com</a>。"},
+            vi: {"back": "CleanDino", "title": "Xóa dữ liệu", "app": "Theme Tune của CleanDino", "intro": "Trang này giải thích Theme Tune lưu những dữ liệu nào và cách xóa chúng.", "none.title": "Chúng tôi không lưu dữ liệu về bạn", "none.desc": "Theme Tune không có tài khoản và không có máy chủ của chúng tôi. Tệp nhạc, danh sách phát, thư mục và vị trí phát chỉ được lưu trên thiết bị của bạn. Chúng tôi không nhận được chúng nên không có gì để xóa ở phía chúng tôi.", "device.title": "Xóa dữ liệu khỏi thiết bị", "device.step1": "Để xóa bài hát đã tải hoặc đã nhập, mở ứng dụng, vào <span class='dd-path'>Cài đặt &gt; Quản lý dung lượng</span> rồi xóa bài hát hoặc chọn xóa tất cả.", "device.step2": "Để xóa mọi thứ ứng dụng lưu, hãy gỡ ứng dụng khỏi thiết bị. Bài hát, danh sách phát, thư mục và cài đặt sẽ bị xóa cùng.", "device.step3": "Trên iOS, các tệp bạn đặt vào thư mục của ứng dụng qua Finder hoặc ứng dụng Tệp cũng bị xóa khi gỡ ứng dụng.", "cloud.title": "Ngắt kết nối Google Drive hoặc Dropbox", "cloud.desc": "Nếu bạn đã kết nối tài khoản đám mây, ứng dụng chỉ giữ mã đăng nhập trên thiết bị (Keychain của iOS hoặc Keystore của Android). Ứng dụng chỉ đọc tệp của bạn và không tải lên hay xóa gì. Để gỡ quyền truy cập:", "cloud.step1": "Trong ứng dụng, mở <span class='dd-path'>Đám mây</span>, nhấn menu của tài khoản và chọn <span class='dd-path'>Ngắt kết nối</span>. Mã đăng nhập trên thiết bị sẽ bị xóa.", "cloud.step2": "Để thu hồi quyền truy cập ở phía dịch vụ, mở Tài khoản Google (Bảo mật &gt; Quyền truy cập của bên thứ ba) hoặc Dropbox (Cài đặt &gt; Ứng dụng đã kết nối) và gỡ Theme Tune.", "ads.title": "Quảng cáo và giao dịch mua", "ads.desc": "Khi có quảng cáo, Google AdMob cung cấp theo điều khoản riêng tư của họ; bạn có thể đổi lựa chọn quảng cáo trong Cài đặt của ứng dụng. Giao dịch mua do Google Play hoặc App Store xử lý; hãy quản lý hoặc yêu cầu hoàn tiền ở đó. Chúng tôi không nhận thông tin thanh toán của bạn.", "contact.title": "Câu hỏi", "contact.desc": "Liên hệ chúng tôi tại <a href='mailto:CleanDino@gmail.com'>CleanDino@gmail.com</a>."},
+            id: {"back": "CleanDino", "title": "Penghapusan Data", "app": "Theme Tune oleh CleanDino", "intro": "Halaman ini menjelaskan data apa yang disimpan Theme Tune dan cara menghapusnya.", "none.title": "Kami tidak menyimpan data tentang Anda", "none.desc": "Theme Tune tidak memiliki akun dan tidak ada server milik kami. File musik, playlist, folder, dan posisi pemutaran Anda hanya disimpan di perangkat Anda. Kami tidak pernah menerimanya, jadi tidak ada yang perlu dihapus di sisi kami.", "device.title": "Hapus data dari perangkat", "device.step1": "Untuk menghapus lagu yang diunduh atau diimpor, buka aplikasi, masuk ke <span class='dd-path'>Pengaturan &gt; Kelola penyimpanan</span> lalu hapus lagu atau pilih hapus semua.", "device.step2": "Untuk menghapus semua yang disimpan aplikasi, hapus aplikasi dari perangkat. Lagu, playlist, folder, dan pengaturan ikut terhapus.", "device.step3": "Di iOS, file yang Anda taruh di folder aplikasi lewat Finder atau aplikasi File juga terhapus bersama aplikasi.", "cloud.title": "Putuskan Google Drive atau Dropbox", "cloud.desc": "Jika Anda menghubungkan akun cloud, aplikasi hanya menyimpan token masuk di perangkat (Keychain iOS atau Keystore Android). Aplikasi hanya membaca file Anda dan tidak mengunggah atau menghapus apa pun. Untuk menghapus akses:", "cloud.step1": "Di aplikasi, buka <span class='dd-path'>Cloud</span>, ketuk menu akun lalu pilih <span class='dd-path'>Putuskan</span>. Token di perangkat akan dihapus.", "cloud.step2": "Untuk juga mencabut akses di sisi layanan, buka Akun Google (Keamanan &gt; Akses pihak ketiga) atau Dropbox (Pengaturan &gt; Aplikasi terhubung) dan hapus Theme Tune.", "ads.title": "Iklan dan pembelian", "ads.desc": "Iklan, bila ditampilkan, disajikan oleh Google AdMob sesuai ketentuan privasinya sendiri; Anda dapat mengubah pilihan iklan di Pengaturan aplikasi. Pembelian ditangani Google Play atau App Store; kelola atau minta pengembalian dana di sana. Kami tidak menerima detail pembayaran Anda.", "contact.title": "Pertanyaan", "contact.desc": "Hubungi kami di <a href='mailto:CleanDino@gmail.com'>CleanDino@gmail.com</a>."},
+            th: {"back": "CleanDino", "title": "การลบข้อมูล", "app": "Theme Tune โดย CleanDino", "intro": "หน้านี้อธิบายว่า Theme Tune เก็บข้อมูลอะไรและลบได้อย่างไร", "none.title": "เราไม่เก็บข้อมูลเกี่ยวกับคุณ", "none.desc": "Theme Tune ไม่มีบัญชีและไม่มีเซิร์ฟเวอร์ของเรา ไฟล์เพลง เพลย์ลิสต์ โฟลเดอร์ และตำแหน่งการเล่นถูกเก็บไว้บนอุปกรณ์ของคุณเท่านั้น เราไม่เคยได้รับข้อมูลเหล่านี้ จึงไม่มีอะไรให้ลบทางฝั่งเรา", "device.title": "ลบข้อมูลออกจากอุปกรณ์", "device.step1": "หากต้องการลบเพลงที่ดาวน์โหลดหรือนำเข้า ให้เปิดแอป ไปที่ <span class='dd-path'>การตั้งค่า &gt; จัดการพื้นที่จัดเก็บ</span> แล้วลบเพลง หรือเลือกลบทั้งหมด", "device.step2": "หากต้องการลบทุกอย่างที่แอปเก็บไว้ ให้ลบแอปออกจากอุปกรณ์ เพลง เพลย์ลิสต์ โฟลเดอร์ และการตั้งค่าจะถูกลบไปด้วย", "device.step3": "บน iOS ไฟล์ที่คุณวางในโฟลเดอร์ของแอปผ่าน Finder หรือแอปไฟล์ก็จะถูกลบไปพร้อมกับแอปด้วย", "cloud.title": "ยกเลิกการเชื่อมต่อ Google Drive หรือ Dropbox", "cloud.desc": "หากคุณเชื่อมต่อบัญชีคลาวด์ แอปจะเก็บเพียงโทเคนการเข้าสู่ระบบบนอุปกรณ์ (iOS Keychain หรือ Android Keystore) แอปอ่านไฟล์ของคุณเท่านั้นและไม่อัปโหลดหรือลบสิ่งใด หากต้องการยกเลิกการเข้าถึง:", "cloud.step1": "ในแอป เปิด <span class='dd-path'>คลาวด์</span> แตะเมนูของบัญชี แล้วเลือก <span class='dd-path'>ยกเลิกการเชื่อมต่อ</span> โทเคนบนอุปกรณ์จะถูกลบ", "cloud.step2": "หากต้องการเพิกถอนสิทธิ์ฝั่งบริการด้วย ให้เปิดบัญชี Google (ความปลอดภัย &gt; การเข้าถึงของบุคคลที่สาม) หรือ Dropbox (การตั้งค่า &gt; แอปที่เชื่อมต่อ) แล้วลบ Theme Tune", "ads.title": "โฆษณาและการซื้อ", "ads.desc": "เมื่อมีการแสดงโฆษณา Google AdMob จะเป็นผู้ให้บริการตามข้อกำหนดความเป็นส่วนตัวของตนเอง และคุณเปลี่ยนตัวเลือกโฆษณาได้ในการตั้งค่าของแอป การซื้อดำเนินการโดย Google Play หรือ App Store โปรดจัดการหรือขอคืนเงินที่นั่น เราไม่ได้รับรายละเอียดการชำระเงินของคุณ", "contact.title": "คำถาม", "contact.desc": "ติดต่อเราที่ <a href='mailto:CleanDino@gmail.com'>CleanDino@gmail.com</a>"}
+        };
+
+        function detectLang() {
+            const saved = localStorage.getItem('cd_lang');
+            if (saved && T[saved]) return saved;
+            const b = (navigator.language || 'en').toLowerCase();
+            if (b.startsWith('ko')) return 'ko';
+            if (b.startsWith('ja')) return 'ja';
+            if (b.startsWith('vi')) return 'vi';
+            if (b.startsWith('zh')) return 'zh';
+            if (b.startsWith('id')) return 'id';
+            if (b.startsWith('th')) return 'th';
+            return 'en';
+        }
+
+        function applyLang(lang) {
+            const dict = T[lang] || T.en;
+            document.documentElement.lang = lang;
+            document.querySelectorAll('[data-i18n]').forEach(function (el) {
+                const key = el.getAttribute('data-i18n');
+                if (dict[key] != null) el.innerHTML = dict[key];
+            });
+            const sel = document.querySelector('.lang-selected');
+            if (sel) sel.textContent = lang.toUpperCase();
+            document.querySelectorAll('.lang-option').forEach(function (opt) {
+                opt.classList.toggle('active', opt.getAttribute('data-lang') === lang);
+            });
+            localStorage.setItem('cd_lang', lang);
+        }
+
+        // Theme
+        function applyTheme(theme) {
+            document.documentElement.setAttribute('data-theme', theme);
+            const icon = document.getElementById('themeIcon');
+            if (icon) icon.textContent = theme === 'dark' ? '☀️' : '🌙';
+            localStorage.setItem('cd_theme', theme);
+        }
+
+        document.addEventListener('DOMContentLoaded', function () {
+            applyTheme(localStorage.getItem('cd_theme') || 'light');
+            applyLang(detectLang());
+
+            // 언어 드롭다운 열고닫기 (.open 클래스 — style.css 와 동일 동작)
+            const langSelected = document.querySelector('.lang-selected');
+            const langDropdown = document.querySelector('.lang-dropdown');
+            if (langSelected && langDropdown) {
+                langSelected.addEventListener('click', function (e) {
+                    e.stopPropagation();
+                    langDropdown.classList.toggle('open');
+                });
+                langDropdown.addEventListener('click', function (e) { e.stopPropagation(); });
+                document.addEventListener('click', function () {
+                    langDropdown.classList.remove('open');
+                });
+            }
+
+            document.querySelectorAll('.lang-option').forEach(function (btn) {
+                btn.addEventListener('click', function () {
+                    applyLang(btn.getAttribute('data-lang'));
+                    if (langDropdown) langDropdown.classList.remove('open');
+                });
+            });
+            const tt = document.getElementById('themeToggle');
+            if (tt) tt.addEventListener('click', function () {
+                const cur = document.documentElement.getAttribute('data-theme') || 'light';
+                applyTheme(cur === 'dark' ? 'light' : 'dark');
+            });
+        });
+    })();
+    </script>
+</body>
+</html>
